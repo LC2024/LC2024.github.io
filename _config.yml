@@ -1,0 +1,205 @@
+title: Logic Colloquium 2024
+preposition: at
+description: >-
+  European Summer Meeting of the Association for Symbolic Logic, Gothenburg, Sweden
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://example.com" # the base hostname & protocol for your site, e.g. https://example.com
+
+# theme: jekyll-theme-conference
+
+# Build settings
+markdown: kramdown
+sass:
+  style: compressed
+
+# Additional exclude from processing
+exclude:
+  - .github/
+  - README.md
+  - LICENSE.md
+  - REDISTRIBUTED.md
+  - purgecss.config.js
+
+# Collections and their defaults
+collections:
+  talks:
+    output: true
+    permalink: /:collection/:title/
+  speakers:
+    output: true
+    permalink: /:collection/:title/
+  rooms:
+    output: true
+    permalink: /:collection/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+  - scope:
+      path: ""
+      type: speakers
+    values:
+      layout: speaker
+  - scope:
+      path: ""
+      type: rooms
+    values:
+      layout: room
+
+
+conference:
+
+  # Language
+  lang: en
+
+  # Show theme errors:
+  show_errors: True
+
+  # Navigation bar
+  navigation:
+    logo:
+      name: LC 2024
+      img: 'LCLogo.svg'
+      # url: 'https://digitale-gesellschaft.ch/'
+    links:
+      - name: CFP
+        relative_url: /contributed_talks/
+      - name: Registration
+        menu:
+        - name: Registration
+          disabled: true
+        - name: Travel Support
+          relative_url: /travel_grants/
+        - name: ASL Code of Conduct
+          relative_url: https://aslonline.org/meet/aslcodeofconduct/
+      - name: Program
+        disabled: true
+        # menu:
+        # - name: Schedule
+        #   relative_url: /program/
+        # - name: Invited Talks
+        #   relative_url: /talks/
+        # - name: Social Events
+        #   disabled: true
+      - name: People
+        menu:
+          # - name: Speakers
+          #   relative_url: /speakers/
+          - name: Committees
+            relative_url: /committees/
+          - name: Trusted Person
+            disabled: true
+      - name: Local Information
+        menu:
+        - name: Venue
+          relative_url: /location/
+        - name: About Gothenburg
+          relative_url: /local_info/
+      - name: Previous Editions
+        menu:
+          - name: LC2023
+            relative_url: https://lc2023.unimi.it/
+          - name: LC2022
+            relative_url: http://icetcs.ru.is/lc2022/
+          - name: LC2021
+            relative_url: https://www.jstor.org/stable/27139156#metadata_info_tab_contents
+          - name: LC2019
+            relative_url: https://lc2019.cz/
+          - name: LC2018
+            relative_url: https://lc18.uniud.it/
+          - name: LC2017
+            relative_url: https://www.math-stockholm.se/konferenser-och-akti/logic-in-stockholm-2/logic-colloquium-201/logic-colloquium-2017-august-14-20-1.717629
+
+  # Link Preview for Sharing
+  link_preview:
+    # also adapt "preposition" property at top for more meaningful descriptions
+    disable: false
+    img:
+      twitter: 'twitter_preview.png'      # inside /assets/images/
+      open_graph: 'facebook_preview.png'  # inside /assets/images/
+
+  # Main landing page
+  main:
+    # logo:
+    #   img: 'LCLogo.svg'
+    links:
+      - name: Register
+        disabled: true
+      - name: Contribute a talk
+        relative_url: /contributed_talks/
+      - name: Apply for travel support
+        relative_url: /travel_grants/
+      - name: Contact us
+        absolute_url: 'mailto:info@lc2024.se'
+    #     absolute_url: ''
+
+  # Information boxes
+  info_bars:
+    # - title: Under construction!
+    #   color: warning
+    #   text: |
+    #     This page is currently under construction. Watch your head!
+
+  # Live indications
+  live:
+    date: 01.01.2020
+    timezone: GMT+1
+    stop:       240  # in minutes
+    streaming:
+      enable: true
+      pause:     60  # in minutes
+      prepend:    5  # in minutes
+      extend:     5  # in minutes
+    demo:
+      enable: false
+      duration: 300  # in seconds
+      pause:     10  # in seconds
+
+  map:
+    # Initial map center point
+    home_coord: "57.69437, 11.98497"
+    # Alternative map providers can be found on https://leaflet-extras.github.io/leaflet-providers/preview/
+    # The following do match the Bootstrap design not too badly:
+    #   - Hydda.Full
+    #   - Thunderforest.Neighbourhood
+    #   - Esri.WorldTopoMap
+    map_provider: "OpenStreetMap.Mapnik"
+    default_zoom: 19
+
+  talks:
+    # Talk categories
+    main_categories:
+      - name: Talk
+        color: talk
+      - name: Tutorial
+        color: tutorial
+
+    # Hide icons on talk overview page
+    hide_icons: false
+
+  speakers:
+    # Show first and last name
+    show_firstname: true
+
+  location:
+    # Disable links to locations
+    hide: false
+    # URL of location / room overview page
+    url: '/location'
+    # Main page title shown on location/room navigation bar
+    navbar_title: 'Location'
+    # Show map on location main page
+    map: true
+
+  program:
+    # URL of program page
+    url: '/program'
+
+    # Time steps in program table
+    time_steps: 15 # in minutes
+
+    # Show intermediary time steps (next to full hours)
+    show_alltimes: true

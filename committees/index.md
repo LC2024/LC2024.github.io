@@ -8,7 +8,7 @@ layout: default
 - Bahareh Afshari (Gothenburg, Sweden)
 - Gal Binyamini (Jerusalem, Israel)
 - Natasha Dobrinen (Notre Dame, USA)
-- Ulrich Kohlenbach (Darmstadt, Germany)(chair)
+- Ulrich Kohlenbach (Darmstadt, Germany) (chair)
 - Keng Meng Ng (Singapore) 
 - Francesca Poggiolesi (Paris, France)
 - Mehrnoosh Sadrazadeh (London, UK)

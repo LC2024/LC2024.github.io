@@ -10,7 +10,10 @@ title: About Gothenburg
   The Gothenburg central train station and the Nils Ericson Terminalen, the long
   distance bus terminal of Gothenburg, are both located in the city center. Of
   special note is the night train connection from [Berlin, Germany to Malmö,
-  Sweden](https://www.snalltaget.se/en/berlin), which runs regularly during the summer.
+  Sweden](https://www.snalltaget.se/en/berlin), which runs regularly during the
+  summer and is often not accounted for on other train operator's websites.
+  From there, there are many options for getting from Malmö to Gothenburg by
+  train or bus.
 
 - **by water:**
   StenaLine operates two regular ferry lines to Gothenburg: from [Frederikshavn,
@@ -24,7 +27,7 @@ title: About Gothenburg
 - **by air:**
   The airport closest to Gothenburg is [Landvetter airport
   (GOT)](https://www.swedavia.com/landvetter/). We recommend using the shuttle
-  service operated by the vy bus company between the airport
+  service operated by the Vy bus company between the airport
   and the city center of Gothenburg. Tickets can be purchased
   [online]((https://www.flygbussarna.se/en/landvetter)) and in person at
   machines at the airport and at some bus stops. Note that a round-trip ticket
@@ -52,10 +55,9 @@ Once arrived at Gothenburg, there are various things to keep in mind.
   operated by [Västtrafik](https://www.vasttrafik.se/en/). The easiest way of
   buying tickets is through the [Västtrafik To
   Go](https://www.vasttrafik.se/en/Tickets/more-about-tickets/vasttrafik-to-go/)
-  mobile app. Physical tickets can be purchased at Västtrafik
-  offices (including the one at Korsvägen next to the conference venue and the
-  main trains station), the [pressbyrån](https://www.pressbyran.se/) chain of
-  kiosks and in *some* trams. The public transport of Gothenburg is separated into multiple zones.
+  mobile app or by [tapping your credit/debit card to the readers next to the
+  doors](https://www.vasttrafik.se/en/Tickets/more-about-tickets/tap-payment/).
+  The public transport of Gothenburg is separated into multiple zones.
   The A zone contains the Gothenburg city area, including the suburbs and
   most of the archipelago, and should thus cover almost all journeys.
   

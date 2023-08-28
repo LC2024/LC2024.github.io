@@ -3,7 +3,7 @@ preposition: at
 description: >-
   European Summer Meeting of the Association for Symbolic Logic, Gothenburg, Sweden
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://example.com" # the base hostname & protocol for your site, e.g. https://example.com
+url: "https://lc2024.se" # the base hostname & protocol for your site, e.g. https://example.com
 
 # theme: jekyll-theme-conference
 

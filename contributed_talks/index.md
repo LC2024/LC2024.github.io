@@ -9,8 +9,8 @@ Abstracts for contributed talks should conform to the [Rules for Abstracts of th
  - [ASL Rules for Abstracts](https://aslonline.org/rules-for-abstracts/)
  - EasyChair for pdf submission
  - ????? for TeX submission
- 
+
 ## Troubleshooting the ASL template
 
-If the ASL template is used with a new version of LaTeX, an error may occur declaring some commands are already defined. This does not cause problems: hitting return twice in the compile window to bypass the error, the file will compile with the desired output. 
-**Do not just comment out the offending commands.**
+If the ASL template is used with a new version of LaTeX, an error may occur declaring some commands are already defined. This does not cause problems: hit return twice in the compile window to bypass the error, the file will compile with the desired output. 
+**Please do not just comment out the offending commands.**

@@ -12,11 +12,11 @@ title: About Gothenburg
   special note is the night train connection from [Berlin, Germany to Malmö,
   Sweden](https://www.snalltaget.se/en/berlin), which runs regularly during the
   summer and is often not accounted for on other train operator's websites.
-  From there, there are many options for getting from Malmö to Gothenburg by
+  From Malmö, there are many options for getting to Gothenburg by
   train or bus.
 
 - **by water:**
-  StenaLine operates two regular ferry lines to Gothenburg: from [Frederikshavn,
+  Stena Line operates two regular ferry lines to Gothenburg: from [Frederikshavn,
   Denmark](https://www.stenalinetravel.com/routes/frederikshavn-gothenburg) and
   [Kiel, Germany](https://www.stenalinetravel.com/routes/kiel-gothenburg). There
   are further ferry lines to other cities in the south of Sweden.
@@ -61,7 +61,7 @@ Once arrived at Gothenburg, there are various things to keep in mind.
   The A zone contains the Gothenburg city area, including the suburbs and
   most of the archipelago, and should thus cover almost all journeys.
   
-- A cheaper option of transportation is the bicycle rental service [styr&ställ](https://styrochstall.se/en/).
+- A cheaper option of transportation is the bicycle rental service [Styr & Ställ](https://styrochstall.se/en/).
   Subscribing for a month costs 90 SEK (less than the cost of three tram
   tickets). With the subscription, all rentals for less than 60 minutes are
   free. There is a bicycle parking next to the conference venue.

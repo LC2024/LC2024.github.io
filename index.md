@@ -7,9 +7,7 @@ The colloquium will run for five days and comprise 10 plenary lectures, 3 tutori
 
 ### Important Dates
 - 29 February 2024: Deadline for [ASL student travel applications](/travel_grants)
-- TBA: Registration opens
-- TBA: Notification of acceptance of contributed talks
-- TBA: Early registration deadline
+- 28 March: Notification of student travel grants
 - 24-28 June: Conference
 
 #### Sponsors

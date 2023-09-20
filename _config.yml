@@ -65,18 +65,19 @@ conference:
       img: 'LCLogo.svg'
       # url: 'https://digitale-gesellschaft.ch/'
     links:
-      - name: CFP
-        relative_url: /contributed_talks/
+      - name: CFC
+        # relative_url: /contributed_talks/
+        disabled: true
       - name: Registration
         menu:
         - name: Registration
-          disabled: true
+          relative_url: /registration/
         - name: Travel Support
           relative_url: /travel_grants/
-        - name: ASL Code of Conduct
-          relative_url: https://aslonline.org/meet/aslcodeofconduct/
+        - name: Code of Conduct
+          relative_url: /trusted_person/
       - name: Program
-        disabled: true
+        relative_url: /program/
         # menu:
         # - name: Schedule
         #   relative_url: /program/
@@ -91,7 +92,7 @@ conference:
           - name: Committees
             relative_url: /committees/
           - name: Trusted Person
-            disabled: true
+            relative_url: /trusted_person#trusted-person
       - name: Local Information
         menu:
         - name: Venue
@@ -129,7 +130,8 @@ conference:
       - name: Register
         disabled: true
       - name: Contribute a talk
-        relative_url: /contributed_talks/
+        disabled: true
+        # relative_url: /contributed_talks/
       - name: Apply for travel support
         relative_url: /travel_grants/
       - name: Contact us

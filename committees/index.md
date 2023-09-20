@@ -9,7 +9,7 @@ layout: default
 - Gal Binyamini (Jerusalem, Israel)
 - Natasha Dobrinen (Notre Dame, USA)
 - Ulrich Kohlenbach (Darmstadt, Germany) (chair)
-- Keng Meng Ng (Singapore) 
+- Keng Meng Ng (Singapore)
 - Francesca Poggiolesi (Paris, France)
 - Mehrnoosh Sadrazadeh (London, UK)
 - Reed Solomon (Connecticut, USA)
@@ -17,7 +17,7 @@ layout: default
 
 ## Organising Committee
 
-- Bahareh Afshari
+- Bahareh Afshari (chair)
 - Giacomo Barlucchi
 - Rasmus Blanck
 - Gianluca Curzi
@@ -26,6 +26,7 @@ layout: default
 - Martin Kaså
 - Graham E. Leigh
 - Ivan Di Liberti
+- William Noble
 - Orvar Lorimer Olsson
 - Mattias Granberg Olsson
 - Dominik Wehr

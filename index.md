@@ -12,6 +12,7 @@ The colloquium will run for five days and comprise 10 plenary lectures, 3 tutori
 
 #### Sponsors
 - [Association for Symbolic Logic](https://aslonline.org/)
+- [The Royal Society of Arts and Sciences in Gothenburg](https://kvvs.se/in-english/)
 - [Knut and Alice Wallenberg Foundation](https://kaw.wallenberg.org/en)
 - [Centre for Linguistic Theory and Studies in Probability](https://gu-clasp.github.io/), University of Gothenburg
 - [Department of Philosophy, Linguistics and Theory of Science](https://www.gu.se/en/flov), University of Gothenburg

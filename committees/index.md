@@ -23,10 +23,10 @@ layout: default
 - Gianluca Curzi
 - Fredrik Engström
 - Tjeerd Fokkens
+- Mattias Granberg Olsson
 - Martin Kaså
 - Graham E. Leigh
 - Ivan Di Liberti
-- William Noble
 - Orvar Lorimer Olsson
-- Mattias Granberg Olsson
+- William Noble
 - Dominik Wehr

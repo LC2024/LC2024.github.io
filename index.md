@@ -7,12 +7,13 @@ The colloquium will run for five days and comprise 10 plenary lectures, 3 tutori
 
 ### Important Dates
 - 29 February 2024: Deadline for [ASL student travel applications](/travel_grants)
+- 1 March: Deadline for contributed talks
 - 28 March: Notification of student travel grants
-- 24-28 June: Conference
+- 24–28 June: Conference
 
 #### Sponsors
 - [Association for Symbolic Logic](https://aslonline.org/)
 - [The Royal Society of Arts and Sciences in Gothenburg](https://kvvs.se/in-english/)
 - [Knut and Alice Wallenberg Foundation](https://kaw.wallenberg.org/en)
-- [Centre for Linguistic Theory and Studies in Probability](https://gu-clasp.github.io/), University of Gothenburg
 - [Department of Philosophy, Linguistics and Theory of Science](https://www.gu.se/en/flov), University of Gothenburg
+- [Centre for Linguistic Theory and Studies in Probability](https://gu-clasp.github.io/), University of Gothenburg

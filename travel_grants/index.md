@@ -19,4 +19,4 @@ Your application letter should be brief (preferably one page) and should include
 - (for citizens or residents of the USA) citizenship or visa status; and
 - (voluntary) indication of your gender and minority status. Women and members of minority groups are strongly encouraged to apply.
 
-The student travel application (with accompanying recommendation letter) should be emailed to [info@lc2024.se](mailto:info@lc2024.se) as **a single pdf file** no later than **February 29, 2024**.
+The student travel application (with accompanying recommendation letter) should be emailed to [info@lc2024.se](mailto:info@lc2024.se) as **a single pdf file** with **"travel grant application" in the subject** no later than **February 29, 2024**.

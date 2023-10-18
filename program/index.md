@@ -8,23 +8,23 @@ The colloquium will run for five days and comprise 10 plenary lectures, 3 tutori
 
 ### Plenary Speakers
 The plenary speakers at the 2024 Logic Colloquium will be the following:
+ - [Daisuke Bekki](https://daisukebekki.github.io/), Ochanomizu University
  - [Johanna Franklin](http://johannafranklin.net/), Hofstra University
  - [James Freitag](https://homepages.math.uic.edu/~freitag/), University of Illinois at Chicago
- - [Leszek Kołodziejczyk](https://www.mimuw.edu.pl/~lak/), University of Warsaw
- - [Stephen Jackson](https://www.math.unt.edu/~sjackson/), University of North Texas
- - [Paul-André Melliès](https://www.irif.fr/~mellies/), Université Paris Denis Diderot
- - [Daisuke Bekki](https://daisukebekki.github.io/), Ochanomizu University
  - [Rosalie Iemhoff](https://www.uu.nl/staff/RIemhoff), Utrecht University
+ - [Stephen Jackson](https://www.math.unt.edu/~sjackson/), University of North Texas
+ - [Leszek Kołodziejczyk](https://www.mimuw.edu.pl/~lak/), University of Warsaw
+ - [Paul-André Melliès](https://www.irif.fr/~mellies/), Université Paris Denis Diderot
 
 ### Special Sessions
 The topics of the special sessions are given below. The session organisers will be announced soon.
 
-- Proof Theory
-- Philosophical Logic
-- Computable Structures
 - Applied Model Theory
-- Set Theory
+- Computable Structures
 - Logic, Language and Computation
+- Philosophical Logic
+- Proof Theory
+- Set Theory
 
 ### Tutorials
 

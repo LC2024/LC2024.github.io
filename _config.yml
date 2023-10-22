@@ -63,7 +63,7 @@ conference:
     logo:
       name: LC 2024
       img: 'LCLogo.svg'
-      # url: 'https://digitale-gesellschaft.ch/'
+      url: 'https://lc2024.se'
     links:
       - name: CFC
         # relative_url: /contributed_talks/

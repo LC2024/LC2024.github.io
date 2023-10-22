@@ -3,6 +3,7 @@ layout: default
 title: Registration
 ---
 
-The early registration fees are as follows. More information regarding deadlines and payment will be made available soon.
- - 3500 SEK: Standard
- - 2500 SEK: Student
+The early registration fees are as follows. More information regarding registration will be made available soon.
+
+ - Standard fee: 3500 SEK
+ - Reduced fee: 2500 SEK

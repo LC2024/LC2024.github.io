@@ -36,4 +36,3 @@ The topics of the special sessions are given below. Special session speakers wil
 - Philosophical Logic, chairs: Volker Halbach and Heinrich Wansing
 - Proof Theory, chairs: Anton Freund and Sonia Marin
 - Set Theory, chairs TBC
-

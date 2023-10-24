@@ -30,9 +30,9 @@ The 2024 Gödel lecture will be given by
 ### Special Sessions
 The topics of the special sessions are given below. Special session speakers will be announced soon.
 
-- Applied Model Theory, chairs: Gareth Jones and Tamara Servi
-- Computable Structures, chairs: Uri Andrews and Julia Knight
-- Logic, Language and Computation, chairs: Robin Cooper and Stergios Chatzikyriakidis
-- Philosophical Logic, chairs: Volker Halbach and Heinrich Wansing
-- Proof Theory, chairs: Anton Freund and Sonia Marin
-- Set Theory, chairs TBC
+- **Applied Model Theory**, chairs: [Gareth Jones](https://personalpages.manchester.ac.uk/staff/Gareth.Jones-3/index.php) and [Tamara Servi](https://tamaraservi.github.io/)
+- **Computable Structures**, chairs: [Uri Andrews](https://uriandrews.netlify.app/) and [Julia Knight](https://math.nd.edu/people/faculty/julia-knight/)
+- **Logic, Language and Computation**, chairs: [Robin Cooper](https://sites.google.com/view/robincooper) and [Stergios Chatzikyriakidis](https://www.stergioschatzikyriakidis.com/)
+- **Philosophical Logic**, chairs: [Volker Halbach](https://users.ox.ac.uk/~sfop0114/) and [Heinrich Wansing](https://www.pe.ruhr-uni-bochum.de/philosophie/i/logic/index.html.en)
+- **Proof Theory**, chairs: [Anton Freund](https://www.mathematik.uni-wuerzburg.de/mathematicallogic/team/freund-anton/) and [Sonia Marin](https://filipendule.github.io/)
+- **Set Theory**, chairs TBC

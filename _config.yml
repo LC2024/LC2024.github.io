@@ -67,7 +67,6 @@ conference:
     links:
       - name: CFC
         relative_url: /contributed_talks/
-        disabled: true
       - name: Registration
         menu:
         - name: Registration

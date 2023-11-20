@@ -36,10 +36,19 @@ title: About Gothenburg
 ## Staying in Gothenburg
 
 The following hotels are located within walking distance of the venue:
+
  - [Quality Hotel Panorama](https://www.strawberryhotels.com/hotels/sweden/gothenburg/quality-hotel-panorama/)
  - [Hotel Lorensberg](https://www.hotel-lorensberg.se/?lang=en)
  - [Elite Park Hotel](https://elite.se/en/hotels/gothenburg/park-avenue-hotel/)
  - [Scandic Rubinen](https://www.scandichotels.com/hotels/sweden/gothenburg/scandic-rubinen)
+ - [Liseberg Grand Curiosa Hotel](https://hotel.liseberg.se/v2/widget/WidgetNewWindowStart?channelId=97357943-f752-4d11-a4da-bfce5e8b545f&culture=en-GB&campaignId=958bb4cc-4f6b-4183-b786-e671b7536eeb&year=2024&month=6&day=23&stayLength=1&roomConfig=a1&promoCode=GBG2024)
+ - [Lisebergsbyn](https://boende.liseberg.se/v2/widget/WidgetNewWindowStart?channelId=ce6d7ec7-1688-499c-b325-46caa3482e2f&culture=en-GB&campaignId=513a4b48-3a27-4209-9b9c-b063970c420d&year=2024&month=6&day=23&stayLength=1&roomConfig=a1&promoCode=GBG2024)
+
+The Liseberg amusement park adjacent to the venue offers reduced rates on hotel reservations to attendees of LC2024.
+The offer covers the *Liseberg Grand Curiosa Hotel* (15% discount) and the *Lisebergsbyn* (10% discount).
+The discounts are applied automatically when booking through the links above. 
+Note the offer only applies for stays during the period 23–26 June. 
+The cancellation policies will be the same as detailed on the hotels’ webpages.
 
 ## Being in Gothenburg
 

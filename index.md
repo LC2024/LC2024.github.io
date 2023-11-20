@@ -11,6 +11,7 @@ The following times are in CET/CEST (Europe/Stockholm: UTC +02:00)
 - 29 February 2024: Deadline for [ASL student travel applications](/travel_grants)
 - 1 March: Deadline for contributed talks
 - 28 March: Notification of student travel grants
+- 2 April: Notification of acceptance of contributed talks
 - 24–28 June: Conference
 
 ## Sponsors

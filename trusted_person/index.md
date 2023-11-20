@@ -42,6 +42,6 @@ organizational features that might be working against a welcoming environment.
 These may occur not only at the (physical) meeting site, but also at online sites,
 social events related to the meeting, etc.
 
-# Trusted Person
+## Trusted Person
 
 The trusted person for Logic Colloquium 2024 in Gothenburg is [Prof. Simon Dobnik](https://www.gu.se/en/about/find-staff/simondobnik) whom you can get in touch via [simon.dobnik@gu.se](mailto:simon.dobnik@gu.se) or +46 31-786 69 17

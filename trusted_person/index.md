@@ -1,28 +1,26 @@
 ---
 layout: default
+title: ASL Code of Conduct
 ---
 
-## ASL Code of Conduct
-### Welcoming Environment
+## Welcoming Environment
 It is the policy of the ASL that everyone participating in an ASL meeting or
 other ASL-sponsored activity will enjoy a welcoming, inclusive environment that
 is free from all forms of discrimination or harassment. The ASL is committed
-to the promotion of equal treatment for all members and other participants, re-
-gardless of race, color, gender, caste, religion, national origin, ethnicity, migrant
+to the promotion of equal treatment for all members and other participants, regardless of race, color, gender, caste, religion, national origin, ethnicity, migrant
 or indigenous status, socioeconomic status, political beliefs, sexual orientation,
 gender identity or expression, disability, or any other quality unrelated to the
 ASL’s scholarly function. Harassment of any kind represents misconduct that
 undermines the integrity of the ASL. All ASL members and other participants
 in ASL Meetings are expected to do their part to look out for each other, and
 to act to ensure that everyone feels welcome. This policy is meant to cover
-everyone connected with the ASL meeting, including, e.g., staff, exhibitors, ac-
-companying persons, and online participants, as well as on-site participants,
+everyone connected with the ASL meeting, including, e.g., staff, exhibitors, accompanying persons, and online participants, as well as on-site participants,
 invited speakers, and organizers.
 
 See the ASL statements on inclusiveness and diversity, and on women in
 logic at [https://aslonline.org/inclusiveness/](https://aslonline.org/inclusiveness/).
 
-### Reporting Problem Behavior
+## Reporting Problem Behavior
 
 All participants at ASL meetings are expected to try to prevent behavior
 that works against establishing a respectful and welcoming environment for
@@ -44,6 +42,6 @@ organizational features that might be working against a welcoming environment.
 These may occur not only at the (physical) meeting site, but also at online sites,
 social events related to the meeting, etc.
 
-## Trusted Person
+# Trusted Person
 
 The trusted person for Logic Colloquium 2024 in Gothenburg is [Prof. Simon Dobnik](https://www.gu.se/en/about/find-staff/simondobnik) whom you can get in touch via [simon.dobnik@gu.se](mailto:simon.dobnik@gu.se) or +46 31-786 69 17

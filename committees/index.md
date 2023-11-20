@@ -28,5 +28,4 @@ layout: default
 - Graham E. Leigh
 - Ivan Di Liberti
 - Orvar Lorimer Olsson
-- William Noble
 - Dominik Wehr

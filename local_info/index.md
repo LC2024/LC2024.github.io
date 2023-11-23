@@ -1,10 +1,10 @@
 ---
 layout: default
-title: About Gothenburg
+title: Local Information
 ---
 
 
-## Coming to Gothenburg
+## Arriving in Gothenburg
 
 - **by land:**
   The Gothenburg central train station and the Nils Ericson Terminalen, the long

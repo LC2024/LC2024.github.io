@@ -66,8 +66,7 @@ conference:
       url: 'https://lc2024.se'
     links:
       - name: CFC
-        # relative_url: /contributed_talks/
-        disabled: true
+        relative_url: /contributed_talks/
       - name: Registration
         menu:
         - name: Registration
@@ -130,8 +129,7 @@ conference:
       - name: Register
         disabled: true
       - name: Contribute a talk
-        disabled: true
-        # relative_url: /contributed_talks/
+        relative_url: /contributed_talks/
       - name: Apply for travel support
         relative_url: /travel_grants/
       - name: Contact us

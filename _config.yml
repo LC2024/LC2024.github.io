@@ -67,14 +67,6 @@ conference:
     links:
       - name: CFC
         relative_url: /contributed_talks/
-      - name: Registration
-        menu:
-        - name: Registration
-          relative_url: /registration/
-        - name: Travel Support
-          relative_url: /travel_grants/
-        - name: Code of Conduct
-          relative_url: /trusted_person/
       - name: Program
         relative_url: /program/
         # menu:
@@ -92,6 +84,14 @@ conference:
             relative_url: /committees/
           - name: Trusted Person
             relative_url: /trusted_person#trusted-person
+      - name: Registration
+        menu:
+        - name: Registration
+          relative_url: /registration/
+        - name: Travel Support
+          relative_url: /travel_grants/
+        - name: Code of Conduct
+          relative_url: /trusted_person/
       - name: Local Information
         menu:
         - name: Venue

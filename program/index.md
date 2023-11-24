@@ -35,4 +35,4 @@ The topics of the special sessions are given below. Special session speakers wil
 - **Logic, Language and Computation**, chairs: [Robin Cooper](https://sites.google.com/view/robincooper) and [Stergios Chatzikyriakidis](https://www.stergioschatzikyriakidis.com/)
 - **Philosophical Logic**, chairs: [Volker Halbach](https://users.ox.ac.uk/~sfop0114/) and [Heinrich Wansing](https://www.pe.ruhr-uni-bochum.de/philosophie/i/logic/index.html.en)
 - **Proof Theory**, chairs: [Anton Freund](https://www.mathematik.uni-wuerzburg.de/mathematicallogic/team/freund-anton/) and [Sonia Marin](https://filipendule.github.io/)
-- **Set Theory**, chairs TBC
+- **Set Theory**, chairs: [Dana Bartošová](https://people.clas.ufl.edu/dbartosova/) and [Slawomir Solecki](https://math.cornell.edu/slawomir-solecki)

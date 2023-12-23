@@ -28,9 +28,9 @@ The 2024 Gödel lecture will be given by
 - [Tom Scanlon](https://math.berkeley.edu/~scanlon/), University of California at Berkeley
 
 ### Special Sessions
-The topics of the special sessions are given below. Special session speakers will be announced soon.
 
 **Applied Model Theory**, chairs: [Gareth Jones](https://personalpages.manchester.ac.uk/staff/Gareth.Jones-3/index.php) and [Tamara Servi](https://tamaraservi.github.io/)
+
 - [Vincent Bagayoko](https://vincentbagayoko.neocities.org), Université Paris Cité
 - [Anna Dmitrieva](https://research-portal.uea.ac.uk/en/persons/anna-dmitrieva), University of East Anglia
 - [Adele Padgett](https://sites.google.com/view/adele-padgett/home), McMaster University
@@ -43,9 +43,10 @@ The topics of the special sessions are given below. Special session speakers wil
 **Philosophical Logic**, chairs: [Volker Halbach](https://users.ox.ac.uk/~sfop0114/) and [Heinrich Wansing](https://www.pe.ruhr-uni-bochum.de/philosophie/i/logic/index.html.en)
 
 **Proof Theory**, chairs: [Anton Freund](https://www.mathematik.uni-wuerzburg.de/mathematicallogic/team/freund-anton/) and [Sonia Marin](https://filipendule.github.io/)
-- [Takako Nemoto](https://researchmap.jp/nemototakako?lang=en), Tohuku University
-- Lukas Melgaard, Birmingham University
+
 - [Valentin Blot](https://valentinblot.org/pro/), ENS Paris-Saclay
+- Lukas Melgaard, Birmingham University
+- [Takako Nemoto](https://researchmap.jp/nemototakako?lang=en), Tohuku University
 
 
 **Set Theory**, chairs: [Dana Bartošová](https://people.clas.ufl.edu/dbartosova/) and [Slawomir Solecki](https://math.cornell.edu/slawomir-solecki)

@@ -42,6 +42,9 @@ The 2024 Gödel lecture will be given by
 
 **Philosophical Logic**, chairs: [Volker Halbach](https://users.ox.ac.uk/~sfop0114/) and [Heinrich Wansing](https://www.pe.ruhr-uni-bochum.de/philosophie/i/logic/index.html.en)
 
+- [Agata Ciabattoni](https://www.logic.at/staff/agata/), Technische Universität Wien
+- [Andrzej Indrzejczak](https://www.filozofia.uni.lodz.pl/en/translate-to-english-andrzej-indrzejczak), University of Łódź
+
 **Proof Theory**, chairs: [Anton Freund](https://www.mathematik.uni-wuerzburg.de/mathematicallogic/team/freund-anton/) and [Sonia Marin](https://filipendule.github.io/)
 
 - [Valentin Blot](https://valentinblot.org/pro/), ENS Paris-Saclay

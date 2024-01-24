@@ -40,6 +40,10 @@ The 2024 Gödel lecture will be given by
 
 **Logic, Language and Computation**, chairs: [Robin Cooper](https://sites.google.com/view/robincooper) and [Stergios Chatzikyriakidis](https://www.stergioschatzikyriakidis.com/)
 
+- [Kristina Liefke](https://www.ruhr-uni-bochum.de/phil-inf/), Ruhr-University, Bochum
+- [Zhaohui Luo](https://www.cs.rhul.ac.uk/home/zhaohui/), Royal Holloway, University of London
+- [Peter Sutton](https://peter-sutton.github.io/), Universitat Pompeu Fabra, Barcelona
+
 **Philosophical Logic**, chairs: [Volker Halbach](https://users.ox.ac.uk/~sfop0114/) and [Heinrich Wansing](https://www.pe.ruhr-uni-bochum.de/philosophie/i/logic/index.html.en)
 
 - [Agata Ciabattoni](https://www.logic.at/staff/agata/), Technische Universität Wien

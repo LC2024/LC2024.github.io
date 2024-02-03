@@ -25,7 +25,7 @@ The colloquium will run for five days and comprise 3 tutorials, 7 plenary lectur
 ### Gödel Lecture
 The 2024 Gödel lecture will be given by
 
-- [Tom Scanlon](https://math.berkeley.edu/~scanlon/), University of California at Berkeley
+- [Thomas Scanlon](https://math.berkeley.edu/~scanlon/), University of California at Berkeley
 
 ### Special Sessions
 

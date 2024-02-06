@@ -57,3 +57,6 @@ The 2024 Gödel lecture will be given by
 
 
 **Set Theory**, chairs: [Dana Bartošová](https://people.clas.ufl.edu/dbartosova/) and [Slawomir Solecki](https://math.cornell.edu/slawomir-solecki)
+
+- Tamás Kátay, Eötvös Loránd University, Budapest
+- [Claudio Agostini](https://sites.google.com/view/claudioagostiniswebsite), Technische Universität Wien

@@ -37,7 +37,7 @@ title: Local Information
 
 The following hotels are located within walking distance of the venue:
 
- - [Quality Hotel Panorama](https://www.strawberryhotels.com/hotels/sweden/gothenburg/quality-hotel-panorama/)
+ - [Comfort Hotel Panorama](https://www.strawberryhotels.com/hotels/sweden/gothenburg/comfort-hotel-panorama/)
  - [Hotel Lorensberg](https://www.hotel-lorensberg.se/?lang=en)
  - [Elite Park Hotel](https://elite.se/en/hotels/gothenburg/park-avenue-hotel/)
  - [Scandic Rubinen](https://www.scandichotels.com/hotels/sweden/gothenburg/scandic-rubinen)

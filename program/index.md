@@ -38,13 +38,17 @@ The 2024 Gödel lecture will be given by
 
 **Computable Structures**, chairs: [Uri Andrews](https://uriandrews.netlify.app/) and [Julia Knight](https://math.nd.edu/people/faculty/julia-knight/)
 
+- [Meng-Che (Turbo) Ho](https://sites.google.com/view/turboho/homepage), California State University
+- [Matthew Harrison-Trainor](http://homepages.math.uic.edu/~mht/), University of Illinois
+- [David Gonzalez](https://www.davidgonzalezlogic.com), University of California, Berkeley
+
 **Logic, Language and Computation**, chairs: [Robin Cooper](https://sites.google.com/view/robincooper) and [Stergios Chatzikyriakidis](https://www.stergioschatzikyriakidis.com/)
 
 - [Kristina Liefke](https://www.ruhr-uni-bochum.de/phil-inf/), Ruhr-University, Bochum
 - [Zhaohui Luo](https://www.cs.rhul.ac.uk/home/zhaohui/), Royal Holloway, University of London
 - [Peter Sutton](https://peter-sutton.github.io/), Universitat Pompeu Fabra, Barcelona
 
-**Philosophical Logic**, chairs: [Volker Halbach](https://users.ox.ac.uk/~sfop0114/) and [Heinrich Wansing](https://www.pe.ruhr-uni-bochum.de/philosophie/i/logic/index.html.en)
+**Logic in Philosophy**, chairs: [Volker Halbach](https://users.ox.ac.uk/~sfop0114/) and [Heinrich Wansing](https://www.pe.ruhr-uni-bochum.de/philosophie/i/logic/index.html.en)
 
 - [Agata Ciabattoni](https://www.logic.at/staff/agata/), Technische Universität Wien
 - [Andrzej Indrzejczak](https://www.filozofia.uni.lodz.pl/en/translate-to-english-andrzej-indrzejczak), University of Łódź

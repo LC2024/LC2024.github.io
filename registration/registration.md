@@ -15,7 +15,7 @@ In order to register, please complete the following steps:
 
 1. Complete the [registration form](https://forms.office.com/e/w235b0yAF2).
 2. Calculate your **registration fee** and **booking reference** from the table below.
-3. Proceed to the conference [payment system](https://pengu.it.gu.se/PayEN/Store/38) and make the corresponding payment by credit card (preferable) or bank transfer (details provided in the system) using the computed **booking reference**.
+3. Proceed to the conference [payment system](https://pengu.it.gu.se/PayEN/Store/38) and make the corresponding payment by credit card (preferable) or bank transfer (details provided in the system), insering the **booking reference** in _additional infomation_.
 
 Please note that registration is only complete once _payment has been received_. In case of difficulties, contact <{{ site.conference.email }}>.
 

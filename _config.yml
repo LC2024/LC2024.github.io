@@ -55,6 +55,9 @@ conference:
   # Language
   lang: en
 
+  #
+  email: mailto:info@lc2024.org
+
   # Show theme errors:
   show_errors: True
 

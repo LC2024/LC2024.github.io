@@ -13,9 +13,9 @@ The early registration applies to _payments received by **8th April 2024**._ Lat
 
 In order to register, please complete the following steps:
 
-1. Complete the [registration form](https://lc2024.se).
+1. Complete the [registration form](https://forms.office.com/e/w235b0yAF2).
 2. Calculate your **registration fee** and **booking reference** from the table below.
-3. Proceed to the conference [payment system](https://lc2024.se) and make the corresponding payment by credit card (preferable) or bank transfer (details provided in the system) using the computed **booking reference**.
+3. Proceed to the conference [payment system](https://pengu.it.gu.se/PayEN/Store/38) and make the corresponding payment by credit card (preferable) or bank transfer (details provided in the system) using the computed **booking reference**.
 
 Please note that registration is only complete once _payment has been received_. In case of difficulties, contact <{{ site.conference.email }}>.
 
@@ -104,7 +104,7 @@ If you would like to order additional seats at the banquet, please contact the c
     </tr>
     <tr>
         <th colspan="1">Banquet</th>
-        <td colspan="3">?? SEK (code: B)</td>
+        <td colspan="3">670 SEK (code: B)</td>
     </tr>
     <tr>
         <td>Booking reference</td>

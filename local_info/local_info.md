@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Local Information
+permalink: /local_info/
 ---
 
 

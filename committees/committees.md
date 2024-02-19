@@ -1,6 +1,7 @@
 ---
 title: Committees
 layout: default
+permalink: /committees/
 ---
 
 ## Program Committee

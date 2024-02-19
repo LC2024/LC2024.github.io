@@ -1,5 +1,6 @@
 ---
 layout: location
+permalink: /location/
 ---
 
 The conference will be held at the [Humanisten building](https://www.gu.se/en/humanities) of the University of Gothenburg.

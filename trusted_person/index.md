@@ -1,6 +1,7 @@
 ---
 layout: default
 title: ASL Code of Conduct
+permalink: /code_of_conduct/
 ---
 
 ## Welcoming Environment

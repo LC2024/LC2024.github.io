@@ -9,7 +9,7 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        {%- for link in site.conference.navigation.links -%}
+        {%- for link in site.data.navigation.links -%}
 
           {%- if link.menu %}
             <li class="nav-item dropdown">
@@ -81,13 +81,13 @@
       </ul>
     </div>
 
-    {%- if site.conference.navigation.logo %}
+    {%- if site.data.navigation.logo %}
       <div class="navbar-brand navbar-logo mr-0 nav-logo-size text-right overflow-hidden">
-        <a href="{{ site.conference.navigation.logo.url }}">
-          {%- if site.conference.navigation.logo.img %}
-            <img src="{{ site.conference.navigation.logo.img | prepend: '/assets/images/' | prepend: site.baseurl }}" class="align-middle" alt="{{ site.conference.navigation.logo.name }}" />
+        <a href="{{ site.data.navigation.logo.url }}">
+          {%- if site.data.navigation.logo.img %}
+            <img src="{{ site.data.navigation.logo.img | prepend: '/assets/images/' | prepend: site.baseurl }}" class="align-middle" alt="{{ site.data.navigation.logo.name }}" />
           {%- else %}
-            {{ site.conference.navigation.logo.name }}
+            {{ site.data.navigation.logo.name }}
           {%- endif %}
         </a>
       </div>

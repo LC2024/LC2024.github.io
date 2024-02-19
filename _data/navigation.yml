@@ -1,0 +1,53 @@
+# Navigation bar
+  logo:
+    name: LC 2024
+    img: 'LCLogo.svg'
+    url: 'https://lc2024.se'
+  links:
+    - name: CFC
+      relative_url: /contributed_talks/
+    - name: Program
+      relative_url: /program/
+      # menu:
+      # - name: Schedule
+      #   relative_url: /program/
+      # - name: Invited Talks
+      #   relative_url: /talks/
+      # - name: Social Events
+      #   disabled: true
+    - name: People
+      menu:
+        # - name: Speakers
+        #   relative_url: /speakers/
+        - name: Committees
+          relative_url: /committees/
+        - name: Trusted Person
+          relative_url: /code_of_conduct#trusted-person
+    - name: Registration
+      menu:
+      - name: Registration
+        relative_url: /registration/
+      - name: Travel Support
+        relative_url: /travel_grants/
+      - name: Code of Conduct
+        relative_url: /code_of_coduct/
+    - name: Local Information
+      menu:
+      - name: Venue
+        relative_url: /location/
+      - name: About Gothenburg
+        relative_url: /local_info/
+    - name: Previous Editions
+      menu:
+        - name: LC2023
+          relative_url: https://lc2023.unimi.it/
+        - name: LC2022
+          relative_url: http://icetcs.ru.is/lc2022/
+        - name: LC2021
+          relative_url: https://www.jstor.org/stable/27139156#metadata_info_tab_contents
+        - name: LC2019
+          relative_url: https://lc2019.cz/
+        - name: LC2018
+          relative_url: https://lc18.uniud.it/
+        - name: LC2017
+          relative_url: https://www.math-stockholm.se/konferenser-och-akti/logic-in-stockholm-2/logic-colloquium-201/logic-colloquium-2017-august-14-20-1.717629

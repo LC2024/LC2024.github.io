@@ -18,10 +18,10 @@ The colloquium will run for five days and comprise 3 tutorials, 7 plenary lectur
  - [Daisuke Bekki](https://daisukebekki.github.io/), Ochanomizu University
  - [Johanna Franklin](http://johannafranklin.net/), Hofstra University: _Structural highness notions_
  - [James Freitag](https://homepages.math.uic.edu/~freitag/), University of Illinois at Chicago
- - [Rosalie Iemhoff](https://www.uu.nl/staff/RIemhoff), Utrecht University
  - [Stephen Jackson](https://www.math.unt.edu/~sjackson/), University of North Texas
  - [Leszek Kołodziejczyk](https://www.mimuw.edu.pl/~lak/), University of Warsaw: _Models of arithmetic that satisfy more collection than induction_
  - [Paul-André Melliès](https://www.irif.fr/~mellies/), Université Paris Denis Diderot
+ - TBC
 
 ### Gödel Lecture
 The 2024 Gödel lecture will be given by

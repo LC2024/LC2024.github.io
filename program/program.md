@@ -15,16 +15,17 @@ The colloquium will run for five days and comprise 3 tutorials, 7 plenary lectur
 
 ### Plenary Speakers
 
- - [Daisuke Bekki](https://daisukebekki.github.io/), Ochanomizu University
+ - [Daisuke Bekki](https://daisukebekki.github.io/), Ochanomizu University: _From Dependent Types to Natural Language Semantics_
  - [Johanna Franklin](http://johannafranklin.net/), Hofstra University: _Structural highness notions_
- - [James Freitag](https://homepages.math.uic.edu/~freitag/), University of Illinois at Chicago
- - [Stephen Jackson](https://www.math.unt.edu/~sjackson/), University of North Texas
+ - [James Freitag](https://homepages.math.uic.edu/~freitag/), University of Illinois at Chicago: _When any three solutions are independent_
+ - [Stephen Jackson](https://www.math.unt.edu/~sjackson/), University of North Texas: _Recent advances in the combinatorics of determinacy models_
  - [Leszek Kołodziejczyk](https://www.mimuw.edu.pl/~lak/), University of Warsaw: _Models of arithmetic that satisfy more collection than induction_
- - [Paul-André Melliès](https://www.irif.fr/~mellies/), Université Paris Denis Diderot
+ - [Paul-André Melliès](https://www.irif.fr/~mellies/), Université Paris Denis Diderot: _Recent advances in higher-order automata and profinite lambda-calculus_
  - TBC
 
 ### Gödel Lecture
-The 2024 Gödel lecture will be given by
+
+The 2024 Gödel lecture will be delivered by
 
 - [Thomas Scanlon](https://math.berkeley.edu/~scanlon/), University of California at Berkeley
 

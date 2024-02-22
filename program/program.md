@@ -47,7 +47,7 @@ The 2024 Gödel lecture will be delivered by
 
 **Logic, Language and Computation**, chairs: [Robin Cooper](https://sites.google.com/view/robincooper) and [Stergios Chatzikyriakidis](https://www.stergioschatzikyriakidis.com/)
 
-- [Kristina Liefke](https://www.ruhr-uni-bochum.de/phil-inf/), Ruhr-University, Bochum
+- [Kristina Liefke](https://www.ruhr-uni-bochum.de/phil-inf/), Ruhr-University, Bochum: _Reduction and unification in (typed) natural language ontology_
 - [Zhaohui Luo](https://www.cs.rhul.ac.uk/home/zhaohui/), Royal Holloway, University of London: _Common nouns as types: Higher inductive types in type-theoretical semantics_
 - [Peter Sutton](https://peter-sutton.github.io/), Universitat Pompeu Fabra, Barcelona
 
@@ -61,7 +61,7 @@ The 2024 Gödel lecture will be delivered by
 
 **Proof Theory**, chairs: [Anton Freund](https://www.mathematik.uni-wuerzburg.de/mathematicallogic/team/freund-anton/) and [Sonia Marin](https://filipendule.github.io/)
 
-- [Valentin Blot](https://valentinblot.org/pro/), ENS Paris-Saclay
+- [Valentin Blot](https://valentinblot.org/pro/), ENS Paris-Saclay: _Variants of bar recursion and their uses_
 - Lukas Melgaard, Birmingham University: _Cyclic versions of arithmetic theories with inductive definitions_
 - [Takako Nemoto](https://researchmap.jp/nemototakako?lang=en), Tohuku University
 
@@ -69,4 +69,4 @@ The 2024 Gödel lecture will be delivered by
 **Set Theory**, chairs: [Dana Bartošová](https://people.clas.ufl.edu/dbartosova/) and [Slawomir Solecki](https://math.cornell.edu/slawomir-solecki)
 
 - Tamás Kátay, Eötvös Loránd University, Budapest: _Generic properties of groups_
-- [Claudio Agostini](https://sites.google.com/view/claudioagostiniswebsite), Technische Universität Wien
+- [Claudio Agostini](https://sites.google.com/view/claudioagostiniswebsite), Technische Universität Wien: _The key properties of metrizability for (generalized) descriptive set theory_

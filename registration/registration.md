@@ -9,13 +9,13 @@ The conference offers two registration categories:
 - Standard fee: **3500 SEK** (early) _or_ **4500 SEK** (late). This applies to most participants.
 - Reduced fee: **2500 SEK** (early) _or_ **4500 SEK** (late). For students, including PhDs, and unemployed.
 
-The early registration applies to _payments received by **8th April 2024**._ Late payment is open until **27th May 2024**. On site payment is not possible.
+The early registration applies to **payments received by 8th April 2024**. Late payment is open until **27th May 2024**. On site payment is not possible.
 
 In order to register, please complete the following steps:
 
-1. Complete the [registration form](https://forms.office.com/e/w235b0yAF2){:target="_blank"}.
+1. Complete the [registration form](https://forms.office.com/e/w235b0yAF2){:target="_blank" rel="noopener"}.
 2. Calculate your **registration fee** and **booking reference** from the table below.
-3. Proceed to the conference [payment system](https://pengu.it.gu.se/PayEN/Store/38){:target="_blank"} and make the corresponding payment. Insert your **booking reference** under _additional infomation_.
+3. Proceed to the conference [payment system](https://pengu.it.gu.se/PayEN/Store/38){:target="_blank" rel="noopener"} and make the corresponding payment. Insert your **booking reference** under _additional infomation_.
 
 Please note that registration is only complete once _payment has been received_. In case of difficulties, contact <{{ site.conference.email }}>.
 
@@ -24,7 +24,7 @@ Please note that registration is only complete once _payment has been received_.
 The following table lists all conference fees. Prices are in Swedish Kronor (SEK) and include standard value-added tax.
 If you would like to order additional seats at the banquet, please contact the conference organisers at <{{ site.conference.email }}>.
 
-**Note**, the tax-free registration fee _only_ applies to employees of Swedish state universities. For information see <https://medarbetarportalen.gu.se/ekonomi/redovisa/moms>.
+**Note**, the tax-free registration fee applies _only_ to employees of Swedish state universities. For information see <https://medarbetarportalen.gu.se/ekonomi/redovisa/moms>.
 
 <style>
     table {

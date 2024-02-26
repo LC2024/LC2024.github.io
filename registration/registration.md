@@ -100,7 +100,7 @@ If you would like to order additional seats at the banquet, please contact the c
     </tr>
     <tr>
         <th colspan="1">T-shirt</th>
-        <td colspan="3">?? SEK (code: T)</td>
+        <td colspan="3">150 SEK (code: T)</td>
     </tr>
     <tr>
         <th colspan="1">Banquet</th>

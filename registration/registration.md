@@ -7,9 +7,11 @@ permalink: dark/registration/
 The conference offers two registration categories:
 
 - Standard fee: **3500 SEK** (early) _or_ **4500 SEK** (late). This applies to most participants.
-- Reduced fee: **2500 SEK** (early) _or_ **4500 SEK** (late). For students, including PhDs, and unemployed.
+- Reduced fee: **2500 SEK** (early) _or_ **3500 SEK** (late). For students, including PhDs, and unemployed.
 
-The early registration applies to **payments received by 8th April 2024**. Late payment is open until **27th May 2024**. On site payment is not possible.
+The early registration applies to **payments received by 17th April 2024**. 
+Late payment is open until **27th May 2024**. 
+On site payment is not possible.
 
 In order to register, please complete the following steps:
 
@@ -36,7 +38,7 @@ If you would like to order additional seats at the banquet, please contact the c
     }
 
     th {
-        text-align: center;
+        text-align: left;
         padding: 4px;
         padding-right: 8px;
         padding-left: 8px;
@@ -46,6 +48,10 @@ If you would like to order additional seats at the banquet, please contact the c
         padding: 2px;
         text-align: left;
     } */
+
+    .top-border {
+        border-top: thin solid; 
+    }
 
 
     td {
@@ -74,7 +80,7 @@ If you would like to order additional seats at the banquet, please contact the c
     </thead>
     <tbody>
     <tr>
-        <th rowspan="2">Standard rate</th>
+        <td rowspan="2">Standard rate</td>
         <td class="subhead">with tax</td>
         <td>3500 (code: SE)</td>
         <td>4500 (code: SL)</td>
@@ -84,8 +90,8 @@ If you would like to order additional seats at the banquet, please contact the c
         <td>2800 (code: SEN)</td>
         <td>3600 (code: SLN)</td>
     </tr>
-    <tr>
-        <th rowspan="2">Reduced rate</th>
+    <tr class="top-border">
+        <td rowspan="2">Reduced rate</td>
         <td class="subhead">with tax</td>
         <td>2500 (code: RE)</td>
         <td>3500 (code: RL)</td>
@@ -99,11 +105,11 @@ If you would like to order additional seats at the banquet, please contact the c
         <th colspan="2">Extras</th>
     </tr>
     <tr>
-        <th colspan="1">T-shirt</th>
+        <td colspan="1">T-shirt</td>
         <td colspan="3">150 SEK (code: T)</td>
     </tr>
     <tr>
-        <th colspan="1">Banquet</th>
+        <td colspan="1">Banquet</td>
         <td colspan="3">670 SEK (code: B)</td>
     </tr>
     <tr>

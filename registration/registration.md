@@ -53,6 +53,10 @@ If you would like to order additional seats at the banquet, please contact the c
         border-top: thin solid; 
     }
 
+    .bot-border {
+        border-bottom: thin solid; 
+    }
+
 
     td {
         padding-left: 8px;
@@ -85,18 +89,18 @@ If you would like to order additional seats at the banquet, please contact the c
         <td>3500 (code: SE)</td>
         <td>4500 (code: SL)</td>
     </tr>
-    <tr>
+    <tr class="bot-border">
         <td class="subhead">without tax</td>
         <td>2800 (code: SEN)</td>
         <td>3600 (code: SLN)</td>
     </tr>
-    <tr class="top-border">
+    <tr>
         <td rowspan="2">Reduced rate</td>
         <td class="subhead">with tax</td>
         <td>2500 (code: RE)</td>
         <td>3500 (code: RL)</td>
     </tr>
-    <tr>
+    <tr class="bot-border">
         <td class="subhead">without tax</td>
         <td>2000 (code: REN)</td>
         <td>2800 (code: RLN)</td>

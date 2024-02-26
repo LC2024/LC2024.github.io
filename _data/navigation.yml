@@ -37,8 +37,6 @@
       menu:
         - name: LC2023
           relative_url: https://lc2023.unimi.it/
-        - name: LC2022
-          relative_url: http://icetcs.ru.is/lc2022/
         - name: LC2021
           relative_url: https://www.jstor.org/stable/27139156#metadata_info_tab_contents
         - name: LC2019
@@ -46,4 +44,4 @@
         - name: LC2018
           relative_url: https://lc18.uniud.it/
         - name: LC2017
-          relative_url: https://www.math-stockholm.se/konferenser-och-akti/logic-in-stockholm-2/logic-colloquium-201/logic-colloquium-2017-august-14-20-1.717629
+          relative_url: https://www.kth.se/en/2.28744/konferenser/logic-in-stockholm-2/logic-colloquium-201/logic-colloquium-2017-august-14-20-1.717629

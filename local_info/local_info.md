@@ -4,6 +4,15 @@ title: Local Information
 permalink: /local_info/
 ---
 
+## Venue
+
+The conference will be held at the [Humanisten building](https://www.gu.se/en/humanities) of the University of Gothenburg.
+The building is located adjacent to the 'Korsvägen' public transport hub and can be reached on foot from the city center.
+
+**Address:**  Renströmsgatan 6, Gothenburg, 412 56, Sweden
+
+<div id="map" class="mt-4 mb-3">
+</div>
 
 ## Arriving in Gothenburg
 
@@ -16,7 +25,7 @@ permalink: /local_info/
   From Malmö, there are many options for getting to Gothenburg by
   train or bus.
 
-- **by water:**
+- **by sea:**
   Stena Line operates two regular ferry lines to Gothenburg: from [Frederikshavn,
   Denmark](https://www.stenalinetravel.com/routes/frederikshavn-gothenburg) and
   [Kiel, Germany](https://www.stenalinetravel.com/routes/kiel-gothenburg). There
@@ -27,12 +36,13 @@ permalink: /local_info/
 
 - **by air:**
   The airport closest to Gothenburg is [Landvetter airport
-  (GOT)](https://www.swedavia.com/landvetter/). We recommend using the shuttle
+  (GOT)](https://www.swedavia.com/landvetter/). We recommend using the [Flygbussarna](https://www.flygbussarna.se/en/landvetter) shuttle
   service operated by the Vy bus company between the airport
-  and the city center of Gothenburg. Tickets can be purchased
-  [online]((https://www.flygbussarna.se/en/landvetter)) and in person at
+  and the city center of Gothenburg. 
+  Tickets can be purchased online and in person at
   machines at the airport and at some bus stops. Note that a round-trip ticket
   is cheaper than two single trip tickets.
+  The venue and many hotels are located adjacent to the Korsvägen bus stop.
 
 ## Staying in Gothenburg
 

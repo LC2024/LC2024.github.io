@@ -29,14 +29,10 @@
         relative_url: /registration/
       - name: Travel Support
         relative_url: /travel_grants/
-      - name: Code of Conduct
-        relative_url: /code_of_coduct/
+      - name: ASL Code of Conduct
+        relative_url: /code_of_conduct/
     - name: Local Information
-      menu:
-      - name: Venue
-        relative_url: /location/
-      - name: About Gothenburg
-        relative_url: /local_info/
+      relative_url: /local_info/
     - name: Previous Editions
       menu:
         - name: LC2023

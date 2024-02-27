@@ -2,6 +2,7 @@
 
 
 <div class="jumbotron bg-light">
+    <article>
     {% if page.title %}
     <h1 class="display-5 mb-3">
         {{ page.title }}
@@ -11,6 +12,7 @@
     {% endif %}
 
     {{ content }}
+    </article>
 </div>
 
 {% include partials/footer.html %}

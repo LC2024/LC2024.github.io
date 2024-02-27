@@ -7,6 +7,179 @@ permalink: /program/
 
 The colloquium will run for five days and comprise 3 tutorials, 7 plenary lectures and 6 special sessions as well as contributed talks. In addition, the 2024 Gödel Lecture will be delivered at the meeting.
 
+<style>
+    table {
+        margin-left:auto;
+        margin-right:auto;
+        /* width:400px */
+        /* border-spacing: 4px; */
+        margin-bottom: 10px
+    }
+
+    th {
+        text-align: center;
+        padding: 4px;
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+
+    /* th:first-child {
+        text-align: right;
+        font-style: italic;
+        font-weight: normal;
+    } */
+
+    tr > th:first-child {
+        text-align: left;
+        font-style: italic;
+        font-weight: normal;
+        display: none;
+    }
+
+    td {
+        padding-left: 8px;
+        padding-right: 8px;
+        /* width:60px; */
+        text-align: center;
+        height: 30px;
+        width: 100px;
+        /* border: thin solid; */
+    }
+
+    .break, .empty {
+        font-style: italic;
+        height: 20px;
+        border: none;
+    }
+
+    .social {
+        font-style: italic;
+        border: thin solid;
+    }
+
+    .pl, .gl {
+        background-color: teal;
+        border: thin solid;
+        height: 60px;
+    }
+
+    .tu {
+        background-color: pink;
+        height: 60px;
+        border: thin solid;
+    }
+
+    .ss {
+        background-color: beige;
+        height: 75px;
+        border: thin solid;
+    }
+
+    .ct {
+        background-color: gray;
+        border: thin solid;
+    }
+</style>
+
+<table>
+    <thead>
+    <tr>
+        <th></th>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Wed</th>
+        <th>Thu</th>
+        <th>Fri</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th>0815 &ndash; 0845</th>
+        <td class="social">Registration</td>
+    </tr>
+    <tr>
+        <th>0900 &ndash; 1000</th>
+        <td class="pl">Plenary</td>
+        <td class="pl">Plenary</td>
+        <td class="pl">Plenary</td>
+        <td class="pl">Plenary</td>
+        <td class="pl">Plenary</td>
+    </tr>
+    <tr>
+        <th>1000 &ndash; 1100</th>
+        <td class="tu">Tutorial</td>
+        <td class="tu">Tutorial</td>
+        <td class="tu">Tutorial</td>
+        <td class="tu">Tutorial</td>
+        <td class="tu">Tutorial</td>
+    </tr>
+    <tr>
+        <th>1100 &ndash; 1130</th>
+        <td colspan="5" class="break">Coffee</td>
+    </tr>
+    <tr>
+        <th>1130 &ndash; 1230</th>
+        <td class="tu">Tutorial</td>
+        <td class="pl">Plenary</td>
+        <td class="tu">Tutorial</td>
+        <td class="tu">Tutorial</td>
+        <td class="tu">Tutorial</td>
+    </tr>
+    <tr>
+        <th>1230 &ndash; 1400</th>
+        <td colspan="5" class="break">Lunch</td>
+    </tr>
+    <tr>
+        <th rowspan="4">1400 &ndash; 1600</th>
+        <td rowspan="4" class="ss">Special Session</td>
+        <td rowspan="4" class="ss">Special Session</td>
+        <td rowspan="4" class="ct">Contributed Talks</td>
+        <td rowspan="4" class="ss">Special Session</td>
+        <td rowspan="4" class="ct">Contributed Talks</td>
+    </tr>
+    <tr>
+        <!-- 1430 -->
+    </tr>
+    <tr>
+        <!-- 1500 -->
+    </tr>
+    <tr>
+        <!-- 1530 -->
+    </tr>
+    <tr>
+        <th>1600 &ndash; 1630</th>
+        <td colspan="5" class="break">Coffee</td>
+    </tr>
+    <tr>
+        <th>1630 &ndash; 1700</th>
+        <td class="empty"></td>
+        <td rowspan="4" class="ct">Contributed Talks</td>
+        <td rowspan="4" class="empty"></td>
+        <td rowspan="2" class="pl">Plenary</td>
+        <td rowspan="4" class="ct">Contributed Talks</td>
+    </tr>
+    <tr>
+        <th>1700 &ndash; 1730</th>
+        <td rowspan="2" class="gl">Gödel Lecture</td>
+    </tr>
+    <tr>
+        <th>1730 &ndash; 1800</th>
+        <td rowspan="2" class="ct">Contributed Talks</td>
+    </tr>
+    <tr>
+        <th>1800 &ndash; 1830</th>
+        <td rowspan="3" class="social">Reception</td>
+    </tr>
+    <tr>
+        <th></th>
+        <td class="empty"></td>
+        <td class="social">Banquet</td>
+        <td></td>
+        <td></td>
+    </tr>
+    </tbody>
+</table>
+
 ### Tutorials
 
  - [Anuj Dawar](https://www.cst.cam.ac.uk/people/ad260), University of Cambridge: _Model theory of tame classes of finite structures_

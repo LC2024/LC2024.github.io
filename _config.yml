@@ -77,7 +77,7 @@ conference:
     #   img: 'LCLogo.svg'
     links:
       - name: Register
-        disabled: true
+        relative_url: /registration/
       - name: Contribute a talk
         relative_url: /contributed_talks/
       - name: Apply for travel support

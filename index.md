@@ -5,14 +5,20 @@ The Logic Colloquium is the European Summer Meeting of the Association for Symbo
 
 The colloquium will run for five days and comprise 3 tutorials, 7 plenary lectures and 6 special sessions as well as contributed talks. In addition, the 2024 Gödel Lecture will be delivered at the meeting.
 
+## Announcements
+
+- **Registration open**. Proceed to the [registration page]({% link registration/registration.md %}) for information. Early registration is open until 17 April.
+- **Contributed talks**. Deadline extended to **8 March**. See the [submissions page]({% link contributed_talks/index.md %}).
+
 ## Important Dates
 The following times are in CET/CEST (Europe/Stockholm)
 
-- 29 February 2024: Deadline for [ASL student travel applications](/travel_grants)
-- 1 March: Deadline for contributed talks
+- 29 February 2024: Deadline for [ASL student travel applications]({% link travel_grants/index.md %})
+- **8 March: Deadline for contributed talks**
 - 28 March: Notification of student travel grants
 - 2 April: Notification of acceptance of contributed talks
-- 24–28 June: Conference
+- **17 April: Deadline for early registration**
+- 24–28 June: Logic Colloquium
 
 ## Sponsors
 - [Association for Symbolic Logic](https://aslonline.org/)

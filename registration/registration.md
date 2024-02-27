@@ -1,17 +1,18 @@
 ---
 layout: default
 title: Registration
-permalink: dark/registration/
+permalink: /registration/
 ---
 
 The conference offers two registration categories:
 
-- Standard fee: **3500 SEK** (early) _or_ **4500 SEK** (late). This applies to most participants.
-- Reduced fee: **2500 SEK** (early) _or_ **3500 SEK** (late). For students, including PhDs, and unemployed.
+- Standard: **3500 SEK**. This applies to most participants.
+- Reduced: **2500 SEK**. For students, including PhD students, and unemployed.
 
-The early registration applies to **payments received by 17th April 2024**. 
-Late payment is open until **27th May 2024**. 
-On site payment is not possible.
+The registration fee above applies to payments received **by 17th April 2024** (deadline for early registration). 
+After that date, registration is 4500 SEK (standard) and 3500 SEK (reduced).
+<!-- Late payment is open until **27th May 2024**.  -->
+On-site payment is not possible.
 
 In order to register, please complete the following steps:
 
@@ -100,7 +101,7 @@ If you would like to order additional seats at the banquet, please contact the c
         <td>2500 (code: RE)</td>
         <td>3500 (code: RL)</td>
     </tr>
-    <tr class="bot-border">
+    <tr>
         <td class="subhead">without tax</td>
         <td>2000 (code: REN)</td>
         <td>2800 (code: RLN)</td>

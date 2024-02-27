@@ -62,7 +62,7 @@ The 2024 Gödel lecture will be delivered by
 **Proof Theory**, chairs: [Anton Freund](https://www.mathematik.uni-wuerzburg.de/mathematicallogic/team/freund-anton/) and [Sonia Marin](https://filipendule.github.io/)
 
 - [Valentin Blot](https://valentinblot.org/pro/), ENS Paris-Saclay: _Variants of bar recursion and their uses_
-- Lukas Melgaard, Birmingham University: _Cyclic versions of arithmetic theories with inductive definitions_
+- Lukas Melgaard, University of Birmingham: _Cyclic versions of arithmetic theories with inductive definitions_
 - [Takako Nemoto](https://researchmap.jp/nemototakako?lang=en), Tohuku University
 
 

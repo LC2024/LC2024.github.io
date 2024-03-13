@@ -3,6 +3,10 @@ layout: default
 title: Travel Support
 ---
 
+<font color="red">
+<b>Note:</b> The deadline has passed. New applications will not be considered.
+</font>
+
 Graduate students and recent PhDs may apply for ASL travel support.
 To be considered, please send
 

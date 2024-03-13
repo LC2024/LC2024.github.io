@@ -2,6 +2,9 @@
 layout: default
 title: Call for Contributed Talks
 ---
+<font color="red">
+<b>Note:</b> Submissions for contributed talks have been closed.
+</font>
 
 The programme committee invites proposals for contributed talks. These can be on published or unpublished work, as well as work in progress. The abstracts of accepted talks will be published the Bulletin of Symbolic Logic, subject to one of the authors of the abstract being a member of ASL.
 

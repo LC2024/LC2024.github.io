@@ -236,7 +236,7 @@ The 2024 Gödel lecture will be delivered by
 
 - [Valentin Blot](https://valentinblot.org/pro/), ENS Paris-Saclay: _Variants of bar recursion and their uses_
 - Lukas Melgaard, University of Birmingham: _Cyclic versions of arithmetic theories with inductive definitions_
-- [Takako Nemoto](https://researchmap.jp/nemototakako?lang=en), Tohuku University
+- [Takako Nemoto](https://researchmap.jp/nemototakako?lang=en), Tohuku University, _Computability theory over intuitionistic logic_
 
 
 **Set Theory**, chairs: [Dana Bartošová](https://people.clas.ufl.edu/dbartosova/) and [Slawomir Solecki](https://math.cornell.edu/slawomir-solecki)

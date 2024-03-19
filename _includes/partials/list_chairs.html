@@ -1,9 +1,9 @@
 {% if talk.chairs %}
 <span class="font-weight-normal">
-    Speakers:
+Chairs:
 </span>
 {% endif %}
-{% for speaker_name in talk.speakers -%}
+{% for speaker_name in talk.chairs -%}
   {%- assign speaker = site.speakers | where: 'name', speaker_name | first -%}
   {%- if site.conference.speakers.show_firstname -%}
     {%- assign speaker_short = speaker.first_name | append: ' ' | append: speaker.last_name -%}

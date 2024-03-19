@@ -19,6 +19,7 @@ exclude:
   - LICENSE.md
   - REDISTRIBUTED.md
   - purgecss.config.js
+  - bundle
 
 # Collections and their defaults
 collections:
@@ -122,10 +123,16 @@ conference:
   talks:
     # Talk categories
     main_categories:
-      - name: Talk
+      - name: Contributed Talk
         color: talk
       - name: Tutorial
         color: tutorial
+      - name: Plenary Talk
+        color: plenary
+      - name: Special Session
+        color: special
+      - name: Social
+        color: social
 
     # Hide icons on talk overview page
     hide_icons: false
@@ -146,10 +153,10 @@ conference:
 
   program:
     # URL of program page
-    url: '/program'
+    url: '/schedule'
 
     # Time steps in program table
-    time_steps: 15 # in minutes
+    time_steps: 30 # in minutes
 
     # Show intermediary time steps (next to full hours)
     show_alltimes: true

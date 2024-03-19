@@ -152,6 +152,11 @@
                       <p class="mb-2">
                         {%- include partials/show_talk.html %}
                       </p>
+                      {% if talk.chairs %}
+                      <p class="font-weight-light mb-2">
+                          {%- include partials/list_chairs.html %}
+                      </p>
+                      {% endif %}
                       <p class="font-weight-light mb-2">
                         {%- include partials/list_speakers.html %}
                       </p>

@@ -23,8 +23,11 @@ $font-family-sans-serif:      'Helvetica Neue', -apple-system, BlinkMacSystemFon
 
 // Add colors for talk categories
 $theme-colors: (
-    "talk": #76cc43,
-    "tutorial": #6489ed,
+    "talk": grey,
+    "tutorial": pink,
+    "plenary": teal,
+    "special": beige,
+    "social": white
 );
 
 

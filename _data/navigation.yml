@@ -9,8 +9,8 @@
     - name: Program
       relative_url: /program/
       # menu:
-      # - name: Schedule
-      #   relative_url: /program/
+    - name: Schedule
+      relative_url: /schedule/
       # - name: Invited Talks
       #   relative_url: /talks/
       # - name: Social Events

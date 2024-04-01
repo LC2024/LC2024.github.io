@@ -35,9 +35,11 @@
           <tr>
             <th scope="col" class="col-title text-right">#<span class="invisible">I0</span></th>
             <th class="col-space p-0" scope="col"></th>
+            {%- assign col_span_nr = -1 -%}
             {%- assign nbr_rooms = d.rooms | size -%}
             {%- for r in d.rooms -%}
               {%- assign room = site.rooms | where: 'name', r.name | first %}
+              {%- assign col_span_nr = col_span_nr | plus: 2 -%}
               <th scope="col" class="text-center">
                 {%- if room.hide or site.conference.location.hide -%}
                   {{- room.name -}}
@@ -106,79 +108,131 @@
               {%- endif %}
               <td class="col-space p-0"></td>
 
-              {%- for r in d.rooms -%}
-                {%- assign room = site.rooms | where: 'name', r.name | first -%}
-
-                {%- assign active_talk = false -%}
-                {%- for t in r.talks -%}
+              <!-- See if there is a social. If so, do something special. -->
+              {%- assign r = d.rooms | first -%}
+              {%- assign room = site.rooms | where: 'name', r.name | first -%}
+  
+              {%- assign found_talk = false -%}
+              {%- for t in r.talks -%}
                   {%- assign talk = site.talks | where: 'name', t.name | first -%}
-
+  
                   {%- include partials/get_talk_time.html -%}
-
+  
                   {%- assign d_start_hour = current_day | minus: talk_start_day | times: 24 | plus: current_hour | minus: talk_start_hour -%}
                   {%- assign d_start_min = current_min | minus: talk_start_min -%}
                   {%- assign d_end_hour = current_day | minus: talk_end_day | times: 24 | plus: current_hour | minus: talk_end_hour -%}
                   {%- assign d_end_min = current_min | minus: talk_end_min -%}
-
+  
                   {%- assign has_started = false -%}
                   {%- if d_start_hour == 0 and d_start_min > 0 -%}
-                    {%- assign has_started = true -%}
+                  {%- assign has_started = true -%}
                   {%- endif -%}
                   {%- if d_start_hour > 0 -%}
-                    {%- assign has_started = true -%}
+                  {%- assign has_started = true -%}
                   {%- endif -%}
-
+  
                   {%- assign has_ended = false -%}
                   {%- if d_end_hour == 0 and d_end_min >= 0 -%}
-                    {%- assign has_ended = true -%}
+                  {%- assign has_ended = true -%}
                   {%- endif -%}
                   {%- if d_end_hour > 0 -%}
-                    {%- assign has_ended = true -%}
+                  {%- assign has_ended = true -%}
                   {%- endif -%}
-
-                  {%- if has_started == true and has_ended == false -%}
-                    {%- assign active_talk = true -%}
-                  {%- endif -%}
-
+  
                   {%- if d_start_hour == 0 and d_start_min == 0 -%}
+                  {%- assign found_talk = true -%}
+                  {%- assign the_talk = t -%}
+                  {%- endif -%}
+              {%- endfor %}
 
-                    {%- assign talk_nbr_steps = talk_duration_min | divided_by: site.conference.program.time_steps -%}
-                    {%- include partials/get_main_category.html -%}
-                    <td rowspan="{{ talk_nbr_steps }}" class="alert alert-{{ main_cat_color }} shadow-sm overflow-hidden" style="z-index: {{ z-index-max | minus: i }}">
+              {%- assign t = the_talk -%}
+              {%- assign talk = site.talks | where: 'name', t.name | first -%}
+              {%- include partials/get_talk_time.html -%}
+              {%- include partials/get_main_category.html -%}
 
-                      {%- assign live_button_styleclass = "mb-2" %}
-                      {%- include partials/show_live_button.html %}
+              {%- if found_talk and main_cat == "Social" -%}
+                {%- assign talk_nbr_steps = talk_duration_min | divided_by: site.conference.program.time_steps -%}
+              <td rowspan="{{ talk_nbr_steps }}" colspan="{{ col_span_nr }}" class="alert alert-{{ main_cat_color }} shadow-sm overflow-hidden" style="z-index: {{ z-index-max | minus: i }}; text-align: center; vertical-align: middle">
+                  {{ talk.type }}
+              </td>
 
-                      <p class="mb-2">
-                        {%- include partials/show_talk.html %}
-                      </p>
-                      {% if talk.chairs %}
-                      <p class="font-weight-light mb-2">
-                          {%- include partials/list_chairs.html %}
-                      </p>
-                      {% endif %}
-                      <p class="font-weight-light mb-2">
-                        {%- include partials/list_speakers.html %}
-                      </p>
-                      <p class="mb-1">
-                        {%- include partials/list_sub_categories.html %}
-                      </p>
-                    </td>
-                    {%- assign active_talk = true %}
+              {%- else -%}
+              <!-- This is not a social. Just do the regular thing! -->
 
-                  {%- endif %}
+                {%- for r in d.rooms -%}
+                    {%- assign room = site.rooms | where: 'name', r.name | first -%}
+
+                    {%- assign active_talk = false -%}
+                    {%- for t in r.talks -%}
+                    {%- assign talk = site.talks | where: 'name', t.name | first -%}
+
+                    {%- include partials/get_talk_time.html -%}
+
+                    {%- assign d_start_hour = current_day | minus: talk_start_day | times: 24 | plus: current_hour | minus: talk_start_hour -%}
+                    {%- assign d_start_min = current_min | minus: talk_start_min -%}
+                    {%- assign d_end_hour = current_day | minus: talk_end_day | times: 24 | plus: current_hour | minus: talk_end_hour -%}
+                    {%- assign d_end_min = current_min | minus: talk_end_min -%}
+
+                    {%- assign has_started = false -%}
+                    {%- if d_start_hour == 0 and d_start_min > 0 -%}
+                        {%- assign has_started = true -%}
+                    {%- endif -%}
+                    {%- if d_start_hour > 0 -%}
+                        {%- assign has_started = true -%}
+                    {%- endif -%}
+
+                    {%- assign has_ended = false -%}
+                    {%- if d_end_hour == 0 and d_end_min >= 0 -%}
+                        {%- assign has_ended = true -%}
+                    {%- endif -%}
+                    {%- if d_end_hour > 0 -%}
+                        {%- assign has_ended = true -%}
+                    {%- endif -%}
+
+                    {%- if has_started == true and has_ended == false -%}
+                        {%- assign active_talk = true -%}
+                    {%- endif -%}
+
+                    {%- if d_start_hour == 0 and d_start_min == 0 -%}
+
+                        {%- assign talk_nbr_steps = talk_duration_min | divided_by: site.conference.program.time_steps -%}
+                        {%- include partials/get_main_category.html -%}
+                        <td rowspan="{{ talk_nbr_steps }}" class="alert alert-{{ main_cat_color }} shadow-sm overflow-hidden" style="z-index: {{ z-index-max | minus: i }}">
+
+                        {%- assign live_button_styleclass = "mb-2" %}
+                        {%- include partials/show_live_button.html %}
+
+                        <p class="mb-2">
+                            {%- include partials/show_talk.html %}
+                        </p>
+                        {% if talk.chairs %}
+                        <p class="font-weight-light mb-2">
+                            {%- include partials/list_chairs.html %}
+                        </p>
+                        {% endif %}
+                        <p class="font-weight-light mb-2">
+                            {%- include partials/list_speakers.html %}
+                        </p>
+                        <p class="mb-1">
+                            {%- include partials/list_sub_categories.html %}
+                        </p>
+                        </td>
+                        {%- assign active_talk = true %}
+
+                    {%- endif %}
+
+                    {%- endfor %}
+
+                    {%- unless active_talk == true or main_cat == "Social" %}
+                    <td class="p-0"></td>
+                    {%- endunless -%}
+
+                    {%- if forloop.last != true and main_cat != "Social" %}
+                    <td class="col-space p-0"></td>
+                    {%- endif -%}
 
                 {%- endfor %}
-
-                {%- unless active_talk == true %}
-                  <td class="p-0"></td>
-                {%- endunless -%}
-
-                {%- if forloop.last != true %}
-                  <td class="col-space p-0"></td>
-                {%- endif -%}
-
-              {%- endfor %}
+             {%- endif -%}
 
             </tr>
           {%- endfor %}

@@ -56,5 +56,6 @@ if __name__ == "__main__":
 
     text = yaml.dump(program)
     text = text.replace("09:00", "\'09:00\'")
+    text = text.replace("08:30", "\'08:30\'")
 
     print(text)

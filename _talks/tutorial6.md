@@ -9,7 +9,7 @@ time_end: '11:00'
 talk_date: 2024-06-27
 room: J222
 ---
-he notion of well quasi-order (WQO) is a natural generalization
+The notion of well quasi-order (WQO) is a natural generalization
 of that of well-order to partial orders. Simply put, a partial order is
 a WQO if it is well-founded and all its antichains are finite. Several
 equivalent characterizations of WQO show that the notion is actually

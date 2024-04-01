@@ -7,10 +7,10 @@ days:
     - name: Models of arithmetic that satisfy more collection than induction
       time_end: '10:00'
       time_start: '09:00'
-    - name: Tutorial 1
+    - name: Model theory of tame classes of finite structures I
       time_end: '11:00'
       time_start: '10:00'
-    - name: Tutorial 2
+    - name: Model theory of tame classes of finite structures II
       time_end: '12:30'
       time_start: '11:30'
 - date: 2024-06-25
@@ -26,12 +26,20 @@ days:
     - name: Contributed Talks 2
       time_end: '18:00'
       time_start: '16:30'
+  - name: J330
+    talks:
+    - name: Special Session 4
+      time_end: '16:00'
+      time_start: '14:00'
+    - name: Contributed Talks 1
+      time_end: '18:00'
+      time_start: '16:30'
   - name: J222
     talks:
     - name: Structural highness notions
       time_end: '10:00'
       time_start: '09:00'
-    - name: Tutorial 3
+    - name: Model theory of tame classes of finite structures III
       time_end: '11:00'
       time_start: '10:00'
     - name: From Dependent Types to Natural Language Semantics
@@ -45,14 +53,6 @@ days:
     - name: Contributed Talks 4
       time_end: '18:00'
       time_start: '16:30'
-  - name: J330
-    talks:
-    - name: Special Session 4
-      time_end: '16:00'
-      time_start: '14:00'
-    - name: Contributed Talks 1
-      time_end: '18:00'
-      time_start: '16:30'
 - date: 2024-06-26
   name: Wednesday
   rooms:
@@ -61,10 +61,10 @@ days:
     - name: Recent advances in higher-order automata and profinite lambda-calculus
       time_end: '10:00'
       time_start: '09:00'
-    - name: Tutorial 4
+    - name: WQOs and BQOs in logic I
       time_end: '11:00'
       time_start: '10:00'
-    - name: Tutorial 5
+    - name: WQOs and BQOs in logic II
       time_end: '12:30'
       time_start: '11:30'
 - date: 2024-06-27
@@ -100,10 +100,10 @@ days:
     - name: When any three solutions are independent
       time_end: '10:00'
       time_start: '09:00'
-    - name: Tutorial 8
+    - name: An exploration of proof mining II
       time_end: '11:00'
       time_start: '10:00'
-    - name: Tutorial 9
+    - name: An exploration of proof mining III
       time_end: '12:30'
       time_start: '11:30'
 

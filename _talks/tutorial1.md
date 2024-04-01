@@ -1,7 +1,7 @@
 ---
-name: 'Tutorial 1'
+name: Model theory of tame classes of finite structures I
 speakers:
-  - TBA
+  - Anuj Dawar
 categories:
   - Tutorial
 time_start: '10:00'

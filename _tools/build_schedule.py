@@ -4,6 +4,8 @@ import os
 import re
 import datetime
 
+room_order = ['J222', 'J330', 'J335', 'J336', 'J431']
+
 if __name__ == "__main__":
     if len(argv) < 2:
         print("Usage: python {} <_talks directory>".format(argv[0]))
@@ -42,10 +44,12 @@ if __name__ == "__main__":
         talks_today = list(filter(lambda t: t["talk_date"] == day, talks))
         talks_today.sort(key=lambda t:t["parsed_start"])
         rooms = set([t["room"] for t in talks_today])
-        for room in rooms:
-            room_list = [{"name": t["name"], "time_start": t["time_start"], "time_end": t["time_end"]}
-                           for t in filter(lambda t: t["room"] == room, talks_today)]
+        for room in room_order:
+            if not room in rooms:
+                continue
 
+            room_list = [{"name": t["name"], "time_start": t["time_start"], "time_end": t["time_end"]}
+                        for t in filter(lambda t: t["room"] == room, talks_today)]
             data["rooms"].append({"name": room, "talks": room_list})
 
         program["days"].append(data)

@@ -1,7 +1,16 @@
 ---
-name: Special Session 3
+name: Computable Structures
+chairs:
+  - Uri Andrews
+  - Julia Knight
 speakers:
-  - TBA
+  - Meng-Che (Turbo) Ho
+  - Matthew Harrison-Trainor
+  - David Gonzalez
+talks:
+  - Decision problems for groups as equivalence relations
+  - Title TBA (Matthew Harrison-Trainor)
+  - Generically computable linear orderings
 categories:
   - Special Session
 time_start: '14:00'

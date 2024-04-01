@@ -1,7 +1,16 @@
 ---
-name: Special Session 4
+name: Logic, Language and Computation
+chairs:
+  - Robin Cooper
+  - Stergios Chatzikyriakidis
 speakers:
-  - TBA
+  - Kristina Liefke
+  - Zhaohui Luo
+  - Peter Sutton
+talks:
+  - Reduction and unification in (typed) natural language ontology
+  - 'Common nouns as types: Higher inductive types in type-theoretical semantics'
+  - The challenge of polysemy for natural language semantics
 categories:
   - Special Session
 time_start: '14:00'

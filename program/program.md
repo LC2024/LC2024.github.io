@@ -229,7 +229,7 @@ The 2024 Gödel lecture will be delivered by
 
 - [Agata Ciabattoni](https://www.logic.at/staff/agata/), Technische Universität Wien
 - [Andrzej Indrzejczak](https://www.filozofia.uni.lodz.pl/en/translate-to-english-andrzej-indrzejczak), University of Łódź: _Do theories of definite descriptions support Anselm’s God?_
-- [Johannes Stern](https://johannesstern.github.io), University of Bristol
+- [Johannes Stern](https://johannesstern.github.io), University of Bristol: _Truth, Conditionals, and Hyperintensionality_
 
 
 **Proof Theory**, chairs: [Anton Freund](https://www.mathematik.uni-wuerzburg.de/mathematicallogic/team/freund-anton/) and [Sonia Marin](https://filipendule.github.io/)

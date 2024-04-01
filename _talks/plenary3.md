@@ -1,7 +1,7 @@
 ---
-name: Plenary talk 3
+name: From Dependent Types to Natural Language Semantics
 speakers:
-  - TBA
+  - Daisuke Bekki
 categories:
   - Plenary Talk
 time_start: '11:30'

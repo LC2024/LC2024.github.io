@@ -7,7 +7,7 @@ import datetime
 if __name__ == "__main__":
     if len(argv) < 2:
         print("Usage: python {} <_talks directory>".format(argv[0]))
-        exit(0)
+        exit(1)
 
     talks_dir = argv[1]
 

@@ -34,41 +34,21 @@
   </p>
 
   <div class="mb-3 p-0">
-    {% for d in site.data.program.days -%}
-      {%- include partials/get_day_hash.html -%}
-      {%- for r in d.rooms -%}
-        {%- for t in r.talks -%}
-          {%- if talk.name == t.name -%}
 
-            {%- if site.conference.live -%}
-              {%- include partials/get_talk_timestamp.html -%}
-              <span class="live-hide" data-start="{{ timestamp_start }}" data-end="{{ timestamp_end }}">
-            {%- endif -%}
+    <span class="badge badge-light font-weight-normal text-left">
+        <i class="far fa-clock"></i>&nbsp;
+        {{ talk.talk_date | date: "%A" }}, {{ talk.time_start }}, {{ talk.room }}
+    </span>
 
-            {%- include partials/get_time_pronoun.html -%}
-            {%- include partials/get_talk_time.html -%}
-            <span class="d-none d-sm-inline">
-              {{- time_pronoun -}}
-            </span> {% include partials/show_talk_time.html -%}
+    {%- if site.conference.live -%}
+        </span>
+        {%- include partials/show_live_button.html -%}
+    {%- endif -%}
 
-            {%- if site.conference.live -%}
-              </span>
-              {%- include partials/show_live_button.html -%}
-            {%- endif -%}
-
-            {%- assign room = site.rooms | where: 'name', r.name | first -%}
-            <span class="d-none d-sm-inline ml-1">
-              {{- site.data.lang[site.conference.lang].pronoun.in | default: "in" -}}
-            </span> {% include partials/show_room.html -%}
-
-            <span class="d-none d-sm-inline ml-1">
-              {{- site.data.lang[site.conference.lang].pronoun.for | default: "for" -}}
-            </span> {% include partials/show_talk_duration.html -%}
-
-          {% endif %}
-        {% endfor %}
-      {% endfor %}
-    {% endfor %}
+    {%- assign room = site.rooms | where: 'name', r.name | first -%}
+    <span class="d-none d-sm-inline ml-1">
+        {{- site.data.lang[site.conference.lang].pronoun.in | default: "in" -}}
+    </span> {% include partials/show_room.html -%}
   </div>
 
   {{ content }}
@@ -126,7 +106,7 @@
             <td class="pr-2 py-0">
                 <span class="badge badge-light font-weight-normal text-left w-100">
                     <i class="far fa-clock"></i>&nbsp;
-                    {{ talk.talk_date | date: "%A" }}, {{ talk.time_start }}, {{ talk.room }}
+                    {{ talk.time_start }}
                 </span>
             </td>
             <td class="pl-2 py-0 align-baseline border-soft-{{ main_cat_color }}">

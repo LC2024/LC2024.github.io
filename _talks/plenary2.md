@@ -1,7 +1,7 @@
 ---
-name: Plenary talk 2
+name: Structural highness notions
 speakers:
-  - TBA
+  - Johanna Franklin
 categories:
   - Plenary Talk
 time_start: '09:00'
@@ -9,3 +9,7 @@ time_end: '10:00'
 talk_date: 2024-06-25
 room: J222
 ---
+
+In computability theory, highness indicates maximal computational strength. We will develop the theory of highness in the context of computable structure theory. First, we will present some general results, and then we will turn to highness for structures such as Harrison orders and ill-founded linear orders. Finally, we will discuss the way the relationships between these concepts change when we restrict the functions that we use to find these isomorphisms.
+
+This work is joint with Wesley Calvert and Dan Turetsky.

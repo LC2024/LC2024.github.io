@@ -96,11 +96,11 @@
             <tr>
 
               {%- if current_min == 0 -%}
-                <th scope="row" class="col-title text-right" style="z-index: {{ z-index-max }}">
+                <th scope="row" class="col-title text-right pt-0" style="z-index: {{ z-index-max }}">
                   {{- current_time -}}
                 </th>
               {%- elsif site.conference.program.show_alltimes -%}
-                <th scope="row" class="col-title text-right text-muted font-weight-normal" style="z-index: {{ z-index-max }}">
+                <th scope="row" class="col-title text-right text-muted font-weight-normal pt-0" style="z-index: {{ z-index-max }}">
                   :{{ current_min }}
                 </th>
               {%- else -%}
@@ -202,17 +202,19 @@
                         {%- assign live_button_styleclass = "mb-2" %}
                         {%- include partials/show_live_button.html %}
 
-                        <p class="mb-2">
+                        <!-- <p class="mb-2"> -->
+                        <h5 class="mt-0 mb-2">
                             {%- include partials/show_talk.html %}
+                        <!-- </p> -->
+                        </h5>
+                        <p class="font-weight-light mb-0">
+                            {%- include partials/list_speakers.html %}
                         </p>
                         {% if talk.chairs %}
-                        <p class="font-weight-light mb-2">
+                        <p class="font-weight-light mt-2 mb-2">
                             {%- include partials/list_chairs.html %}
                         </p>
                         {% endif %}
-                        <p class="font-weight-light mb-2">
-                            {%- include partials/list_speakers.html %}
-                        </p>
                         <p class="mb-1">
                             {%- include partials/list_sub_categories.html %}
                         </p>

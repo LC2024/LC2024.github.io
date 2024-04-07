@@ -1,5 +1,5 @@
 ---
-name: Title TBA (Agata Ciabattoni)
+name: TBA
 speakers:
   - Agata Ciabattoni
 categories:

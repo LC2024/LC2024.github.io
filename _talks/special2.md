@@ -8,7 +8,7 @@ speakers:
   - Andrzej Indrzejczak
   - Johannes Stern
 talks:
-  - Title TBA (Agata Ciabattoni)
+  - TBA
   - Do theories of definite descriptions support Anselm’s God?
   - Truth, Conditionals, and Hyperintensionality
 categories:

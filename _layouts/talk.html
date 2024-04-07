@@ -24,14 +24,16 @@
 
   <h1 class="font-weight-light">{{ talk.name }}</h1>
 
+  {%- unless talk.talks -%}
+  <p class="mb-3 font-weight-light">
+    {% include partials/list_speakers.html %}
+  </p>
+  {%- endunless -%}
   {% if talk.chairs %}
   <p class="font-weight-light mb-3">
       {%- include partials/list_chairs.html %}
   </p>
   {% endif %}
-  <p class="mb-3 font-weight-light">
-    {% include partials/list_speakers.html %}
-  </p>
 
   <div class="mb-3 p-0">
 
@@ -96,6 +98,7 @@
     <table class="list-program">
         {%- for talk_name in old_talk.talks -%}
         {%- assign talk = site.talks | where: 'name', talk_name | first %}
+        {%- assign speaker = talk.speakers | first %}
 
         <tr>
             <td class="pr-2 py-0">
@@ -106,7 +109,7 @@
             </td>
             <td class="pl-2 py-0 align-baseline border-soft-{{ main_cat_color }}">
                 <span class="mr-2">
-                    {%- include partials/show_talk.html -%}
+                    {{ speaker }}, {%- include partials/show_talk.html -%}
                 </span>
             </td>
         </tr>

@@ -3,13 +3,16 @@
     Speakers:
 </span>
 {% endif %}
-{% for speaker_name in talk.speakers -%}
+
+{% if talk.speakers.size < 2 %}
+  {% assign speaker_name = talk.speakers | first -%}
   {%- assign speaker = site.speakers | where: 'name', speaker_name | first -%}
   {%- if site.conference.speakers.show_firstname -%}
     {%- assign speaker_short = speaker.first_name | append: ' ' | append: speaker.last_name -%}
   {%- else -%}
     {%- assign speaker_short = speaker.first_name | slice: 0 | append : '. ' | append: speaker.last_name -%}
   {%- endif -%}
+  {%- assign affil = speaker.affiliation -%}
 
   {%- if speaker.hide or include.text_only -%}
     {{- speaker_short -}}
@@ -18,10 +21,31 @@
       {{- speaker_short -}}
     </a>
   {%- endif -%}
+{% else %}
+  <ul class="speakers-of-talk">
+  {% for speaker_name in talk.speakers -%}
+    {%- assign speaker = site.speakers | where: 'name', speaker_name | first -%}
+    {%- if site.conference.speakers.show_firstname -%}
+      {%- assign speaker_short = speaker.first_name | append: ' ' | append: speaker.last_name -%}
+    {%- else -%}
+      {%- assign speaker_short = speaker.first_name | slice: 0 | append : '. ' | append: speaker.last_name -%}
+    {%- endif -%}
 
-  {%- unless forloop.last %}
-    {%- assign forloop_index_before_last = talk.speakers.size | minus: 1 -%}
-    {% if forloop.index == forloop_index_before_last and include.text_only %} {{ site.data.lang[site.conference.lang].pronoun.and | default: 'and' }} {% else %}, {% endif -%}
-  {%- endunless -%}
+    {%- assign talk_title = talk.talks[forloop.index0] -%}
 
-{%- endfor -%}
+    <li>
+      {%- if speaker.hide or include.text_only -%}
+        {{- speaker_short -}}
+      {%- else -%}
+        <a class="text-reset" href="{{ speaker.url | prepend: site.baseurl }}">
+          {{- speaker_short -}}
+        </a>
+      {%- endif -%}
+    </li>
+    <!-- {%- unless forloop.last %}
+      {%- assign forloop_index_before_last = talk.speakers.size | minus: 1 -%}
+      {% if forloop.index == forloop_index_before_last and include.text_only %} {{ site.data.lang[site.conference.lang].pronoun.and | default: 'and' }} {% else %}, {% endif -%}
+    {%- endunless -%} -->
+  {%- endfor -%}
+  </ul>
+{%- endif -%}

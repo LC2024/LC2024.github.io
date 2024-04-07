@@ -148,6 +148,11 @@ main.container img {
   }
 }
 
+//   Row height
+.table tr {
+    // max-height: 60px;
+    height: 20px;
+}
 //   Column Width
 .table {
   // First row defines width for all columns
@@ -161,7 +166,7 @@ main.container img {
     // Total available container width is 1110px
 
     // Width of columns with content (default)
-    width: 245px;
+    width: 275px;
     min-width: 245px;
 
     // Spacing between columns
@@ -226,6 +231,11 @@ main.container img {
   .speakerlist {
     column-count: 3;
   }
+}
+
+// Speaker list in schedue
+.speakers-of-talk {
+  padding-inline-start: 20px;
 }
 
 

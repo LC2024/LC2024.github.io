@@ -93,19 +93,32 @@
               {%- assign current_time = current_hour | append: ':' | append: current_min -%}
             {%- endif -%}
 
-            <tr>
+            {%- assign talk_starting = false -%}
+            <!-- very slow: populate a talk-start-end array instead? -->
+            {%- for r in d.rooms -%}
+              {%- for t in r.talks -%}
+                {%- include partials/get_talk_time.html -%}
 
-              {%- if current_min == 0 -%}
-                <th scope="row" class="col-title text-right pt-0" style="z-index: {{ z-index-max }}">
-                  {{- current_time -}}
-                </th>
-              {%- elsif site.conference.program.show_alltimes -%}
-                <th scope="row" class="col-title text-right text-muted font-weight-normal pt-0" style="z-index: {{ z-index-max }}">
-                  :{{ current_min }}
-                </th>
-              {%- else -%}
-                <th scope="row" class="col-title" style="z-index: {{ z-index-max }}"></th>
-              {%- endif %}
+                {%- if talk_start_hour == current_hour and talk_start_min == current_min -%}
+                  {%- assign talk_starting = true -%}
+                  {%- break -%}<!-- found a starting talk -->
+                {%- endif -%}
+              {%- endfor -%}
+            {%- endfor -%}
+
+            {%- if talk_starting or site.conference.program.show_alltimes -%}
+              {%- assign row-style = "" -%}
+              {%- assign display_time = current_time -%}
+            {%- else -%}
+              {%- assign row-style = "minor-row text-muted font-weight-normal" -%}
+              {%- assign display_time = "" -%}
+            {%- endif -%}
+
+            <tr class="{{ row-style }}">
+              <th scope="row" class="col-title text-right pt-0" style="z-index: {{ z-index-max }}">
+                <!-- print time at start & hours -->
+                {{- display_time -}}
+              </th>
               <td class="col-space p-0"></td>
 
               <!-- See if there is a social. If so, do something special. -->
@@ -151,10 +164,10 @@
               {%- include partials/get_main_category.html -%}
 
               {%- if found_talk and main_cat == "Social" -%}
-                {%- assign talk_nbr_steps = talk_duration_min | divided_by: site.conference.program.time_steps -%}
-              <td rowspan="{{ talk_nbr_steps }}" colspan="{{ col_span_nr }}" class="alert alert-{{ main_cat_color }} shadow-sm overflow-hidden" style="z-index: {{ z-index-max | minus: i }}; text-align: center; vertical-align: middle">
-                  {{ talk.type }}
-              </td>
+                {%- assign talk_nbr_steps = talk_duration_min | divided_by: site.conference.program.time_steps | at_least: 1 -%}
+                <td rowspan="{{ talk_nbr_steps }}" colspan="{{ col_span_nr }}" class="alert alert-{{ main_cat_color }} shadow-sm overflow-hidden" style="z-index: {{ z-index-max | minus: i }}; text-align: center; vertical-align: middle">
+                    {{ talk.type }}
+                </td>
 
               {%- else -%}
               <!-- This is not a social. Just do the regular thing! -->
@@ -195,7 +208,7 @@
 
                     {%- if d_start_hour == 0 and d_start_min == 0 -%}
 
-                        {%- assign talk_nbr_steps = talk_duration_min | divided_by: site.conference.program.time_steps -%}
+                        {%- assign talk_nbr_steps = talk_duration_min | divided_by: site.conference.program.time_steps | at_least: 1 -%}
                         {%- include partials/get_main_category.html -%}
                         <td rowspan="{{ talk_nbr_steps }}" class="alert alert-{{ main_cat_color }} shadow-sm overflow-hidden" style="z-index: {{ z-index-max | minus: i }}">
 
@@ -203,21 +216,23 @@
                         {%- include partials/show_live_button.html %}
 
                         <!-- <p class="mb-2"> -->
-                        <h5 class="mt-0 mb-2">
+                        <h5 class="mt-0">
                             {%- include partials/show_talk.html %}
                         <!-- </p> -->
                         </h5>
-                        <p class="font-weight-light mb-0">
+                        <p class="font-weight-light my-2">
                             {%- include partials/list_speakers.html %}
                         </p>
                         {% if talk.chairs %}
-                        <p class="font-weight-light mt-2 mb-2">
+                        <p class="font-weight-light my-2">
                             {%- include partials/list_chairs.html %}
                         </p>
                         {% endif %}
-                        <p class="mb-1">
+                        {%- unless main_cat_hide -%}
+                        <p class="m-1 bottom-right">
                             {%- include partials/list_sub_categories.html %}
                         </p>
+                        {%- endunless -%}
                         </td>
                         {%- assign active_talk = true %}
 
@@ -252,10 +267,12 @@
 
   {%- if site.conference.talks.main_categories %}
     <h5 class="mt-4">{{ site.data.lang[site.conference.lang].program.legend | default: "Caption" }}</h5>
-      {%- for main_cat in site.conference.talks.main_categories %}
+      {%- for main_cat in site.conference.talks.main_categories -%}
+      {%- unless main_cat.hide %}
         <div class="d-block d-sm-inline-block m-1 p-1 pl-2 pr-2 border-soft-{{ main_cat.color }} bg-soft-{{ main_cat.color }} font-weight-normal">
           {{- main_cat.name -}}
         </div>
+      {%- endunless -%}
       {%- endfor -%}
   {%- endif -%}
 

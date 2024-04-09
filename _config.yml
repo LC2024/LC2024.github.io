@@ -131,6 +131,9 @@ conference:
         color: plenary
       - name: Special Session
         color: special
+      - name: Opening
+        color: plenary
+        hide: true
       - name: Social
         color: social
 
@@ -156,7 +159,8 @@ conference:
     url: '/schedule'
 
     # Time steps in program table
-    time_steps: 30 # in minutes
+    time_steps: 10 # in minutes
 
     # Show intermediary time steps (next to full hours)
-    show_alltimes: true
+    show_alltimes: false
+

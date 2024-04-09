@@ -5,8 +5,11 @@ days:
   - name: J222
     talks:
     - name: Registration
-      time_end: '09:00'
       time_start: '08:30'
+      time_end: '08:50'
+    - name: Opening
+      time_start: '08:50'
+      time_end: '09:00'
     - name: Models of arithmetic that satisfy more collection than induction
       time_end: '10:00'
       time_start: '09:00'

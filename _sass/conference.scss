@@ -121,15 +121,32 @@ main.container img {
 
 // Program
 
+.minor-row {
+  td, th {
+    border-top-width: 0px;
+  }
+}
+
+.bottom-right {
+  position: absolute; 
+  right: 0; 
+  bottom: 0;
+}
+
 //   Sticky header and first column
 .table {
   // Avoid sticky cells without border
   border-collapse: separate;
 
+
   // Correct border-width caused by border-collapse
   border-spacing: 0px;
   tbody tr:first-of-type > * {
     border-top-width: 0px;
+  }
+
+  th {
+    font-weight: bold;
   }
 
   // Sticky horizontal positioning
@@ -167,7 +184,7 @@ main.container img {
 
     // Width of columns with content (default)
     width: 275px;
-    min-width: 245px;
+    min-width: 245px; // space for 4 columns?
 
     // Spacing between columns
     &.col-space {

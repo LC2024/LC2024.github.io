@@ -4,7 +4,7 @@ import os
 import re
 import datetime
 
-room_order = ['J222', 'J330', 'J335', 'J336', 'J431']
+room_order = ['J222', 'J330', 'J335', 'J336', 'J431', 'J439']
 
 if __name__ == "__main__":
     if len(argv) < 2:
@@ -57,5 +57,6 @@ if __name__ == "__main__":
     text = yaml.dump(program)
     text = text.replace("09:00", "\'09:00\'")
     text = text.replace("08:30", "\'08:30\'")
+    text = text.replace("08:50", "\'08:50\'")
 
     print(text)

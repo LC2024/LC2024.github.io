@@ -98,7 +98,8 @@
     <table class="list-program">
         {%- for talk_name in old_talk.talks -%}
         {%- assign talk = site.talks | where: 'name', talk_name | first %}
-        {%- assign speaker = talk.speakers | first %}
+        {%- assign speaker_name = talk.speakers | first %}
+        {%- assign speaker = site.speakers | where: 'name', speaker_name | first -%}
 
         <tr>
             <td class="pr-2 py-0">
@@ -109,7 +110,12 @@
             </td>
             <td class="pl-2 py-0 align-baseline border-soft-{{ main_cat_color }}">
                 <span class="mr-2">
-                    {{ speaker }}, {%- include partials/show_talk.html -%}
+                    <span>
+                        <a class="text-reset" href="{{ speaker.url | prepend: site.baseurl }}">
+                            {{- speaker_name -}}
+                        </a>,
+                    </span>
+                    {%- include partials/show_talk.html -%}
                 </span>
             </td>
         </tr>

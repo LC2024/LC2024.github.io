@@ -126,6 +126,7 @@
               {%- assign room = site.rooms | where: 'name', r.name | first -%}
   
               {%- assign found_talk = false -%}
+              {%- assign active_talk = false -%}
               {%- for t in r.talks -%}
                   {%- assign talk = site.talks | where: 'name', t.name | first -%}
   
@@ -151,6 +152,12 @@
                   {%- if d_end_hour > 0 -%}
                   {%- assign has_ended = true -%}
                   {%- endif -%}
+
+                  
+                  {%- if has_started == true and has_ended == false -%}
+                    {%- assign active_talk = true -%}
+                    {%- assign the_talk = t -%}
+                  {%- endif -%}
   
                   {%- if d_start_hour == 0 and d_start_min == 0 -%}
                   {%- assign found_talk = true -%}
@@ -169,6 +176,8 @@
                     {{ talk.type }}
                 </td>
 
+              {%- elsif active_talk and main_cat == "Social" %}
+
               {%- else -%}
               <!-- This is not a social. Just do the regular thing! -->
 
@@ -176,6 +185,7 @@
                     {%- assign room = site.rooms | where: 'name', r.name | first -%}
 
                     {%- assign active_talk = false -%}
+                    {%- assign current_social = false -%}
                     {%- for t in r.talks -%}
                     {%- assign talk = site.talks | where: 'name', t.name | first -%}
 
@@ -203,6 +213,7 @@
                     {%- endif -%}
 
                     {%- if has_started == true and has_ended == false -%}
+                        <!-- Active talk! -->
                         {%- assign active_talk = true -%}
                     {%- endif -%}
 
@@ -240,11 +251,11 @@
 
                     {%- endfor %}
 
-                    {%- unless active_talk == true or main_cat == "Social" %}
+                    {%- unless active_talk == true %}
                     <td class="p-0"></td>
                     {%- endunless -%}
 
-                    {%- if forloop.last != true and main_cat != "Social" %}
+                    {%- if forloop.last != true %}
                     <td class="col-space p-0"></td>
                     {%- endif -%}
 

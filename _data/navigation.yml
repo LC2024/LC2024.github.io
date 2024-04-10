@@ -14,7 +14,7 @@
       # - name: Invited Talks
       #   relative_url: /talks/
       # - name: Social Events
-      # disabled: true
+      disabled: true
     - name: People
       menu:
         # - name: Speakers

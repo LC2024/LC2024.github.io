@@ -62,7 +62,7 @@
 {%- endif -%}
 
 {%- capture link_tag -%}
-  {%- if link.disabled -%}
+  {%- if link_disabled -%}
     <a class="disabled{% if link_styleclass %} {{ link_styleclass }}{% endif %}" href="#">
 
   {%- elsif link_iframe -%}

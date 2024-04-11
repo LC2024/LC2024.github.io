@@ -9,7 +9,7 @@ speakers:
   - David Gonzalez
 talks:
   - Decision problems for groups as equivalence relations
-  - Title TBA (Matthew Harrison-Trainor)
+  - TBA 2
   - Generically computable linear orderings
 categories:
   - Special Session

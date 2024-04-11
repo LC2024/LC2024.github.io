@@ -1,5 +1,5 @@
 ---
-name: Title TBA (Matthew Harrison-Trainor)
+name: TBA 2
 speakers:
   - Matthew Harrison-Trainor
 categories:

@@ -244,3 +244,7 @@ The 2024 Gödel lecture will be delivered by
 - Tamás Kátay, Eötvös Loránd University, Budapest: _Generic properties of groups_
 - [Claudio Agostini](https://sites.google.com/view/claudioagostiniswebsite), Technische Universität Wien: _The key properties of metrizability for (generalized) descriptive set theory_
 - [Chris Lambie-Hanson](https://users.math.cas.cz/~lambiehanson/), Czech Academy of Sciences
+
+### Contributed Talks
+
+To be announced.

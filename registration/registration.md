@@ -6,12 +6,11 @@ permalink: /registration/
 
 The conference offers two registration categories:
 
-- Standard: **3500 SEK**. This applies to most participants.
-- Reduced: **2500 SEK**. For students, including PhD students, and unemployed.
+- Standard: **4500 SEK**. This applies to most participants.
+- Reduced: **3500 SEK**. For students, including PhD students, and unemployed.
 
-The registration fee above applies to payments received **by 17th April 2024** (deadline for early registration). 
-After that date, registration is 4500 SEK (standard) and 3500 SEK (reduced).
-<!-- Late payment is open until **27th May 2024**.  -->
+The registration fee above applies to payments received **by 17th May 2024**.
+Early registration closed on 17th April.
 On-site payment is not possible.
 
 In order to register, please complete the following steps:

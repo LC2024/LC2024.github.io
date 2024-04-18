@@ -7,6 +7,7 @@ The colloquium will run for five days and comprise 3 tutorials, 7 plenary lectur
 
 ## Announcements
 
+- **Early registration has closed**. Standard registration is available until 17 May. [Link to registration page]({% link registration/registration.md %}).
 - **Registration open**. Proceed to the [registration page]({% link registration/registration.md %}) for information. Early registration is open until 17 April.
 - **Contributed talks**. Deadline extended to **8 March**. See the [submissions page]({% link contributed_talks/index.md %}).
 
@@ -17,7 +18,8 @@ The following times are in CET/CEST (Europe/Stockholm)
 - **8 March: Deadline for contributed talks**
 - 28 March: Notification of student travel grants
 - 2 April: Notification of acceptance of contributed talks
-- **17 April: Deadline for early registration**
+- 17 April: Deadline for early registration
+- **17 May: Deadline for registration**
 - 24–28 June: Logic Colloquium
 
 ## Sponsors

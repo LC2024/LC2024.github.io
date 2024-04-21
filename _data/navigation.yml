@@ -4,35 +4,39 @@
     img: 'LCLogo.svg'
     url: 'https://lc2024.se'
   links:
-    - name: CFC
-      relative_url: /contributed_talks/
     - name: Program
-      relative_url: /program/
-      # menu:
-    - name: Schedule
-      relative_url: /schedule/
-      # - name: Invited Talks
-      #   relative_url: /talks/
-      # - name: Social Events
-      disabled: true
-    - name: People
       menu:
-        # - name: Speakers
-        #   relative_url: /speakers/
+        - name: Overview
+          relative_url: /program/
+          # - name: Invited Talks
+          #   relative_url: /talks/
+          # - name: Social Events
+        - name: Schedule
+          relative_url: /schedule/
+          disabled: true
         - name: Committees
           relative_url: /committees/
-        - name: Trusted Person
-          relative_url: /code_of_conduct#trusted-person
+        - name: ASL Code of Conduct
+          relative_url: /code_of_conduct/
+    - name: Schedule
+      relative_url: /schedule/
+      disabled: true
     - name: Registration
       menu:
       - name: Registration
         relative_url: /registration/
       - name: Travel Support
         relative_url: /travel_grants/
-      - name: ASL Code of Conduct
-        relative_url: /code_of_conduct/
-    - name: Local Information
-      relative_url: /local_info/
+      # - name: ASL Code of Conduct
+      #   relative_url: /code_of_conduct/
+      # - name: Call for Contributions
+      #   relative_url: /contributed_talks/
+    - name: Local Infomation
+      menu:
+        - name: Venue
+          relative_url: /local_info/
+        - name: Trusted Person
+          relative_url: /code_of_conduct#trusted-person
     - name: Previous Editions
       menu:
         - name: LC2023

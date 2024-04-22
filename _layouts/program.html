@@ -217,6 +217,7 @@
                         {%- assign active_talk = true -%}
                     {%- endif -%}
 
+                    {%- include partials/get_main_category.html -%}
                     {%- if d_start_hour == 0 and d_start_min == 0 -%}
 
                         {%- assign talk_nbr_steps = talk_duration_min | divided_by: site.conference.program.time_steps | at_least: 1 -%}

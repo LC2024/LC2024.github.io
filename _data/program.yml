@@ -31,7 +31,7 @@ days:
     - name: Coffee 2
       time_end: '17:00'
       time_start: '16:00'
-    - name: "G\xF6del lecture"
+    - name: "G\xF6del Lecture: (Un)decidability in fields"
       time_end: '18:00'
       time_start: '17:00'
     - name: Reception

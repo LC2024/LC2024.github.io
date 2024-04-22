@@ -9,7 +9,7 @@ speakers:
   - David Gonzalez
 talks:
   - Decision problems for groups as equivalence relations
-  - TBA 2
+  - Interpretations, back-and-forth games, and group von Neumann algebras
   - Generically computable linear orderings
 categories:
   - Special Session

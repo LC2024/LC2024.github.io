@@ -11,7 +11,9 @@ if __name__ == "__main__":
     text = f.read()
     f.close()
 
-    source = re.search("(?sm)\\\\meetemail{.*?}(.*)\\\\end{document}", text)
+    # source = re.search("(?sm)\\\\meetemail{.*?}(.*)\\\\end{document}", text)
+    # source = re.search("(?sm)\\\\maketitle(.*)\\\\end{document}", text)
+    source = re.search("(?sm)\\\\thispagestyle{empty}(.*)\\\\end{document}", text)
     if not source:
         print("Error: Could not find source!", file=stderr)
         exit(1)

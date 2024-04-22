@@ -8,7 +8,7 @@ speakers:
   - Andrzej Indrzejczak
   - Johannes Stern
 talks:
-  - TBA
+  - 'Normative Reasoning: from Sanskrit philosophy to AI'
   - Do theories of definite descriptions support Anselm’s God?
   - Truth, Conditionals, and Hyperintensionality
 categories:

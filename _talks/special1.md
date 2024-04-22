@@ -9,7 +9,7 @@ speakers:
   - Adele Padgett
 talks:
   - Ordered groups of regular growth rates
-  - Quasiminimality of complex functions
+  - Generic functions and qausiminimality
   - O-minimal definitions of the complex Gamma and Riemann Zeta functions
 categories:
   - Special Session

@@ -23,6 +23,3 @@ Anselm's ontological arguments, and its later variants proposed by such eminent 
 4. P. E. Oppenheimer and E. N. Zalta, On the Logic of the Ontological Argument,**Philosophical Perspectives**, 5: 509-529, 1991.
 5. P. E. Oppenheimer and E. N. Zalta, A Computationally-Discovered Simplification of the Ontological Argument, **Australasian Journal of Philosophy**, 89: 333-349, 2011.
 6. A. Plantinga, The Nature of Necessity, Oxford: Oxford UniversityPress 1974.
-
-
-

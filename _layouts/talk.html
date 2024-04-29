@@ -73,7 +73,7 @@
   {% endif %}
 
   {% if has_regular_links %}
-    <h5 class="mt-4 mb-1">{{ site.data.lang[site.conference.lang].more_information | default: "More information" }}:</h5>
+    <h3 class="mt-4 mb-1">{{ site.data.lang[site.conference.lang].more_information | default: "More information" }}:</h3>
 
     <ul class="list-unstyled">
       {% for link in talk.links %}
@@ -94,7 +94,7 @@
   {%- if talk.talks -%}
     {%- assign old_talk = talk -%}
 
-    <h5 class="mt-4 mb-0">Talks in this session:</h5>
+    <h2 class="mt-4 mb-0">Talks in this session</h2>
     <table class="list-program">
         {%- for talk_name in old_talk.talks -%}
         {%- assign talk = site.talks | where: 'name', talk_name | first %}
@@ -102,14 +102,15 @@
         {%- assign speaker = site.speakers | where: 'name', speaker_name | first -%}
 
         <tr>
-            <td class="pr-2 py-0">
+            <td class="pr-1 py-0 align-middle">
                 <span class="badge badge-light font-weight-normal text-left w-100">
                     <i class="far fa-clock"></i>&nbsp;
                     {{ talk.time_start }}
                 </span>
             </td>
-            <td class="pl-2 py-0 align-baseline border-soft-{{ main_cat_color }}">
-                <span class="mr-2">
+            <td class="pl-1 py-0">
+                <h3>
+                  <span class="mr-2">
                     <span>
                         <a class="text-reset" href="{{ speaker.url | prepend: site.baseurl }}">
                             {{- speaker_name -}}
@@ -117,7 +118,17 @@
                     </span>
                     {%- include partials/show_talk.html -%}
                 </span>
+                </h3>
             </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="pl-3 py-0 border-soft-{{ main_cat_color }}">
+            <span class="mr-2">
+              <!-- show abstract, offest heading levels ... -->
+              {{ talk.content | replace: 'h2', 'h4' | replace: 'h3', 'h5' }} 
+            </span>
+          </td>
         </tr>
         {%- endfor -%}
     </table>

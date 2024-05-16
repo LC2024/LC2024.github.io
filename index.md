@@ -25,6 +25,7 @@ The following times are in CET/CEST (Europe/Stockholm)
 ## Sponsors
 - [Association for Symbolic Logic](https://aslonline.org/)
 - [The Royal Society of Arts and Sciences in Gothenburg](https://kvvs.se/in-english/)
+- [The Royal Swedish Academy of Sciences and Stiftelsen GS Magnussons fond](https://www.kva.se/en/scholarship/general-announcement-for-gs-magnuson-foundation/)
 - [Knut and Alice Wallenberg Foundation](https://kaw.wallenberg.org/en)
 - [Department of Philosophy, Linguistics and Theory of Science](https://www.gu.se/en/flov), University of Gothenburg
 - [Centre for Linguistic Theory and Studies in Probability](https://gu-clasp.github.io/), University of Gothenburg

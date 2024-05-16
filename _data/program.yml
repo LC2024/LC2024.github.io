@@ -68,30 +68,28 @@ days:
     - name: Coffee 4
       time_end: '16:30'
       time_start: '16:00'
+    - name: Contributed Talks 1
+      time_end: '18:00'
+      time_start: '16:30'
   - name: J330
     talks:
     - name: Logic, Language and Computation
       time_end: '16:00'
       time_start: '14:00'
-    - name: Contributed Talks 1
+    - name: Contributed Talks 2
       time_end: '18:00'
       time_start: '16:30'
   - name: J335
     talks:
-    - name: Contributed Talks 2
+    - name: Contributed Talks 3
       time_end: '18:00'
       time_start: '16:30'
   - name: J336
     talks:
-    - name: Contributed Talks 3
-      time_end: '18:00'
-      time_start: '16:30'
-  - name: J431
-    talks:
     - name: Contributed Talks 4
       time_end: '18:00'
       time_start: '16:30'
-  - name: J439
+  - name: J431
     talks:
     - name: Contributed Talks 5
       time_end: '18:00'
@@ -116,6 +114,9 @@ days:
     - name: Lunch 3
       time_end: '14:00'
       time_start: '12:30'
+    - name: Contributed Talks 6
+      time_end: '16:00'
+      time_start: '14:00'
     - name: Coffee 6
       time_end: '16:30'
       time_start: '16:00'
@@ -125,6 +126,26 @@ days:
     - name: Banquet
       time_end: '20:00'
       time_start: '18:30'
+  - name: J330
+    talks:
+    - name: Contributed Talks 7
+      time_end: '16:00'
+      time_start: '14:00'
+  - name: J335
+    talks:
+    - name: Contributed Talks 8
+      time_end: '16:00'
+      time_start: '14:00'
+  - name: J336
+    talks:
+    - name: Contributed Talks 9
+      time_end: '16:00'
+      time_start: '14:00'
+  - name: J431
+    talks:
+    - name: Contributed Talks 10
+      time_end: '16:00'
+      time_start: '14:00'
 - date: 2024-06-27
   name: Thursday
   rooms:
@@ -154,11 +175,32 @@ days:
     - name: Recent advances in the combinatorics of determinacy models
       time_end: '17:30'
       time_start: '16:30'
+    - name: Contributed Talks 11
+      time_end: '18:00'
+      time_start: '17:30'
   - name: J330
     talks:
     - name: Set theory
       time_end: '16:00'
       time_start: '14:00'
+    - name: Contributed Talks 12
+      time_end: '18:00'
+      time_start: '17:30'
+  - name: J335
+    talks:
+    - name: Contributed Talks 13
+      time_end: '18:00'
+      time_start: '17:30'
+  - name: J336
+    talks:
+    - name: Contributed Talks 14
+      time_end: '18:00'
+      time_start: '17:30'
+  - name: J431
+    talks:
+    - name: Contributed Talks 15
+      time_end: '18:00'
+      time_start: '17:30'
 - date: 2024-06-28
   name: Friday
   rooms:
@@ -179,7 +221,45 @@ days:
     - name: Lunch 5
       time_end: '14:00'
       time_start: '12:30'
+    - name: Contributed Talks 16
+      time_end: '16:00'
+      time_start: '14:00'
     - name: Coffee 10
       time_end: '16:30'
       time_start: '16:00'
+    - name: Contributed Talks 21
+      time_end: '18:00'
+      time_start: '16:30'
+  - name: J330
+    talks:
+    - name: Contributed Talks 17
+      time_end: '16:00'
+      time_start: '14:00'
+    - name: Contributed Talks 22
+      time_end: '18:00'
+      time_start: '16:30'
+  - name: J335
+    talks:
+    - name: Contributed Talks 18
+      time_end: '16:00'
+      time_start: '14:00'
+    - name: Contributed Talks 23
+      time_end: '18:00'
+      time_start: '16:30'
+  - name: J336
+    talks:
+    - name: Contributed Talks 19
+      time_end: '16:00'
+      time_start: '14:00'
+    - name: Contributed Talks 24
+      time_end: '18:00'
+      time_start: '16:30'
+  - name: J431
+    talks:
+    - name: Contributed Talks 20
+      time_end: '16:00'
+      time_start: '14:00'
+    - name: Contributed Talks 25
+      time_end: '18:00'
+      time_start: '16:30'
 

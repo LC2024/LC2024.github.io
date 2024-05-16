@@ -11,16 +11,14 @@
           # - name: Invited Talks
           #   relative_url: /talks/
           # - name: Social Events
-        - name: Schedule
-          relative_url: /schedule/
-          disabled: true
+          # - name: Schedule
+          #   relative_url: /schedule/
         - name: Committees
           relative_url: /committees/
         - name: ASL Code of Conduct
           relative_url: /code_of_conduct/
     - name: Schedule
       relative_url: /schedule/
-      disabled: true
     - name: Registration
       menu:
       - name: Registration

@@ -1,0 +1,11 @@
+---
+name: Contributed Talks 9
+speakers:
+  - TBA
+categories:
+  - Contributed Talk
+time_start: '14:00'
+time_end: '16:00'
+talk_date: 2024-06-26
+room: J336
+---

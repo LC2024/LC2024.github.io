@@ -52,6 +52,12 @@ The colloquium will run for five days and comprise 3 tutorials, 7 plenary lectur
         border: none;
     }
 
+    .lunch {
+        font-style: italic;
+        height: 40px;
+        border: none;
+    }
+
     .social {
         font-style: italic;
         border: thin solid;
@@ -71,7 +77,7 @@ The colloquium will run for five days and comprise 3 tutorials, 7 plenary lectur
 
     .ss {
         background-color: beige;
-        height: 75px;
+        height: 120px;
         border: thin solid;
     }
 
@@ -127,7 +133,7 @@ The colloquium will run for five days and comprise 3 tutorials, 7 plenary lectur
     </tr>
     <tr>
         <th>1230 &ndash; 1400</th>
-        <td colspan="5" class="break">Lunch</td>
+        <td colspan="5" class="lunch">Lunch</td>
     </tr>
     <tr>
         <th rowspan="4">1400 &ndash; 1600</th>

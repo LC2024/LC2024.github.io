@@ -19,6 +19,7 @@
           relative_url: /code_of_conduct/
     - name: Schedule
       relative_url: /schedule/
+      disabled: true
     - name: Registration
       menu:
       - name: Registration

@@ -69,7 +69,7 @@ days:
       time_end: '16:30'
       time_start: '16:00'
     - name: Contributed Talks 1
-      time_end: '18:00'
+      time_end: '18:30'
       time_start: '16:30'
   - name: J330
     talks:
@@ -77,22 +77,22 @@ days:
       time_end: '16:00'
       time_start: '14:00'
     - name: Contributed Talks 2
-      time_end: '18:00'
+      time_end: '18:30'
       time_start: '16:30'
   - name: J335
     talks:
     - name: Contributed Talks 3
-      time_end: '18:00'
+      time_end: '18:30'
       time_start: '16:30'
   - name: J336
     talks:
     - name: Contributed Talks 4
-      time_end: '18:00'
+      time_end: '18:30'
       time_start: '16:30'
   - name: J431
     talks:
     - name: Contributed Talks 5
-      time_end: '18:00'
+      time_end: '18:30'
       time_start: '16:30'
 - date: 2024-06-26
   name: Wednesday
@@ -176,7 +176,7 @@ days:
       time_end: '17:30'
       time_start: '16:30'
     - name: Contributed Talks 11
-      time_end: '18:00'
+      time_end: '18:30'
       time_start: '17:30'
   - name: J330
     talks:
@@ -184,22 +184,22 @@ days:
       time_end: '16:00'
       time_start: '14:00'
     - name: Contributed Talks 12
-      time_end: '18:00'
+      time_end: '18:30'
       time_start: '17:30'
   - name: J335
     talks:
     - name: Contributed Talks 13
-      time_end: '18:00'
+      time_end: '18:30'
       time_start: '17:30'
   - name: J336
     talks:
     - name: Contributed Talks 14
-      time_end: '18:00'
+      time_end: '18:30'
       time_start: '17:30'
   - name: J431
     talks:
     - name: Contributed Talks 15
-      time_end: '18:00'
+      time_end: '18:30'
       time_start: '17:30'
 - date: 2024-06-28
   name: Friday
@@ -228,7 +228,7 @@ days:
       time_end: '16:30'
       time_start: '16:00'
     - name: Contributed Talks 21
-      time_end: '18:00'
+      time_end: '18:30'
       time_start: '16:30'
   - name: J330
     talks:
@@ -236,7 +236,7 @@ days:
       time_end: '16:00'
       time_start: '14:00'
     - name: Contributed Talks 22
-      time_end: '18:00'
+      time_end: '18:30'
       time_start: '16:30'
   - name: J335
     talks:
@@ -244,7 +244,7 @@ days:
       time_end: '16:00'
       time_start: '14:00'
     - name: Contributed Talks 23
-      time_end: '18:00'
+      time_end: '18:30'
       time_start: '16:30'
   - name: J336
     talks:
@@ -252,7 +252,7 @@ days:
       time_end: '16:00'
       time_start: '14:00'
     - name: Contributed Talks 24
-      time_end: '18:00'
+      time_end: '18:30'
       time_start: '16:30'
   - name: J431
     talks:
@@ -260,6 +260,6 @@ days:
       time_end: '16:00'
       time_start: '14:00'
     - name: Contributed Talks 25
-      time_end: '18:00'
+      time_end: '18:30'
       time_start: '16:30'
 

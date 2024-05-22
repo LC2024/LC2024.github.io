@@ -9,8 +9,11 @@ shapes = {
         "textit": lambda s: "_" + s + "_",
         "itshape": lambda s: "_" + s + "_",
         "scshape": lambda s: s,
+        "sf": lambda s: s,
         "it": lambda s: "_" + s + "_",
         }
+
+defineds = []
 
 def replace_shapes(s):
     pattern = "\\\\("
@@ -100,7 +103,6 @@ def find_open(s, i):
 
     return False, None
 
-
 def replace_macro(s, name, f):
     i = s.find('\\' + name)
     while i >= 0:
@@ -123,6 +125,23 @@ def replace_macro(s, name, f):
 
     return s
 
+def handle_newcommand(s):
+    i = s.find('\\newcommand')
+    if i >= 0:
+        inside = s[i + 11:]
+        if inside[0] == '{':
+            first = inside[1:]
+            m, j = match_parens(first)
+
+            if m and first[j + 1] == '{':
+                second = first[j + 2:]
+                first = first[:j]
+                m, k = match_parens(second)
+
+                if m:
+                    second = second[:k]
+                    defineds.append((first, second))
+
 def kill_macro(s, name):
     return replace_macro(s, name, lambda x: "")
 
@@ -140,6 +159,16 @@ source_exps = [
 
 def convert(text):
     source = None
+
+    lines = text.split('\n')
+    for line in lines:
+        handle_newcommand(line)
+
+    if len(defineds) > 1:
+        print("Macros: {}".format(defineds))
+    for key, repl in reversed(defineds):
+        text = text.replace(key, repl)
+
     for exp in source_exps:
         source = re.search(exp, text)
         if source:
@@ -160,14 +189,16 @@ def convert(text):
     source = re.sub("\\\\ ", " ", source)
     source = re.sub("\\\\,", " ", source)
     source = re.sub("\\\\vspace\\*?{.*?}", "", source)
+    source = re.sub("\\\\smallskip", "", source)
+    source = re.sub("\\\\xspace", "", source)
     source = re.sub("\\\\medskip", "", source)
+    source = re.sub("\\\\bigskip", "", source)
     source = re.sub("\\\\noident", "", source)
     source = re.sub("\\\\noindent", "", source)
-    source = re.sub("\\\\smallskip", "", source)
 
 
     # Handle itemize and enumerate
-    source = re.sub("\\\\begin{itemize}(\\[.*\\])", "", source)
+    source = re.sub("\\\\begin{itemize}(\\[.*\\])?", "", source)
     source = re.sub("\\\\begin{enumerate}(\\[.*\\])?", "", source)
     source = re.sub("\\\\end{itemize}", "", source)
     source = re.sub("\\\\end{enumerate}", "", source)
@@ -186,6 +217,8 @@ def convert(text):
     # Handle theorem
     source = re.sub("\\\\begin{theorem}", "**Theorem.**", source)
     source = re.sub("\\\\end{theorem}", "", source)
+    source = re.sub("\\\\begin{thm\\*}", "**Theorem.**", source)
+    source = re.sub("\\\\end{thm\\*}", "", source)
 
     source = re.sub("\\\\vspace\\*?{.*?}", "", source)
 
@@ -198,9 +231,11 @@ def convert(text):
     source = kill_macro(source, "affil")
     source = kill_macro(source, "meetemail")
     source = kill_macro(source, "urladdr")
+    source = kill_macro(source, "thispagestyle")
 
     # Replace bolds
     source = replace_macro(source, "emph", lambda s: "**" + s + "**")
+    source = replace_macro(source, "subsection*", lambda s: "**" + s + "**  ")
     source = replace_macro(source, "textbf", lambda s: "**" + s + "**")
 
     # Replace italics
@@ -209,9 +244,15 @@ def convert(text):
     # Replace do nothings
     source = replace_macro(source, "paragraph", lambda s: s)
     source = replace_macro(source, "textsc", lambda s: s)
+    source = replace_macro(source, "mbox", lambda s: s)
 
-    # Handle {\xxstyle ...}
-    source = replace_shapes(source)
+    # Various
+    source = replace_macro(source, "textnormal", lambda s: "\\text{" + s + "}")
+    source = replace_macro(source, "ensuremath", lambda s: s)
+
+    # URLS
+    source = replace_macro(source, "url", lambda s: "[{}]({})".format(s, s))
+
 
     # Transform $ and \[ \] into $$
     source = re.sub("\\$", "$$", source)
@@ -225,11 +266,41 @@ def convert(text):
     source = re.sub("''", "\"", source)
     source = re.sub("`", "'", source)
 
+    # Replace teletype
+    source = replace_macro(source, "texttt", lambda s: "`" + s + "`")
+
     # Special characters
     source = source.replace("\\|", "\\\\mid")
+    source = source.replace("\\&", "&")
     source = source.replace("{\\'e}", "é")
+    source = source.replace("\\'{e}", "é")
     source = source.replace("{\\'a}", "á")
+    source = source.replace("\\aa", "å")
+    source = source.replace("\\'{a}", "á")
+    source = source.replace("\\'{c}", "ć")
+    source = source.replace("\\'c", "ć")
+    source = source.replace("\\v{c}", "č")
+    source = source.replace("\\v C", "Č")
+    source = source.replace("\\v{n}", "ň")
+    source = source.replace("\\^{o}", "ô")
+    source = source.replace("\\^{o}", "ô")
+    source = source.replace("\\v{s}", "š")
+    source = source.replace("\\v{r}", "ř")
+    source = source.replace("\\\"a", "ä")
+    source = source.replace("\\\"{a}", "ä")
+    source = source.replace("\\\"u", "ü")
+    source = source.replace("\\\"{u}", "ü")
+    source = source.replace("\\\"o", "ö")
+    source = source.replace("{\\l}", "ł,")
+    source = source.replace("\\l ", "ł,")
+    source = source.replace("\\\"{o}", "ö")
     source = source.replace("\\\\ss", "ß")
+
+    source = source.replace("\\textless", "\\langle")
+    source = source.replace("\\textgreater", "\\rangle")
+
+    # Handle {\xxstyle ...}
+    source = replace_shapes(source)
 
     # Deal with Bibliographies
     bibs = re.findall("(?ms)\\\\bibitem{(.*?)}(.*?)(?=(\\\\bibitem)|(\\\\end{thebibliography}))", source)
@@ -251,7 +322,7 @@ def convert(text):
     source = re.sub("\\\\end{thebibliography}", "", source)
 
     # Replace citations
-    source = re.sub("\\\\cite{(.*?)}",
+    source = re.sub("\\\\cite\\s*{(.*?)}",
        lambda m: "[{}]".format(",".join(list(map(lambda s: "{}".format(bib_index(bib_list, s)), m[1].split(","))))),
        source)
 

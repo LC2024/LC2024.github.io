@@ -1,18 +1,18 @@
 ---
 name: Contributed Talks 6
 speakers: 
-  - "Ahmet Çevik"
-  - "Hsing-Chien Tsai"
-  - "Davide Sutto"
-  - "Maxwell Levine"
-  - "Santiago Jockwich Martinez"
+  - "Piotr Gruza"
+  - "Mateusz Łełyk"
+  - "Eitetsu Ken"
+  - "Léon Probst"
+  - "Philipp Provenzano"
 
 talks: 
-  - "Hierarchy of set theoretical multiverse"
-  - "Atomicity under non-transitive mereology"
-  - "A History of Level Theories: From Ranks to Levels."
-  - "Namba forcing and the weak approximation property"
-  - "Algebra-valued models and Logical Pluralism"
+  - "Tightness and solidity in fragments of Peano Arithmetic"
+  - "Internal categoricity for schemes"
+  - "Provability in relativized arithmetics and games with backtracking options"
+  - "Self-referential Gödel numberings and uniformity"
+  - "Reflection and induction for subsystems of HA"
 
 categories:
   - Contributed Talk

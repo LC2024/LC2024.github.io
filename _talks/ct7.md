@@ -1,14 +1,16 @@
 ---
 name: Contributed Talks 7
 speakers: 
-  - "Davide Fazio"
-  - "Kerkko Luosto"
-  - "Beibut Kulpeshov"
+  - "Sebastijan Horvat"
+  - "Matthias Eberl"
+  - "Piotr Błaszczyk"
+  - "Gabriele Buriola"
 
 talks: 
-  - "On Contextuality and unsharp quantum logic"
-  - "On the hierarchy of vectorizations of the Härtig quantifier"
-  - "On non-essential expansions of quite o-minimal theories"
+  - "Advantages of using weak bisimulation for the logic IL with respect to Verbrugge semantics"
+  - "Indefinitely extensible models of simple type theory"
+  - "Finite, infinite, hyperfinite. A new interpretation of Newton’s De Analysi."
+  - "A parameterized family of decidable theories involving differentiable functions"
 
 categories:
   - Contributed Talk

@@ -1,16 +1,18 @@
 ---
 name: Contributed Talks 9
 speakers: 
-  - "Andrea Volpi"
-  - "Tomáš Hons"
-  - "Gian Marco Osso"
-  - "Giovanni Solda"
+  - "Brett McLean"
+  - "Giovanni Varricchione"
+  - "Ren-June Wang"
+  - "Max Sandström"
+  - "Mattia Guiotto"
 
 talks: 
-  - "Largeness notions"
-  - "First-order limits and rooted inverse problems"
-  - "The Galvin-Prikry theorem in the Weihrauch lattice"
-  - "Better quasi-orders and iterated ideals"
+  - "Bi-intuitionistic linear temporal logic"
+  - "Pure-Past Action Masking: constraining Reinforcement Learning via pure-past LTL"
+  - "Cutfree calculi for modal logics with axiom   B or 5"
+  - "Comparison of hyperextensions of linear temporal logic"
+  - "Expressiveness issues in interval temporal logics"
 
 categories:
   - Contributed Talk

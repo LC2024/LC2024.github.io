@@ -1,12 +1,18 @@
 ---
 name: Contributed Talks 3
 speakers: 
-  - "Mengzhou Sun"
-  - "Christian Wurm"
+  - "Nicholas Pischke"
+  - "Laurentiu Leustean"
+  - "Anna Petiurenko"
+  - "Jin Wei"
+  - "Horatiu Cheval"
 
 talks: 
-  - "The Kaufmann--Clote question on end extensions of models of arithmetic"
-  - "Finite Models for Non-Commutative Ambiguity Logics"
+  - "Proof Mining and Probability Theory"
+  - "Proof mining and the viscosity approximation method"
+  - "New model of non-Euclidean plane"
+  - "Constructive Version of Herbrand’s Theorem for First-Order Łukasiewicz Logic"
+  - "Defining and reasoning about partial (co)recursive functions in Lean"
 
 categories:
   - Contributed Talk

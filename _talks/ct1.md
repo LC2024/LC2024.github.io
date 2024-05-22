@@ -1,18 +1,18 @@
 ---
 name: Contributed Talks 1
 speakers: 
-  - "Brett McLean"
-  - "Giovanni Varricchione"
-  - "Raúl Ruiz Mora"
-  - "Max Sandström"
-  - "Mattia Guiotto"
+  - "Guillaume Massas"
+  - "Pavel Arazim"
+  - "Ahmet Çevik"
+  - "Grigory Olkhovikov"
+  - "Sebastian G.W. Speitel"
 
 talks: 
-  - "Bi-intuitionistic linear temporal logic"
-  - "Pure-Past Action Masking: constraining Reinforcement Learning via pure-past LTL"
-  - "Team semantics for modal mu-calculus"
-  - "Comparison of hyperextensions of linear temporal logic"
-  - "Expressiveness issues in interval temporal logics"
+  - "Galileo's Paradox and Purely Euclidean Numerosities"
+  - "Bergson on logic and bergsonian logic"
+  - "Hierarchy of set theoretical multiverse"
+  - "Conditionals in constructive logics"
+  - "Carnap's categoricity problem"
 
 categories:
   - Contributed Talk

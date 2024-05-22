@@ -1,20 +1,18 @@
 ---
 name: Contributed Talks 2
 speakers: 
-  - "Karl Nygren"
-  - "Avgerinos Delkos"
-  - "Grigory Olkhovikov"
-  - "Vit Puncochar"
-  - "Mojtaba Mojtahedi"
-  - "Dominik Kirst"
+  - "Alexandre Ivanov"
+  - "Nurlan Markhabatov"
+  - "Michał Wrocławski"
+  - "Ludovico Fusco"
+  - "Christian Wurm"
 
 talks: 
-  - "Conditional inquisitive logic"
-  - "Logics for Ceteris Paribus Counterfactuals"
-  - "Conditionals in constructive logics"
-  - "Informational presupposition in substructural inquisitive logics"
-  - "A translation from GLP into GL"
-  - "Constructive Reverse Mathematics of the Downwards Löwenheim-Skolem Theorem"
+  - "Generic groups and weak amalgamation"
+  - "On Disintegrated Models"
+  - "Punctually presentable injective structures"
+  - "Multi-relation Agassiz sums of algebras"
+  - "Finite Models for Non-Commutative Ambiguity Logics"
 
 categories:
   - Contributed Talk

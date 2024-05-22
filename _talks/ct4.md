@@ -1,18 +1,18 @@
 ---
 name: Contributed Talks 4
 speakers: 
-  - "Thibaut Kouptchinsky"
-  - "Laurentiu Leustean"
-  - "Will Stafford"
-  - "Gabriele Buriola"
-  - "Lutz Straßburger"
+  - "Fedor Pakhomov"
+  - "Konstantinos Papafilippou"
+  - "Pablo Dopico"
+  - "Borja Sierra Miranda"
+  - "Mojtaba Mojtahedi"
 
 talks: 
-  - "The limits of determinacy in third-order arithmetic"
-  - "Proof mining and the viscosity approximation method"
-  - "Proof-theoretic validity for sequents"
-  - "Phase Transition Thresholds for Generalized Goodstein Sequences, Hydra Games and Ackermannian Functions."
-  - "Lambek Calculus with Banged Atoms for Parasitic Gaps"
+  - "The Logic of Correct Models"
+  - "Succinctness of the fixed point theorem for provability logic"
+  - "Axiomatic theories of supervaluationist truth: completing the picture"
+  - "Coalgebra for non-wellfounded proof theory"
+  - "A translation from GLP into GL"
 
 categories:
   - Contributed Talk

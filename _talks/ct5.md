@@ -1,18 +1,16 @@
 ---
 name: Contributed Talks 5
 speakers: 
-  - "Jose Martinez-Fernandez"
-  - "Pavel Arazim"
-  - "Antonio Piccolomini D'Aragona"
-  - "Joost Joosten"
-  - "Hans Halvorson"
+  - "Stella Mahler"
+  - "Anouk Michelle Oudshoorn"
+  - "Leonardo Pacheco"
+  - "Luca San Mauro"
 
 talks: 
-  - "On the expressiveness of expansions of the weak Kleene language"
-  - "Bergson on logic and bergsonian logic"
-  - "Inversion in non-monotonic PTS"
-  - "Feferman interpretability and applications"
-  - "Equivalence in foundations"
+  - "Herbrand's theorem for inductive proofs"
+  - "Combining SHACL and description logics"
+  - "Higher-order feedback computation"
+  - "A new way of classifying word problems"
 
 categories:
   - Contributed Talk

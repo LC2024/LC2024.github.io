@@ -20,6 +20,7 @@ exclude:
   - REDISTRIBUTED.md
   - purgecss.config.js
   - bundle
+  - CT_data/
 
 # Collections and their defaults
 collections:

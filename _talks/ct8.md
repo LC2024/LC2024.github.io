@@ -1,18 +1,18 @@
 ---
 name: Contributed Talks 8
 speakers: 
-  - "Mariami Gamsakhurdia"
-  - "Oriola Gjetaj"
-  - "Léon Probst"
-  - "Sara Ayhan"
-  - "Yaroslav Petrukhin"
+  - "Andrea Volpi"
+  - "Maxwell Levine"
+  - "Gian Marco Osso"
+  - "Santiago Jockwich Martinez"
+  - "Andreas Weiermann"
 
 talks: 
-  - "Goedel logics: prenex fragments"
-  - "A Goodstein independence result for $ID_2$"
-  - "Self-referential Gödel numberings and uniformity"
-  - "Obstacles of a truly bilateral sequent calculus"
-  - "Natural deduction for neutral free logic with definite descriptions"
+  - "Largeness notions"
+  - "Namba forcing and the weak approximation property"
+  - "The Galvin-Prikry theorem in the Weihrauch lattice"
+  - "Algebra-valued models and Logical Pluralism"
+  - "Monadic second order limit laws for natural well orderings"
 
 categories:
   - Contributed Talk

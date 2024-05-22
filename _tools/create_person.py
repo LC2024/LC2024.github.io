@@ -2,14 +2,10 @@ import os
 import sys
 import yaml
 
-if __name__ == "__main__":
+def create(first, last, affil):
     if "_speakers" not in os.listdir("."):
         print("Error: Needs to be executed in project root!")
         sys.exit(1)
-
-    first = input("First name: ")
-    last = input("Last name: ")
-    affil = input("Affiliation: ")
 
     if not (first and last and affil):
         print("Empty; abotring!")
@@ -27,9 +23,16 @@ if __name__ == "__main__":
 
     file_name = first.lower() + "-" + last.lower() + ".md"
     if file_name in os.listdir("_speakers"):
-        print("Error: File already exists!")
-        sys.exit(1)
+        print("Note: Speaker file already exists: " + first + " " + last)
+        return
 
     f = open("_speakers/" + file_name, "w")
     f.write(text)
     f.close()
+
+if __name__ == "__main__":
+    first = input("First name: ")
+    last = input("Last name: ")
+    affil = input("Affiliation: ")
+
+    create(first, last, affil)

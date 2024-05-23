@@ -1,12 +1,14 @@
 ---
 name: Contributed Talks 7
 speakers: 
+  - "Giulia Manara"
   - "Sebastijan Horvat"
   - "Matthias Eberl"
   - "Piotr Błaszczyk"
   - "Gabriele Buriola"
 
 talks: 
+  - "On non-commutative logic and process calculi"
   - "Advantages of using weak bisimulation for the logic IL with respect to Verbrugge semantics"
   - "Indefinitely extensible models of simple type theory"
   - "Finite, infinite, hyperfinite. A new interpretation of Newton’s De Analysi."

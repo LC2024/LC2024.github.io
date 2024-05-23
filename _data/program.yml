@@ -196,11 +196,6 @@ days:
     - name: Contributed Talks 14
       time_end: '18:30'
       time_start: '17:30'
-  - name: J431
-    talks:
-    - name: Contributed Talks 15
-      time_end: '18:30'
-      time_start: '17:30'
 - date: 2024-06-28
   name: Friday
   rooms:

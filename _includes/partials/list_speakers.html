@@ -23,29 +23,57 @@
   {%- endif -%}
 {% else %}
   <ul class="speakers-of-talk">
-  {% for speaker_name in talk.speakers -%}
-    {%- assign speaker = site.speakers | where: 'name', speaker_name | first -%}
-    {%- if site.conference.speakers.show_firstname -%}
-      {%- assign speaker_short = speaker.first_name | append: ' ' | append: speaker.last_name -%}
-    {%- else -%}
-      {%- assign speaker_short = speaker.first_name | slice: 0 | append : '. ' | append: speaker.last_name -%}
-    {%- endif -%}
+  {%- if talk.talks -%}
+    {% for speaker_name in talk.speakers -%}
+        {%- assign speaker = site.speakers | where: 'name', speaker_name | first -%}
+        {%- if site.conference.speakers.show_firstname -%}
+        {%- assign speaker_short = speaker.first_name | append: ' ' | append: speaker.last_name -%}
+        {%- else -%}
+        {%- assign speaker_short = speaker.first_name | slice: 0 | append : '. ' | append: speaker.last_name -%}
+        {%- endif -%}
 
-    {%- assign talk_title = talk.talks[forloop.index0] -%}
+        {%- assign talk_title = talk.talks[forloop.index0] -%}
+        {%- assign n_talk = site.talks | where: 'name', talk_title | first -%}
 
-    <li>
-      {%- if speaker.hide or include.text_only -%}
-        {{- speaker_short -}}
-      {%- else -%}
-        <a class="text-reset" href="{{ speaker.url | prepend: site.baseurl }}">
-          {{- speaker_short -}}
-        </a>
-      {%- endif -%}
-    </li>
-    <!-- {%- unless forloop.last %}
-      {%- assign forloop_index_before_last = talk.speakers.size | minus: 1 -%}
-      {% if forloop.index == forloop_index_before_last and include.text_only %} {{ site.data.lang[site.conference.lang].pronoun.and | default: 'and' }} {% else %}, {% endif -%}
-    {%- endunless -%} -->
-  {%- endfor -%}
+        <li>
+        {%- if speaker.hide or include.text_only -%}
+            {{- speaker_short -}}
+        {%- else -%}
+            <a class="text-reset" href="{{ n_talk.url | prepend: site.baseurl }}">
+            {{- speaker_short -}}
+            </a>
+        {%- endif -%}
+        </li>
+        <!-- {%- unless forloop.last %}
+        {%- assign forloop_index_before_last = talk.speakers.size | minus: 1 -%}
+        {% if forloop.index == forloop_index_before_last and include.text_only %} {{ site.data.lang[site.conference.lang].pronoun.and | default: 'and' }} {% else %}, {% endif -%}
+        {%- endunless -%} -->
+    {%- endfor -%}
+  {%- else -%}
+    {% for speaker_name in talk.speakers -%}
+        {%- assign speaker = site.speakers | where: 'name', speaker_name | first -%}
+        {%- if site.conference.speakers.show_firstname -%}
+        {%- assign speaker_short = speaker.first_name | append: ' ' | append: speaker.last_name -%}
+        {%- else -%}
+        {%- assign speaker_short = speaker.first_name | slice: 0 | append : '. ' | append: speaker.last_name -%}
+        {%- endif -%}
+
+        {%- assign talk_title = talk.talks[forloop.index0] -%}
+
+        <li>
+        {%- if speaker.hide or include.text_only -%}
+            {{- speaker_short -}}
+        {%- else -%}
+            <a class="text-reset" href="{{ speaker.url | prepend: site.baseurl }}">
+            {{- speaker_short -}}
+            </a>
+        {%- endif -%}
+        </li>
+        <!-- {%- unless forloop.last %}
+        {%- assign forloop_index_before_last = talk.speakers.size | minus: 1 -%}
+        {% if forloop.index == forloop_index_before_last and include.text_only %} {{ site.data.lang[site.conference.lang].pronoun.and | default: 'and' }} {% else %}, {% endif -%}
+        {%- endunless -%} -->
+    {%- endfor -%}
+  {% endif -%}
   </ul>
 {%- endif -%}

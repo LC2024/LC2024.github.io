@@ -7,9 +7,11 @@ The colloquium will run for five days and comprise 3 tutorials, 7 plenary lectur
 
 ## Announcements
 
-- **Early registration has closed**. Standard registration is available until 17 May. [Link to registration page]({% link registration/registration.md %}).
+- **The [schedule]({% link schedule/schedule.md %}) is now available**.
+- **Late registration available**. Late registration is available until **24 June**.
+- **Early registration has closed**. Standard registration is available until 17 May.
 - **Registration open**. Proceed to the [registration page]({% link registration/registration.md %}) for information. Early registration is open until 17 April.
-- **Contributed talks**. Deadline extended to **8 March**. See the [submissions page]({% link contributed_talks/index.md %}).
+- **Contributed talks**. Deadline extended to 8 March.
 
 ## Important Dates
 The following times are in CET/CEST (Europe/Stockholm)

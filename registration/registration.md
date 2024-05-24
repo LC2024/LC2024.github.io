@@ -4,14 +4,15 @@ title: Registration
 permalink: /registration/
 ---
 
+The deadline for registration has now passed (17 May). Registration will remain open but banquet and T-shirt options are no longer available.
+
 The conference offers two registration categories:
 
 - Standard: **4500 SEK**. This applies to most participants.
 - Reduced: **3500 SEK**. For students, including PhD students, and unemployed.
 
-The registration fee above applies to payments received **by 17th May 2024**.
-Early registration closed on 17th April.
-On-site payment is not possible.
+~~The registration fee above applies to payments received by 17th May 2024.~~
+~~Early registration closed on 17th April.~~
 
 In order to register, please complete the following steps:
 
@@ -79,7 +80,7 @@ If you would like to order additional seats at the banquet, please contact the c
     <tr>
         <th colspan="2">Registration fee (in SEK)</th>
         <th>Early</th>
-        <th>Late</th>
+        <th>Normal/Late</th>
     </tr>
     </thead>
     <tbody>

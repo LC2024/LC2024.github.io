@@ -1,15 +1,15 @@
 ---
 name: Contributed Talks 2
 speakers: 
-  - "Alexandre Ivanov"
   - "Nurlan Markhabatov"
+  - "Katalin Bimbo"
   - "Michał Wrocławski"
   - "Ludovico Fusco"
   - "Christian Wurm"
 
 talks: 
-  - "Generic groups and weak amalgamation"
   - "On Disintegrated Models"
+  - "Operational semantics for positive relevance logics"
   - "Punctually presentable injective structures"
   - "Multi-relation Agassiz sums of algebras"
   - "Finite Models for Non-Commutative Ambiguity Logics"

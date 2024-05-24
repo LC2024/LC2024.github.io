@@ -2,17 +2,17 @@
 name: Contributed Talks 5
 speakers: 
   - "Stella Mahler"
-  - "Katalin Bimbo"
   - "Anouk Michelle Oudshoorn"
   - "Leonardo Pacheco"
   - "Luca San Mauro"
+  - "Dominik Kirst"
 
 talks: 
   - "Herbrand's theorem for inductive proofs"
-  - "Operational semantics for positive relevance logics"
   - "Combining SHACL and description logics"
   - "Higher-order feedback computation"
   - "A new way of classifying word problems"
+  - "Constructive Reverse Mathematics of the Downwards Löwenheim-Skolem Theorem"
 
 categories:
   - Contributed Talk

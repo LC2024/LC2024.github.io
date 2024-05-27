@@ -9,27 +9,11 @@
       "name": "Luiz Carlos Pereira"
     },
     "schedule": {
-      "order": 0,
+      "order": 2,
       "slot": 4,
       "track": 2
     },
     "title": "An ecumenical view of proof-theoretic semantics"
-  },
-  "10": {
-    "authors": "Nicholas Pischke",
-    "id": "10",
-    "presenter": {
-      "affiliation": "TU Darmstadt",
-      "first": "Nicholas",
-      "last": "Pischke",
-      "name": "Nicholas Pischke"
-    },
-    "schedule": {
-      "order": 0,
-      "slot": 0,
-      "track": 2
-    },
-    "title": "Proof Mining and Probability Theory"
   },
   "100": {
     "authors": "Juan Aguilera and Fedor Pakhomov",
@@ -89,7 +73,7 @@
       "name": "Ludovica Conti"
     },
     "schedule": {
-      "order": 0,
+      "order": 4,
       "slot": 3,
       "track": 4
     },
@@ -265,9 +249,9 @@
       "name": "Andrew Brooke-Taylor"
     },
     "schedule": {
-      "order": 0,
-      "slot": 2,
-      "track": 3
+      "order": 6,
+      "slot": 0,
+      "track": 2
     },
     "title": "Disentangling Sigma_2 variants of supercompactness"
   },
@@ -745,9 +729,9 @@
       "name": "Ellen Hammatt"
     },
     "schedule": {
-      "order": 1,
-      "slot": 4,
-      "track": 0
+      "order": 0,
+      "slot": 2,
+      "track": 3
     },
     "title": "The punctual degrees of linear orders"
   },
@@ -825,7 +809,7 @@
       "name": "Sara Ayhan"
     },
     "schedule": {
-      "order": 2,
+      "order": 0,
       "slot": 4,
       "track": 2
     },
@@ -1311,22 +1295,6 @@
     },
     "title": "Multi-relation Agassiz sums of algebras"
   },
-  "76": {
-    "authors": "Vit Puncochar",
-    "id": "76",
-    "presenter": {
-      "affiliation": "Institute of Philosophy, Czech Academy of Sciences",
-      "first": "Vit",
-      "last": "Puncochar",
-      "name": "Vit Puncochar"
-    },
-    "schedule": {
-      "order": 3,
-      "slot": 4,
-      "track": 0
-    },
-    "title": "Informational presupposition in substructural inquisitive logics"
-  },
   "77": {
     "authors": "Jin Wei",
     "id": "77",
@@ -1385,7 +1353,7 @@
       "name": "Beibut Kulpeshov"
     },
     "schedule": {
-      "order": 4,
+      "order": 3,
       "slot": 4,
       "track": 0
     },
@@ -1529,7 +1497,7 @@
       "name": "Robin Martinot"
     },
     "schedule": {
-      "order": 4,
+      "order": 0,
       "slot": 3,
       "track": 4
     },
@@ -1611,7 +1579,7 @@
     "schedule": {
       "order": 4,
       "slot": 4,
-      "track": 3
+      "track": 0
     },
     "title": "Scott ranks and intended models"
   },

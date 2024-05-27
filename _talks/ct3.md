@@ -1,18 +1,18 @@
 ---
 name: Contributed Talks 3
 speakers: 
-  - "Nicholas Pischke"
   - "Laurentiu Leustean"
   - "Anna Petiurenko"
   - "Jin Wei"
   - "Horatiu Cheval"
+  - "Andrew Brooke-Taylor"
 
 talks: 
-  - "Proof Mining and Probability Theory"
   - "Proof mining and the viscosity approximation method"
   - "New model of non-Euclidean plane"
   - "Constructive Version of Herbrand’s Theorem for First-Order Łukasiewicz Logic"
   - "Defining and reasoning about partial (co)recursive functions in Lean"
+  - "Disentangling Sigma_2 variants of supercompactness"
 
 categories:
   - Contributed Talk

@@ -1,0 +1,43 @@
+
+
+
+
+Lambek Calculus is a non-commutative substructural logic for formalising linguistic constructions [1]. However, its domain of applicability is limited to constructions with local dependencies [2].
+  
+  We propose here a simple extension that allows us to formalise a range of relativised constructions with long distance dependencies, notably medial extractions and the challenging case of parasitic gaps [3].
+  
+  In proof theoretic terms, our logic combines commutative and non-commutative behaviour, as well as linear and non-linear resource management [4].
+  
+  This is achieved with a single restricted modality.
+  
+  But unlike other extensions of Lambek Calculus with modalities [5], our logic remains decidable, and the complexity of proof search (i.e., sentence parsing) is the same as for the basic Lambek calculus.
+  
+  Furthermore, we provide not only a sequent calculus, and a cut elimination theorem, but also proof nets [6].
+  
+**Keywords.** {Substructural Logics, Permutation and Contraction, Exponentials,  Proof Nets, Polarised Systems, Natural Language,  Relativisation, Long Distance Dependencies }
+
+
+**References.** 
+## Bibliography
+
+
+
+
+
+
+
+
+
+1.  Joachim Lambek. The Mathematics of Sentence Structure. American Mathematical Monthly, 65:154--170, 1958.
+2.  Guy Barry, Mark Hepple, Neil Leslie, Glyn Morrill.  Proof Figures And Structural Operators For Categorial Grammar. EACL 1991, 5th Conference of the European Chapter of the Association                  for Computational Linguistics.  198--203, 1991. 
+3.  Elisabet Engdahl. Parasitic Gaps.  Linguistics and Philosophy, 6: 5--34, 1983.
+4.  , Jean-Yves. Linear Logic. Theoretical Computer Science. 50: 1-102, 1987.
+5.   Kanovich, Kuznetsov,  Scedrov. Undecidability of the Lambek calculus with a relevantmodality. Lecture Notes in Computer Science, 9804:240–256, 2016.
+6.   Fran\c{c}ois Lamarche and Christian Retoré. Proof nets for the Lambek-calculus --- an overview. Proceedings of the Third Roma Workshop "Proofs and Linguistic Categories.  241-262, 1996.
+
+
+
+
+
+
+

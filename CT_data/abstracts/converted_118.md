@@ -1,0 +1,46 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+We investigate an intuitionistic propositional logic extended with both the
+co-implica\-tion connective of Hilbert–Brouwer logic and with
+the modalities of linear temporal logic. We use a semantics based on intuitionistic Kripke frames equipped with an order-preserving function representing the temporal dynamics. By using the technical notion of a quasimodel, a type of nondeterministic encoding of a linear-time model, first introduced in [1], we establish the decidability of our bi-intuitionistic linear temporal logic and give a
+sound and complete Hilbert-style calculus for it.  This work builds on that of [2], where the decidability of various bi-intuitionistic modal logics was established.
+
+## Bibliography
+
+
+
+
+
+
+
+
+
+
+1. David Fern'andez-Duque,_Non-deterministic semantics for dynamic topological logic_,**_Annals of Pure and Applied Logic_**,vol. 157 (2009), no. 2--3, pp. 110--121.
+2. David Fern'andez-Duque, Brett McLean, and Lukas Zenger,_A family of decidable bi-intuitionistic modal logics_,**_proceedings of Principles of Knowledge Representation and Reasoning (KR)_**(Rhodes, Greece),(Pierre Marquis, Tran Cao Son, and Gabriele Kern-Isberner, editors),vol. 20,IJCAI Organization,2023,pp. 262--271.
+3. Cecylia Rauszer,_Semi-boolean algebras and their applications to intuitionistic logic  with dual operations_,**_Fundamenta Mathematicae_**, vol. 83 (1974) no. 3, pp. 219--249.
+
+
+
+
+

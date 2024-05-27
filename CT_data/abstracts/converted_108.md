@@ -1,0 +1,15 @@
+
+
+
+
+
+Theories $$S$$ and $$T$$ are **bi-interpretable** if and only if there exist interpretations $$g:S\rhd T$$ and $$h:T\rhd S$$ such that $$h\circ g$$ and $$g\circ h$$ are definably isomorphic to identity interpretations (in $$S$$ and $$T$$ respectively). In some contexts, bi-interpretable theories can be considered equivalent.
+
+It was shown by Visser that Peano Arithmetic has the property that no two distinct extensions of it (in its language) are bi-interpretable. Enayat proposed to refer to this property of a theory as **tightness** and to carry out a more systematic study of tightness and its stronger variants, which he called **neatness** and **solidity**.
+
+Enayat proved that not only $$\mathrm{PA}$$, but also $$\mathrm{ZF}$$, $$\mathrm{Z}_{2}$$, and $$\mathrm{KM}$$ are solid; and on the other hand, that finitely axiomatisable fragments of them are not even tight. Later work by a number of authors (Enayat, Freire, Hamkins, Williams) showed that many natural proper fragments of these theories are also not tight.
+
+Enayat asked whether there are proper solid subtheories (containing basic axioms that depend on the theory) of the theories listed above. We answer this question in the case of $$\mathrm{PA}$$ by proving that for every $$n$$ there exists a solid theory strictly between $$\mathrm{I}\Sigma_{n}$$ and $$\mathrm{PA}$$. Furthermore, we can require that the theory does not interpret $$\mathrm{PA}$$. We also prove some theorems concerning separations between the above notions, e.g. we show that for every $$n$$ there exists a tight but not neat theory strictly between $$\mathrm{I}\Sigma_{n}$$ and $$\mathrm{PA}$$.
+
+Joint work with Leszek Kołodziejczyk and Mateusz Łełyk.
+

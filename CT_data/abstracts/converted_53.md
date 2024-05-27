@@ -1,0 +1,19 @@
+
+
+
+Keywords: proof-theoretic validity, classical logic, sequent calculus
+
+Proof-theoretic validity offers a non-referential semantics for certain logics. Currently it has been developed for intuitionistic logic (e.g. [2]; [4]), certain intermediate logics (e.g. [3]; [5], and certain substructural logics (e.g. [1]). This has been done by using a natural deduction calculus. However, there are many logics that are more naturally represented in the sequence calculus, including, for the purposes of proof-theoretic validity, classical logic. This paper develops the beginnings of a notion of proof-theoretic validity for the sequent calculus and applies it to classical logic to show that in this setting the left rules for classical logic are valid given the right rules. We then address certain philosophical questions about this move including how we should interpret the sequence and whether this is a form of bilateralism.
+
+## Bibliography
+1. Gheorghiu, Alexander V., Tao Gu, and David J. Pym,_Proof-Theoretic Semantics for Intuitionistic Multiplicative Linear Logic_,**_Automated Reasoning with Analytic Tableaux and Related Methods_**(Prague),(Revantha Ramanayake and Josef Urban, editors),vol. 14278,Springer,2023,pp. 367–-385.
+2. Goldfarb, Warren,_On Dummett’s ‘Proof-Theoretic Justifications of Logical Laws_,**_Advances in Proof-Theoretic Semantics_**(Thomas Piecha and Peter Schroeder-Heister, editors),Springer,Cham,2016,pp. 195--210.
+3. Piecha, Thomas, Wagner de Campos Sanz, and Peter Schroeder-Heister,_Failure of Completeness in Proof-Theoretic Semantics_,**_Journal of Philosophical Logic_**,vol. 44 (2015), no. 3 pp. 321–-335.
+4. Stafford, Will and Victor Nascimento,_Following all the rules: Intuitionistic completeness for generalized proof-theoretic validity_,**_Analysis_**,vol. 83 (2023), no. 3, pp. 507–-516.
+5. Stafford, Will,_Proof-Theoretic Semantics and Inquisitive Logic_,**_Journal of Philosophical Logic_**,vol. 50 (2021), no. 5, pp. 1199-–1229.
+
+
+
+
+
+

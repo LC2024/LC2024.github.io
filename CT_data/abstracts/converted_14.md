@@ -1,0 +1,30 @@
+
+
+
+
+The basic semantics for interpretability logics is Veltman semantics.
+R. Verbrugge defined a new relational semantics for interpretability logics, which today is called Verbrugge semantics in her honor.
+It has turned out that this semantics has various good properties
+(see e.g. [2]).
+Bisimulations are the basic equivalence relations between Veltman models.
+M. Vuković in [4] defined bisimulations and their finite approximations called $$n$$-bisimulations for Verbrugge semantics.
+M. Vuković and T. Perkov in [3] used bisimulations and bisimulation games
+to prove the van Benthem's characterization theorem with respect to Veltman semantics.
+However, we have proved in [1] that $$n$$-modally worlds do not necessarily have to be $$n$$-bisimilar. 
+Therefore, in [1] we gave a new version of bisimulations, which we called weak bisimulations.
+
+In this talk, we will make an overview of the results that can be obtained using weak bisimulations and the corresponding weak bisimulation games.
+We will show that $$n$$-modally equivalent worlds are $$n$$-weak bisimilar.
+Also, we will emphasize results about the finite model property and the van Benthem's characterization theorem with respect to Verbrugge semantics.
+
+## Bibliography
+
+1. S. Horvat, T. Perkov, M. Vukovi'c, _Bisimulations and bisimulations games for Vebrugge semantics_, _**Mathematical Logic Quarterly**_, vol. 69 (2023), no. 2, pp. 231--243. 
+2. L. Mikec, M. Vuković,_Interpretability logics and generalized Veltman semantics_, _**The Journal of Symbolic Logic**_, vol. 85 (2020), no. 2, pp. 749--772.
+3. T. Perkov, M. Vuković,_A bisimulation characterization for interpretability logic_,_**Logic Journal of the IGPL**_,vol. 22 (2014), no. 6, pp. 872--879.
+4. M. Vuković,_Bisimulations between generalized Veltman models and Veltman models_,_**Mathematical Logic Quarterly**_,vol. 54 (2008), no. 4, pp. 368--373.
+
+
+
+
+

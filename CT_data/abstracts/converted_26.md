@@ -1,0 +1,29 @@
+
+
+
+The relational semantics for relevance logics that was introduced by Meyer 
+and Routley in the 1970s, utilizes a ternary relation, although it emerged 
+from the idea of an operational semantics (cf. [2]).  A binary operation 
+in place of the ternary relation provides a certain simplification; however, 
+the set of prime filters (or prime theories) is not closed under the fusion 
+operation.  For an informational interpretation of the semantics, it is 
+desirable to use operations applicable to situations that have less structure
+than prime theories have.  In this talk, I define an operational semantics 
+for the main positive relevance logics $$\mathbf{T_+}$$, $$\mathbf{E_+}$$ and 
+$$\mathbf{R_+}$$, that is, the positive fragments of the logics of ticket 
+entailment, of entailment and of relevant implication.  The operational 
+structure for these logics is based on pieces of information and it is 
+augmented with a topology (which is similar to the topology used in [1]). 
+The logics are proved to be sound and complete for these operational 
+semantics.
+
+## Bibliography
+
+
+1. Bimb'o, Katalin,_Dual gaggle semantics for entailment_,**_Notre Dame Journal of Formal Logic_**,vol. 50 (2009), no. 1, pp. 23--41.
+2. Bimb'o, Katalin and J. Michael Dunn,_The emergence of set-theoretical semantics for relevance logicsaround 1970_,**_Proceedings of the Third Workshop, May 16--17, 2016,Edmonton, Canada_**,(Bimb\'o, K. and J. M. Dunn, editors),special issue of the **_IFCoLog Journal of Logics and theirApplications_**, vol. 4 (2017), no. 3, pp. 557--589.
+
+
+
+
+

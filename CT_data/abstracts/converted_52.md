@@ -1,0 +1,35 @@
+
+
+
+
+This presentation is based on joint research with Nikolay Bazhenov, Ivan Georgiev, Dariusz Kalociński, Luca San Mauro, and Stefan Vatev (in alphabetical order).
+
+Punctual structure theory considers structures whose domain is $$\mathbb{N}$$ and all relations and functions from their signature are uniformly primitive recursive.
+
+In [1] it has been proved that every computable structure of each of the following classes has a punctual presentation: equivalence structures, linear orderings, Boolean algebras and some more. On the other hand, among others, computable torsion abelian groups do not always have a punctual presentation. Punctual equivalence structures were also studied in [2].
+
+We have studied a different type of structures which we call injective structures. They are of the form $$(\mathbb{N},f)$$ where $$f$$ is a unary injective function. An injective function can be decomposed into various orbits, each of which is either a cycle, or constitutes an $$\mathbb{N}$$-chain or a $$\mathbb{Z}$$-chain. A function which can be decomposed into cycles only is called a cyclic function.
+
+We have shown that every computable injective structure which is not cyclic is punctually presentable. So is every computable injective structure which has some cycle length occurring infinitely many times.
+
+When none of these cases occurs, the situation is less clear. We have constructed a computable cyclic injective structure without a punctual presentation. We have also considered the following concept. Suppose that $$f$$ is a cyclic function and that $$g: \mathbb{N} \to \mathbb{N}$$ is an enumeration of all cycle lengths of $$f$$ in which each cycle length is repeated as many times as it appears in $$f$$. We have proved several charaterizations tying punctual presentability of $$(\mathbb{N},f)$$ to computational properties of $$g$$.
+
+We have also had success in proving some cases of a theorem which states a connection between instrinsic punctuality of an additional relation on a punctual injective structure and definability of that relation using a certain restricted class of quantifier-free formulas of first-order logic, assuming that a certain effectivness condition is satisfied. This is aimed to lead to a more general punctual version of Ash-Nerode Theorem.
+
+## Bibliography
+
+
+
+
+
+
+
+
+
+1. Iskander Kalimullin, Alexander Melnikov, Keng Meng Ng,_Algebraic structures computable without delay_,**_Theoretical Computer Science_**,vol. 674 (2017), pp. 73--98.
+2. Nikolay Bazhenov, Keng Meng Ng, Luca San Mauro, Andrea Sorbi,_Primitive recursive equivalence relations and their primitive recursive complexity_,**_Computability_**,vol. 11 (2022), pp. 187--221.
+
+
+
+
+

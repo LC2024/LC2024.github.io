@@ -1,0 +1,20 @@
+
+
+
+
+
+Matthias Baaz and George Metcalfe [1] provided a hypersequent calculus for infinite Łukasiewicz logic which is sound and complete with respect to $$[0,1]$$-truth valued semantics and admits cut elimination. This result is further extended to first-order Łukasiewicz logic [2]. However, the cut elimination proof passes through semantics and the constructive information is missing. In particular, a proof with cut does not lead directly to a cut-free proof other than guarantees the existence of one.
+
+The core ingredient of their proof is an approximate version of Herbrand’s theorem for first-order Łukasiewicz logic where a compactness argument is being used. Since Herbrand’s theorem is essentially a $$\Pi_2$$-statement, proof mining technique should be applicable here, provide a quantitative version of the theorem, and give an explicit upper bound for term witnesses of existence quantifiers. In this talk, I will describe my current progress in finding a constructive version of approximate Herbrand's theorem for first-order Łukasiewicz logic. It will also be mentioned how this will contribute to a ultimate syntactic cut elimination proof, as well as some potential applications to continuous model theory. 
+
+## Bibliography
+
+1. Matthias Baaz, George Metcalfe,_Herbrand's theorem, skolemization and proof systems for first-Order Łukasiewicz logic_,**_Journal of Logic and Computation_**,vol. 20 (2010), no. 1, pp. 35--54.
+2. George Metcalfe, Nicola Olivetti, Dov Gabbay,_Sequent and hypersequent calculi for abelian and Łukasiewicz logics_,**_ACM Transactions on Computational Logic_**,vol. 6 (2005), no. 3, pp. 578--613.
+3. Petr Hájek,**_Metamathematics of Fuzzy Logic_**,Kluwer,1998.
+4. Ulrich Kohlenbach, Paulo Oliva,_Proof mining: a systematic way of analysing proofs in mathematics_,**_Proceedings of the Steklov Institute of Mathematics_**,vol. 9 (2002), no. 31.
+
+
+
+
+

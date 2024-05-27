@@ -1,0 +1,20 @@
+
+  
+
+
+
+Since its official patenting in the 1980s, the Radio-Frequency Identification (RFID) technology has experienced relentless advancement due to its extreme versatility and usability in a wide range of contexts. Moreover, as an enabling technology for the IoT computing paradigm, RFID today underpins new tools for object identification/data acquisition in smart environments.
+
+Although there have been many contributions to the formal description and verification of RFID-based systems and protocols, there has yet to be much progress toward an explicit modeling of information flow policies for RFID systems in terms of hyperproperties [1]. In this work, we initiate a taxonomy of hyperproperties for RFID systems, laying the foundation for a general framework for their formalization. To this end, we introduce a low-level, trace-based model suitable for representing RFID systems implementing tree protocols for tag collision arbitration [3]. Our model features a component-oriented, event-based notion of state allowing us to express hyperproperties in terms of event satisfaction by component configurations. 
+
+In this context, we introduce and discuss three classes of hyperproperties for the analysis of tree-based anti-collision protocols for RFID tags: hyper-reachability, hyper-adaptivity, and generalized non-interference. For each of them, we provide a classical definition in the style of [1] and a formalization in a suitable hyperlogic [2]. Finally, we propose some insights about decidability issues.
+
+
+## Bibliography
+
+1. Clarkson, M.R., Schneider, F.B.,_Hyperproperties_,**_Journal of Computer Security_**,vol. XVIII (2010), no. VI, pp. 1157--1210.
+2. Coenen, N., Finkbeiner, B., Hahn, C., Hofmann, J.,_The Hierarchy of Hyperlogics_,**_LICS '19: Proceedings of the 34th Annual ACM/IEEE Symposium on Logic in Computer Science_**(Vancouver, Canada),article no. 39,2019,pp. 1--13.
+3. Popovski, P.,_Tree-Based Anti-Collision Protocols for RFID Tags_,**_RFID Systems: Research Trends and Challenges_**(Miodrag Bolic, David Simplot-Ryl, and Ivan Stojmenovic, editors),Wiley,2010,pp. 203--229.
+
+
+

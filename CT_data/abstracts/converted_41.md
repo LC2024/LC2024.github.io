@@ -1,0 +1,21 @@
+
+
+
+In the study of modal logic, the modal logics in which the axioms $$\mathbf{B}$$   and $$\mathbf{5}$$ are theorems are difficult to find their proof systems with structural properties such as cut elimination for Gentzen style sequent calculus. From semantic point of view, these logics correspond to the symmetric and euclidean possible world semantics, and reversable and mergeable path models. In the previous work, we have introduced path models and  proved the completeness theorem between some classes of this type of models with their corresponding cutfree calculi of sequences of sequents for normal modal logics with axioms $$\mathbf{D}$$, $$\mathbf{T}$$, or $$\mathbf{4}$$. In this current project, we are going to continue our earlier work to prove the completeness theorem between path models -- reversable or mergeable -- on one side, and their corresponding  cutfree calculi of sequences of sequents for normal modal logics with axiom $$\mathbf{B}$$, or $$\mathbf{5}$$ on the other. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

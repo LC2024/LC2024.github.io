@@ -1,0 +1,29 @@
+
+
+
+
+In De Analysi, Newton derives three primary achievements of calculus:  the area under the curve $$y(x)=x^{\tfrac mn}$$ equals $$\frac {n}{m+n}x^{\tfrac {m+n}n}$$  (Rule I), the power series of arcsine, and the power series of sine. Two further Rules introduced without proof reinforce Rule I. Rules II and III state that the area under finitely/infinitely many curves equals the sum of areas under each curve.
+
+The standard interpretation of De Analysi runs through calculus: adopting the Riemann integral, it presents Rule I as the Fundamental Theorem of Calculus $$(\int_0^x f(t)dt)'=f(x)$$. Accordingly, term-by-term integration of series explains Rule III. However, this interpretation does not correspond to the argument's structure regarding the series of arcsine and sine. 
+ In calculus,  one first expands the series of sine and then gets the expansion of arcsine by the theorem on the inverse function derivative. On the contrary,  Newton finds the power series of arcsine first and then the series of sine. The core of this difference is that Newton does not apply the derivative or limit concept.
+
+We interpret De Analysi within the framework of nonstandard analysis, providing a coherent account of Newton's technique of indivisibles, measuring the area under a curve by rectangles and 'infinitely close' relation as a deductive tool.   We represent Newton's arguments on a hyperfinite grid, meaning a discrete domain rather than a continuous one. We measure the area under a curve by a hyperfinite sum, reconstruct Newton's proof of Rule I, and prove his Rule III.
+
+
+## Bibliography
+
+
+
+
+
+
+
+
+
+1. Nigel J. Cutland,**_Loeb Measure in Practice_**,Springer,2000.
+2. Tom Whiteside, editor,**_The Mathematical Papers of Isaac Newton: Vol. 2_**,Cambridge University Press,London,1968.
+
+
+
+
+

@@ -1,0 +1,1698 @@
+{
+  "1": {
+    "authors": "Victor Nascimento, Luiz Carlos Pereira and Elaine Pimentel",
+    "id": "1",
+    "presenter": {
+      "affiliation": "Pontifical Catholic University of Rio de Janeiro",
+      "first": "Luiz Carlos",
+      "last": "Pereira",
+      "name": "Luiz Carlos Pereira"
+    },
+    "schedule": {
+      "order": 0,
+      "slot": 4,
+      "track": 2
+    },
+    "title": "An ecumenical view of proof-theoretic semantics"
+  },
+  "10": {
+    "authors": "Nicholas Pischke",
+    "id": "10",
+    "presenter": {
+      "affiliation": "TU Darmstadt",
+      "first": "Nicholas",
+      "last": "Pischke",
+      "name": "Nicholas Pischke"
+    },
+    "schedule": {
+      "order": 0,
+      "slot": 0,
+      "track": 2
+    },
+    "title": "Proof Mining and Probability Theory"
+  },
+  "100": {
+    "authors": "Juan Aguilera and Fedor Pakhomov",
+    "id": "100",
+    "presenter": {
+      "affiliation": "Ghent University",
+      "first": "Fedor",
+      "last": "Pakhomov",
+      "name": "Fedor Pakhomov"
+    },
+    "schedule": {
+      "order": 0,
+      "slot": 0,
+      "track": 3
+    },
+    "title": "The Logic of Correct Models"
+  },
+  "101": {
+    "authors": "Ivan Di Liberti and Morgan Rogers",
+    "id": "101",
+    "presenter": {
+      "affiliation": "Gothenburg University",
+      "first": "Ivan",
+      "last": "Di Liberti",
+      "name": "Ivan Di Liberti"
+    },
+    "schedule": {
+      "order": 0,
+      "slot": 3,
+      "track": 1
+    },
+    "title": "Topoi with enough points"
+  },
+  "102": {
+    "authors": "Davide Fazio and Raffaele Mascella",
+    "id": "102",
+    "presenter": {
+      "affiliation": "University of Teramo",
+      "first": "Davide",
+      "last": "Fazio",
+      "name": "Davide Fazio"
+    },
+    "schedule": {
+      "order": 0,
+      "slot": 3,
+      "track": 0
+    },
+    "title": "On Contextuality and unsharp quantum logic"
+  },
+  "103": {
+    "authors": "Ludovica Conti",
+    "id": "103",
+    "presenter": {
+      "affiliation": "School of Advanced Studies IUSS Pavia",
+      "first": "Ludovica",
+      "last": "Conti",
+      "name": "Ludovica Conti"
+    },
+    "schedule": {
+      "order": 0,
+      "slot": 3,
+      "track": 4
+    },
+    "title": "Arbitrary Frege Arithmetic"
+  },
+  "104": {
+    "authors": "Jose Martinez-Fernandez",
+    "id": "104",
+    "presenter": {
+      "affiliation": "Logos - BIAP - Universitat de Barcelona",
+      "first": "Jose",
+      "last": "Martinez-Fernandez",
+      "name": "Jose Martinez-Fernandez"
+    },
+    "schedule": {
+      "order": 0,
+      "slot": 2,
+      "track": 2
+    },
+    "title": "On the expressiveness of expansions of the weak Kleene language"
+  },
+  "105": {
+    "authors": "Konstantinos Papafilippou and David Fern\u00e1ndez",
+    "id": "105",
+    "presenter": {
+      "affiliation": "Ghent University",
+      "first": "Konstantinos",
+      "last": "Papafilippou",
+      "name": "Konstantinos Papafilippou"
+    },
+    "schedule": {
+      "order": 1,
+      "slot": 0,
+      "track": 3
+    },
+    "title": "Succinctness of the fixed point theorem for provability logic"
+  },
+  "106": {
+    "authors": "Dominik Wehr",
+    "id": "106",
+    "presenter": {
+      "affiliation": "University of Gothenburg",
+      "first": "Dominik",
+      "last": "Wehr",
+      "name": "Dominik Wehr"
+    },
+    "schedule": {
+      "order": 0,
+      "slot": 4,
+      "track": 1
+    },
+    "title": "Unravelling cyclic arithmetic"
+  },
+  "107": {
+    "authors": "Alexis Saurin",
+    "id": "107",
+    "presenter": {
+      "affiliation": "IRIF, CNRS",
+      "first": "Alexis",
+      "last": "Saurin",
+      "name": "Alexis Saurin"
+    },
+    "schedule": {
+      "order": 0,
+      "slot": 3,
+      "track": 2
+    },
+    "title": "Craig-Lyndon interpolation as cut-introduction"
+  },
+  "108": {
+    "authors": "Piotr Gruza",
+    "id": "108",
+    "presenter": {
+      "affiliation": "Institute of Mathematics, University of Warsaw, S. Banacha 2, 02-097 Warsaw, Poland",
+      "first": "Piotr",
+      "last": "Gruza",
+      "name": "Piotr Gruza"
+    },
+    "schedule": {
+      "order": 0,
+      "slot": 1,
+      "track": 0
+    },
+    "title": "Tightness and solidity in fragments of Peano Arithmetic"
+  },
+  "109": {
+    "authors": "Vittorio Cipriani",
+    "id": "109",
+    "presenter": {
+      "affiliation": "TU Wien",
+      "first": "Vittorio",
+      "last": "Cipriani",
+      "name": "Vittorio Cipriani"
+    },
+    "schedule": {
+      "order": 0,
+      "slot": 4,
+      "track": 3
+    },
+    "title": "Isomorphism problems and learning of algebraic structures"
+  },
+  "110": {
+    "authors": "Kerkko Luosto",
+    "id": "110",
+    "presenter": {
+      "affiliation": "Tampere University",
+      "first": "Kerkko",
+      "last": "Luosto",
+      "name": "Kerkko Luosto"
+    },
+    "schedule": {
+      "order": 0,
+      "slot": 4,
+      "track": 0
+    },
+    "title": "On the hierarchy of vectorizations of the H\u00e4rtig quantifier"
+  },
+  "111": {
+    "authors": "Karol Wapniarski",
+    "id": "111",
+    "presenter": {
+      "affiliation": "Adam Mickiewicz University in Pozna\u0144",
+      "first": "Karol",
+      "last": "Wapniarski",
+      "name": "Karol Wapniarski"
+    },
+    "schedule": {
+      "order": 1,
+      "slot": 3,
+      "track": 4
+    },
+    "title": "Ontological assumptions in the history of Western logic: from Aristotelian syllogistic to Boolean algebra"
+  },
+  "112": {
+    "authors": "Armand Feuilleaubois and Thomas Studer",
+    "id": "112",
+    "presenter": {
+      "affiliation": "Universit\u00e4t Bern",
+      "first": "Armand",
+      "last": "Feuilleaubois",
+      "name": "Armand Feuilleaubois"
+    },
+    "schedule": {
+      "order": 1,
+      "slot": 4,
+      "track": 1
+    },
+    "title": "Cyclic cut elimination for the stratified fragment of the modal \u03bc-calculus"
+  },
+  "113": {
+    "authors": "Alakh Dhruv Chopra",
+    "id": "113",
+    "presenter": {
+      "affiliation": "Ghent University",
+      "first": "Alakh Dhruv",
+      "last": "Chopra",
+      "name": "Alakh Dhruv Chopra"
+    },
+    "schedule": {
+      "order": 0,
+      "slot": 1,
+      "track": 4
+    },
+    "title": "Strength of the hyperated finitary powerset operator"
+  },
+  "114": {
+    "authors": "Andrew Brooke-Taylor",
+    "id": "114",
+    "presenter": {
+      "affiliation": "University of Leeds",
+      "first": "Andrew",
+      "last": "Brooke-Taylor",
+      "name": "Andrew Brooke-Taylor"
+    },
+    "schedule": {
+      "order": 0,
+      "slot": 2,
+      "track": 3
+    },
+    "title": "Disentangling Sigma_2 variants of supercompactness"
+  },
+  "115": {
+    "authors": "Mateusz \u0141e\u0142yk and Ali Enayat",
+    "id": "115",
+    "presenter": {
+      "affiliation": "Faculty of Philosophy, University of Warsaw",
+      "first": "Mateusz",
+      "last": "\u0141e\u0142yk",
+      "name": "Mateusz \u0141e\u0142yk"
+    },
+    "schedule": {
+      "order": 1,
+      "slot": 1,
+      "track": 0
+    },
+    "title": "Internal categoricity for schemes"
+  },
+  "116": {
+    "authors": "Mateusz \u0141e\u0142yk and Patryk Szlufik",
+    "id": "116",
+    "presenter": {
+      "affiliation": "Faculty of Philosophy, University of Warsaw",
+      "first": "Mateusz",
+      "last": "\u0141e\u0142yk",
+      "name": "Mateusz \u0141e\u0142yk"
+    },
+    "schedule": {
+      "order": 0,
+      "slot": 2,
+      "track": 1
+    },
+    "title": "Simplest model properties for Peano Arithmetic: On a question of Montalban and Rossegger."
+  },
+  "117": {
+    "authors": "Lukas Melgaard and Gianluca Curzi",
+    "id": "117",
+    "presenter": {
+      "affiliation": "University of Birmingham",
+      "first": "Lukas",
+      "last": "Melgaard",
+      "name": "Lukas Melgaard"
+    },
+    "schedule": {
+      "order": 2,
+      "slot": 4,
+      "track": 1
+    },
+    "title": "Cyclic proofs for arithmetic with least and greatest fixed points"
+  },
+  "118": {
+    "authors": "David Fern\u00e1ndez-Duque, Brett McLean and Lukas Zenger",
+    "id": "118",
+    "presenter": {
+      "affiliation": "Ghent University",
+      "first": "Brett",
+      "last": "McLean",
+      "name": "Brett McLean"
+    },
+    "schedule": {
+      "order": 0,
+      "slot": 1,
+      "track": 3
+    },
+    "title": "Bi-intuitionistic linear temporal logic"
+  },
+  "119": {
+    "authors": "Guillaume Massas",
+    "id": "119",
+    "presenter": {
+      "affiliation": "University of California, Berkeley",
+      "first": "Guillaume",
+      "last": "Massas",
+      "name": "Guillaume Massas"
+    },
+    "schedule": {
+      "order": 0,
+      "slot": 0,
+      "track": 0
+    },
+    "title": "Galileo's Paradox and Purely Euclidean Numerosities"
+  },
+  "12": {
+    "authors": "Matthias Baaz and Mariami Gamsakhurdia",
+    "id": "12",
+    "presenter": {
+      "affiliation": "Vienna University of Technology",
+      "first": "Mariami",
+      "last": "Gamsakhurdia",
+      "name": "Mariami Gamsakhurdia"
+    },
+    "schedule": {
+      "order": 1,
+      "slot": 3,
+      "track": 1
+    },
+    "title": "Goedel logics: prenex fragments"
+  },
+  "120": {
+    "authors": "Matteo Acclavio, Giovanni Bernardi, Giulia Manara and Fabrizio Montesi",
+    "id": "120",
+    "presenter": {
+      "affiliation": "IRIF - Universit\u00e9 Paris Cit\u00e9",
+      "first": "Giulia",
+      "last": "Manara",
+      "name": "Giulia Manara"
+    },
+    "schedule": {
+      "order": 0,
+      "slot": 1,
+      "track": 1
+    },
+    "title": "On non-commutative logic and process calculi"
+  },
+  "121": {
+    "authors": "Bahareh Afshari, Sebastian Enqvist and Graham Leigh",
+    "id": "121",
+    "presenter": {
+      "affiliation": "Stockholm University",
+      "first": "Sebastian",
+      "last": "Enqvist",
+      "name": "Sebastian Enqvist"
+    },
+    "schedule": {
+      "order": 3,
+      "slot": 4,
+      "track": 1
+    },
+    "title": "Herbrand schemes for cyclic proofs"
+  },
+  "122": {
+    "authors": "Giovanni Varricchione, Natasha Alechina, Mehdi Dastani, Giuseppe De Giacomo, Brian Logan and Giuseppe Perelli",
+    "id": "122",
+    "presenter": {
+      "affiliation": "Utrecht University",
+      "first": "Giovanni",
+      "last": "Varricchione",
+      "name": "Giovanni Varricchione"
+    },
+    "schedule": {
+      "order": 1,
+      "slot": 1,
+      "track": 3
+    },
+    "title": "Pure-Past Action Masking: constraining Reinforcement Learning via pure-past LTL"
+  },
+  "13": {
+    "authors": "Gabriela Laboska",
+    "id": "13",
+    "presenter": {
+      "affiliation": "University of Chicago",
+      "first": "Gabriela",
+      "last": "Laboska",
+      "name": "Gabriela Laboska"
+    },
+    "schedule": {
+      "order": 1,
+      "slot": 4,
+      "track": 3
+    },
+    "title": "Some computability-theoretic aspects of partition regularity over rings"
+  },
+  "14": {
+    "authors": "Sebastijan Horvat",
+    "id": "14",
+    "presenter": {
+      "affiliation": "University of Zagreb",
+      "first": "Sebastijan",
+      "last": "Horvat",
+      "name": "Sebastijan Horvat"
+    },
+    "schedule": {
+      "order": 1,
+      "slot": 1,
+      "track": 1
+    },
+    "title": "Advantages of using weak bisimulation for the logic IL with respect to Verbrugge semantics"
+  },
+  "16": {
+    "authors": "Nurlan Markhabatov",
+    "id": "16",
+    "presenter": {
+      "affiliation": "L.N. Gumilyov Eurasian National University",
+      "first": "Nurlan",
+      "last": "Markhabatov",
+      "name": "Nurlan Markhabatov"
+    },
+    "schedule": {
+      "order": 0,
+      "slot": 0,
+      "track": 1
+    },
+    "title": "On Disintegrated Models"
+  },
+  "17": {
+    "authors": "Pavel Arazim",
+    "id": "17",
+    "presenter": {
+      "affiliation": "Institute of Philosophy, Czech Academy of Sciences, department of logic",
+      "first": "Pavel",
+      "last": "Arazim",
+      "name": "Pavel Arazim"
+    },
+    "schedule": {
+      "order": 1,
+      "slot": 0,
+      "track": 0
+    },
+    "title": "Bergson on logic and bergsonian logic"
+  },
+  "18": {
+    "authors": "Valentin Goranko",
+    "id": "18",
+    "presenter": {
+      "affiliation": "Stockholm University",
+      "first": "Valentin",
+      "last": "Goranko",
+      "name": "Valentin Goranko"
+    },
+    "schedule": {
+      "order": 1,
+      "slot": 3,
+      "track": 0
+    },
+    "title": "Local Basic Strategy Logic "
+  },
+  "19": {
+    "authors": "Assylbek Issakhov and Fariza Rakymzhankyzy",
+    "id": "19",
+    "presenter": {
+      "affiliation": "Kazakh-British Technical University",
+      "first": "Assylbek",
+      "last": "Issakhov",
+      "name": "Assylbek Issakhov"
+    },
+    "schedule": {
+      "order": 2,
+      "slot": 4,
+      "track": 3
+    },
+    "title": "Types of minimal numberings with hyperimmune oracles"
+  },
+  "20": {
+    "authors": "Ahmet \u00c7evik",
+    "id": "20",
+    "presenter": {
+      "affiliation": "Gendarmerie and Coast Guard Academy",
+      "first": "Ahmet",
+      "last": "\u00c7evik",
+      "name": "Ahmet \u00c7evik"
+    },
+    "schedule": {
+      "order": 2,
+      "slot": 0,
+      "track": 0
+    },
+    "title": "Hierarchy of set theoretical multiverse"
+  },
+  "21": {
+    "authors": "Andrea Volpi",
+    "id": "21",
+    "presenter": {
+      "affiliation": "University of Udine",
+      "first": "Andrea",
+      "last": "Volpi",
+      "name": "Andrea Volpi"
+    },
+    "schedule": {
+      "order": 0,
+      "slot": 1,
+      "track": 2
+    },
+    "title": "Largeness notions"
+  },
+  "22": {
+    "authors": "Hsing-Chien Tsai",
+    "id": "22",
+    "presenter": {
+      "affiliation": "Department of Philosophy, National Chung Cheng University",
+      "first": "Hsing-Chien",
+      "last": "Tsai",
+      "name": "Hsing-Chien Tsai"
+    },
+    "schedule": {
+      "order": 1,
+      "slot": 2,
+      "track": 3
+    },
+    "title": "Atomicity under non-transitive mereology"
+  },
+  "23": {
+    "authors": "Yong Cheng",
+    "id": "23",
+    "presenter": {
+      "affiliation": "Department of Philosophy, Wuhan University, Hubei Province, China",
+      "first": "Yong",
+      "last": "Cheng",
+      "name": "Yong Cheng"
+    },
+    "schedule": {
+      "order": 1,
+      "slot": 2,
+      "track": 1
+    },
+    "title": "On Rosser theories"
+  },
+  "24": {
+    "authors": "Alexander Leitsch and Stella Mahler",
+    "id": "24",
+    "presenter": {
+      "affiliation": "TU Vienna",
+      "first": "Stella",
+      "last": "Mahler",
+      "name": "Stella Mahler"
+    },
+    "schedule": {
+      "order": 0,
+      "slot": 0,
+      "track": 4
+    },
+    "title": "Herbrand's theorem for inductive proofs"
+  },
+  "25": {
+    "authors": "Ricardo Jaimes-Urb\u00e1n and Favio E. Miranda-Perea",
+    "id": "25",
+    "presenter": {
+      "affiliation": "Facultad de Ciencias, UNAM",
+      "first": "Ricardo",
+      "last": "Jaimes-Urb\u00e1n",
+      "name": "Ricardo Jaimes-Urb\u00e1n"
+    },
+    "schedule": {
+      "order": 1,
+      "slot": 3,
+      "track": 2
+    },
+    "title": "Cut elimination for provability logic. An unmechanized proof."
+  },
+  "26": {
+    "authors": "Katalin Bimbo",
+    "id": "26",
+    "presenter": {
+      "affiliation": "University of Alberta, Department of Philosophy",
+      "first": "Katalin",
+      "last": "Bimbo",
+      "name": "Katalin Bimbo"
+    },
+    "schedule": {
+      "order": 1,
+      "slot": 0,
+      "track": 1
+    },
+    "title": "Operational semantics for positive relevance logics"
+  },
+  "27": {
+    "authors": "Eitetsu Ken",
+    "id": "27",
+    "presenter": {
+      "affiliation": "Graduate School of Mathematical Sciences, the University of Tokyo",
+      "first": "Eitetsu",
+      "last": "Ken",
+      "name": "Eitetsu Ken"
+    },
+    "schedule": {
+      "order": 2,
+      "slot": 1,
+      "track": 0
+    },
+    "title": "Provability in relativized arithmetics and games with backtracking options"
+  },
+  "28": {
+    "authors": "Simon Vonlanthen",
+    "id": "28",
+    "presenter": {
+      "affiliation": "Ruhr-Universit\u00e4t Bochum",
+      "first": "Simon",
+      "last": "Vonlanthen",
+      "name": "Simon Vonlanthen"
+    },
+    "schedule": {
+      "order": 0,
+      "slot": 3,
+      "track": 3
+    },
+    "title": "Modal extensions of the quantified argument calculus"
+  },
+  "29": {
+    "authors": "Barteld Kooi and Allard Tamminga",
+    "id": "29",
+    "presenter": {
+      "affiliation": "University of Groningen",
+      "first": "Barteld",
+      "last": "Kooi",
+      "name": "Barteld Kooi"
+    },
+    "schedule": {
+      "order": 1,
+      "slot": 4,
+      "track": 2
+    },
+    "title": "Constructing Harmony"
+  },
+  "30": {
+    "authors": "Thibaut Kouptchinsky and Juan Aguilera",
+    "id": "30",
+    "presenter": {
+      "affiliation": "TUWien",
+      "first": "Thibaut",
+      "last": "Kouptchinsky",
+      "name": "Thibaut Kouptchinsky"
+    },
+    "schedule": {
+      "order": 1,
+      "slot": 1,
+      "track": 4
+    },
+    "title": "The limits of determinacy in third-order arithmetic"
+  },
+  "31": {
+    "authors": "David Fernandez-Duque, Oriola Gjetaj and Andreas Weiermann",
+    "id": "31",
+    "presenter": {
+      "affiliation": "Ghent University",
+      "first": "Oriola",
+      "last": "Gjetaj",
+      "name": "Oriola Gjetaj"
+    },
+    "schedule": {
+      "order": 2,
+      "slot": 3,
+      "track": 2
+    },
+    "title": "A Goodstein independence result for $ID_2$"
+  },
+  "32": {
+    "authors": "Pablo Dopico",
+    "id": "32",
+    "presenter": {
+      "affiliation": "King's College London",
+      "first": "Pablo",
+      "last": "Dopico",
+      "name": "Pablo Dopico"
+    },
+    "schedule": {
+      "order": 2,
+      "slot": 0,
+      "track": 3
+    },
+    "title": "Axiomatic theories of supervaluationist truth: completing the picture"
+  },
+  "33": {
+    "authors": "Bahareh Afshari and Ra\u00fal Ruiz Mora",
+    "id": "33",
+    "presenter": {
+      "affiliation": "Universitat de Val\u00e8ncia",
+      "first": "Ra\u00fal",
+      "last": "Ruiz Mora",
+      "name": "Ra\u00fal Ruiz Mora"
+    },
+    "schedule": {
+      "order": 1,
+      "slot": 3,
+      "track": 3
+    },
+    "title": "Team semantics for modal mu-calculus"
+  },
+  "34": {
+    "authors": "Ellen Hammatt",
+    "id": "34",
+    "presenter": {
+      "affiliation": "Victoria University of Wellington",
+      "first": "Ellen",
+      "last": "Hammatt",
+      "name": "Ellen Hammatt"
+    },
+    "schedule": {
+      "order": 1,
+      "slot": 4,
+      "track": 0
+    },
+    "title": "The punctual degrees of linear orders"
+  },
+  "36": {
+    "authors": "Davide Sutto",
+    "id": "36",
+    "presenter": {
+      "affiliation": "University of Oslo",
+      "first": "Davide",
+      "last": "Sutto",
+      "name": "Davide Sutto"
+    },
+    "schedule": {
+      "order": 2,
+      "slot": 2,
+      "track": 3
+    },
+    "title": "A History of Level Theories: From Ranks to Levels."
+  },
+  "37": {
+    "authors": "Paulo Firmino and Laurentiu Leustean",
+    "id": "37",
+    "presenter": {
+      "affiliation": "University of Bucharest",
+      "first": "Laurentiu",
+      "last": "Leustean",
+      "name": "Laurentiu Leustean"
+    },
+    "schedule": {
+      "order": 1,
+      "slot": 0,
+      "track": 2
+    },
+    "title": "Proof mining and the viscosity approximation method"
+  },
+  "38": {
+    "authors": "David Hartman, Tom\u00e1\u0161 Hons and Jaroslav Ne\u0161et\u0159il",
+    "id": "38",
+    "presenter": {
+      "affiliation": "Computer Science Institute, Faculty of Mathematics and Physics, Charles University",
+      "first": "Tom\u00e1\u0161",
+      "last": "Hons",
+      "name": "Tom\u00e1\u0161 Hons"
+    },
+    "schedule": {
+      "order": 2,
+      "slot": 4,
+      "track": 0
+    },
+    "title": "First-order limits and rooted inverse problems"
+  },
+  "39": {
+    "authors": "L\u00e9on Probst",
+    "id": "39",
+    "presenter": {
+      "affiliation": "University of Italian Switzerland",
+      "first": "L\u00e9on",
+      "last": "Probst",
+      "name": "L\u00e9on Probst"
+    },
+    "schedule": {
+      "order": 3,
+      "slot": 1,
+      "track": 0
+    },
+    "title": "Self-referential G\u00f6del numberings and uniformity"
+  },
+  "40": {
+    "authors": "Sara Ayhan",
+    "id": "40",
+    "presenter": {
+      "affiliation": "Ruhr University Bochum",
+      "first": "Sara",
+      "last": "Ayhan",
+      "name": "Sara Ayhan"
+    },
+    "schedule": {
+      "order": 2,
+      "slot": 4,
+      "track": 2
+    },
+    "title": "Obstacles of a truly bilateral sequent calculus"
+  },
+  "41": {
+    "authors": "Ren-June Wang",
+    "id": "41",
+    "presenter": {
+      "affiliation": "Department of Philosophy, National Chung-Cheng University",
+      "first": "Ren-June",
+      "last": "Wang",
+      "name": "Ren-June Wang"
+    },
+    "schedule": {
+      "order": 2,
+      "slot": 1,
+      "track": 3
+    },
+    "title": "Cutfree calculi for modal logics with axiom   B or 5"
+  },
+  "42": {
+    "authors": "Anouk Michelle Oudshoorn, Shqiponja Ahmetaj, Magdalena Ortiz and Mantas Simkus",
+    "id": "42",
+    "presenter": {
+      "affiliation": "TU Wien",
+      "first": "Anouk Michelle",
+      "last": "Oudshoorn",
+      "name": "Anouk Michelle Oudshoorn"
+    },
+    "schedule": {
+      "order": 1,
+      "slot": 0,
+      "track": 4
+    },
+    "title": "Combining SHACL and description logics"
+  },
+  "43": {
+    "authors": "Matthias Eberl",
+    "id": "43",
+    "presenter": {
+      "affiliation": "LMU Munich",
+      "first": "Matthias",
+      "last": "Eberl",
+      "name": "Matthias Eberl"
+    },
+    "schedule": {
+      "order": 2,
+      "slot": 1,
+      "track": 1
+    },
+    "title": "Indefinitely extensible models of simple type theory"
+  },
+  "44": {
+    "authors": "Yaroslav Petrukhin",
+    "id": "44",
+    "presenter": {
+      "affiliation": "University of Lodz",
+      "first": "Yaroslav",
+      "last": "Petrukhin",
+      "name": "Yaroslav Petrukhin"
+    },
+    "schedule": {
+      "order": 1,
+      "slot": 2,
+      "track": 2
+    },
+    "title": "Natural deduction for neutral free logic with definite descriptions"
+  },
+  "45": {
+    "authors": "Karl Nygren",
+    "id": "45",
+    "presenter": {
+      "affiliation": "Department of Philosophy, Stockholm University",
+      "first": "Karl",
+      "last": "Nygren",
+      "name": "Karl Nygren"
+    },
+    "schedule": {
+      "order": 2,
+      "slot": 3,
+      "track": 4
+    },
+    "title": "Conditional inquisitive logic"
+  },
+  "47": {
+    "authors": "Maxwell Levine",
+    "id": "47",
+    "presenter": {
+      "affiliation": "University of Freiburg",
+      "first": "Maxwell",
+      "last": "Levine",
+      "name": "Maxwell Levine"
+    },
+    "schedule": {
+      "order": 1,
+      "slot": 1,
+      "track": 2
+    },
+    "title": "Namba forcing and the weak approximation property"
+  },
+  "50": {
+    "authors": "Gian Marco Osso",
+    "id": "50",
+    "presenter": {
+      "affiliation": "Dipartimento di Scienze Matematiche, Informatiche e Fisiche - Universit\u00e0 di Udine",
+      "first": "Gian Marco",
+      "last": "Osso",
+      "name": "Gian Marco Osso"
+    },
+    "schedule": {
+      "order": 2,
+      "slot": 1,
+      "track": 2
+    },
+    "title": "The Galvin-Prikry theorem in the Weihrauch lattice"
+  },
+  "51": {
+    "authors": "Max Sandstr\u00f6m",
+    "id": "51",
+    "presenter": {
+      "affiliation": "University of Helsinki",
+      "first": "Max",
+      "last": "Sandstr\u00f6m",
+      "name": "Max Sandstr\u00f6m"
+    },
+    "schedule": {
+      "order": 3,
+      "slot": 1,
+      "track": 3
+    },
+    "title": "Comparison of hyperextensions of linear temporal logic"
+  },
+  "52": {
+    "authors": "Micha\u0142 Wroc\u0142awski",
+    "id": "52",
+    "presenter": {
+      "affiliation": "University of Warsaw, Faculty of Philosophy",
+      "first": "Micha\u0142",
+      "last": "Wroc\u0142awski",
+      "name": "Micha\u0142 Wroc\u0142awski"
+    },
+    "schedule": {
+      "order": 2,
+      "slot": 0,
+      "track": 1
+    },
+    "title": "Punctually presentable injective structures"
+  },
+  "53": {
+    "authors": "Will Stafford",
+    "id": "53",
+    "presenter": {
+      "affiliation": "Kansas State University",
+      "first": "Will",
+      "last": "Stafford",
+      "name": "Will Stafford"
+    },
+    "schedule": {
+      "order": 3,
+      "slot": 4,
+      "track": 2
+    },
+    "title": "Proof-theoretic validity for sequents"
+  },
+  "54": {
+    "authors": "Piotr B\u0142aszczyk and Anna Petiurenko",
+    "id": "54",
+    "presenter": {
+      "affiliation": "University of the National Education Commission, Krakow",
+      "first": "Anna",
+      "last": "Petiurenko",
+      "name": "Anna Petiurenko"
+    },
+    "schedule": {
+      "order": 2,
+      "slot": 0,
+      "track": 2
+    },
+    "title": "New model of non-Euclidean plane"
+  },
+  "55": {
+    "authors": "Avgerinos Delkos and Marianna Girlando",
+    "id": "55",
+    "presenter": {
+      "affiliation": "University of Birmingham",
+      "first": "Avgerinos",
+      "last": "Delkos",
+      "name": "Avgerinos Delkos"
+    },
+    "schedule": {
+      "order": 3,
+      "slot": 3,
+      "track": 4
+    },
+    "title": "Logics for Ceteris Paribus Counterfactuals"
+  },
+  "56": {
+    "authors": "Gabriele Buriola and Andreas Weiermann",
+    "id": "56",
+    "presenter": {
+      "affiliation": "University of Verona",
+      "first": "Gabriele",
+      "last": "Buriola",
+      "name": "Gabriele Buriola"
+    },
+    "schedule": {
+      "order": 2,
+      "slot": 1,
+      "track": 4
+    },
+    "title": "Phase Transition Thresholds for Generalized Goodstein Sequences, Hydra Games and Ackermannian Functions."
+  },
+  "57": {
+    "authors": "Piotr B\u0142aszczyk and Anna Petiurenko",
+    "id": "57",
+    "presenter": {
+      "affiliation": "University of the National Education Commission, Krakow",
+      "first": "Piotr",
+      "last": "B\u0142aszczyk",
+      "name": "Piotr B\u0142aszczyk"
+    },
+    "schedule": {
+      "order": 3,
+      "slot": 1,
+      "track": 1
+    },
+    "title": "Finite, infinite, hyperfinite. A new interpretation of Newton\u2019s De Analysi."
+  },
+  "58": {
+    "authors": "Mehrnoosh Sadrzadeh and Lutz Stra\u00dfburger",
+    "id": "58",
+    "presenter": {
+      "affiliation": "INRIA Saclay --- Ile-de-France",
+      "first": "Lutz",
+      "last": "Stra\u00dfburger",
+      "name": "Lutz Stra\u00dfburger"
+    },
+    "schedule": {
+      "order": 0,
+      "slot": 2,
+      "track": 0
+    },
+    "title": "Lambek Calculus with Banged Atoms for Parasitic Gaps"
+  },
+  "59": {
+    "authors": "Dario Della Monica and Mattia Guiotto",
+    "id": "59",
+    "presenter": {
+      "affiliation": "University of Udine",
+      "first": "Mattia",
+      "last": "Guiotto",
+      "name": "Mattia Guiotto"
+    },
+    "schedule": {
+      "order": 4,
+      "slot": 1,
+      "track": 3
+    },
+    "title": "Expressiveness issues in interval temporal logics"
+  },
+  "6": {
+    "authors": "Antonio Piccolomini d'Aragona",
+    "id": "6",
+    "presenter": {
+      "affiliation": "University of Siena",
+      "first": "Antonio",
+      "last": "Piccolomini d'Aragona",
+      "name": "Antonio Piccolomini d'Aragona"
+    },
+    "schedule": {
+      "order": 4,
+      "slot": 4,
+      "track": 2
+    },
+    "title": "Inversion in non-monotonic PTS"
+  },
+  "60": {
+    "authors": "Joost Joosten, Luka Mikec and Albert Visser",
+    "id": "60",
+    "presenter": {
+      "affiliation": "University of Barcelona",
+      "first": "Joost",
+      "last": "Joosten",
+      "name": "Joost Joosten"
+    },
+    "schedule": {
+      "order": 3,
+      "slot": 3,
+      "track": 2
+    },
+    "title": "Feferman interpretability and applications"
+  },
+  "61": {
+    "authors": "Santiago Jockwich Martinez",
+    "id": "61",
+    "presenter": {
+      "affiliation": "University of Oslo",
+      "first": "Santiago",
+      "last": "Jockwich Martinez",
+      "name": "Santiago Jockwich Martinez"
+    },
+    "schedule": {
+      "order": 3,
+      "slot": 1,
+      "track": 2
+    },
+    "title": "Algebra-valued models and Logical Pluralism"
+  },
+  "62": {
+    "authors": "Leonardo Pacheco",
+    "id": "62",
+    "presenter": {
+      "affiliation": "TU Wien",
+      "first": "Leonardo",
+      "last": "Pacheco",
+      "name": "Leonardo Pacheco"
+    },
+    "schedule": {
+      "order": 2,
+      "slot": 0,
+      "track": 4
+    },
+    "title": "Higher-order feedback computation"
+  },
+  "63": {
+    "authors": "Patrick Uftring",
+    "id": "63",
+    "presenter": {
+      "affiliation": "University of W\u00fcrzburg",
+      "first": "Patrick",
+      "last": "Uftring",
+      "name": "Patrick Uftring"
+    },
+    "schedule": {
+      "order": 3,
+      "slot": 1,
+      "track": 4
+    },
+    "title": "Sequences with gap condition and binary trees with ascending labels"
+  },
+  "64": {
+    "authors": "Vlad Lazar",
+    "id": "64",
+    "presenter": {
+      "affiliation": "University of Ghent",
+      "first": "Vlad",
+      "last": "Lazar",
+      "name": "Vlad Lazar"
+    },
+    "schedule": {
+      "order": 4,
+      "slot": 3,
+      "track": 2
+    },
+    "title": "Modal logic semantics for ordinal analysis of bar induction"
+  },
+  "65": {
+    "authors": "Davide Manca",
+    "id": "65",
+    "presenter": {
+      "affiliation": "University of W\u00fcrzburg",
+      "first": "Davide",
+      "last": "Manca",
+      "name": "Davide Manca"
+    },
+    "schedule": {
+      "order": 2,
+      "slot": 3,
+      "track": 3
+    },
+    "title": "\u0394\u2070_2-better quasi orders in reverse mathematics"
+  },
+  "66": {
+    "authors": "Matteo Acclavio, Gianluca Curzi and Giulio Guerrieri",
+    "id": "66",
+    "presenter": {
+      "affiliation": "University of Gothenburg",
+      "first": "Gianluca",
+      "last": "Curzi",
+      "name": "Gianluca Curzi"
+    },
+    "schedule": {
+      "order": 4,
+      "slot": 4,
+      "track": 1
+    },
+    "title": "Non-wellfounded parsimonious proofs  and  non-uniform complexity"
+  },
+  "67": {
+    "authors": "Andrea Sabatini",
+    "id": "67",
+    "presenter": {
+      "affiliation": "Scuola Normale Superiore di Pisa",
+      "first": "Andrea",
+      "last": "Sabatini",
+      "name": "Andrea Sabatini"
+    },
+    "schedule": {
+      "order": 2,
+      "slot": 3,
+      "track": 1
+    },
+    "title": "Hypersequent calculi for propositional default logics"
+  },
+  "68": {
+    "authors": "Borja Sierra Miranda, Thomas Studer and Lukas Zenger",
+    "id": "68",
+    "presenter": {
+      "affiliation": "University of Bern",
+      "first": "Borja",
+      "last": "Sierra Miranda",
+      "name": "Borja Sierra Miranda"
+    },
+    "schedule": {
+      "order": 3,
+      "slot": 0,
+      "track": 3
+    },
+    "title": "Coalgebra for non-wellfounded proof theory"
+  },
+  "69": {
+    "authors": "Heinrich Wansing and Zach Weber",
+    "id": "69",
+    "presenter": {
+      "affiliation": "Ruhr University Bochum",
+      "first": "Heinrich",
+      "last": "Wansing",
+      "name": "Heinrich Wansing"
+    },
+    "schedule": {
+      "order": 3,
+      "slot": 3,
+      "track": 1
+    },
+    "title": "Quantifiers in connexive logic (in general and in particular)"
+  },
+  "70": {
+    "authors": "Hans Halvorson",
+    "id": "70",
+    "presenter": {
+      "affiliation": "Princeton University",
+      "first": "Hans",
+      "last": "Halvorson",
+      "name": "Hans Halvorson"
+    },
+    "schedule": {
+      "order": 4,
+      "slot": 3,
+      "track": 1
+    },
+    "title": "Equivalence in foundations"
+  },
+  "71": {
+    "authors": "Grigory Olkhovikov",
+    "id": "71",
+    "presenter": {
+      "affiliation": "Ruhr-Universitaet Bochum",
+      "first": "Grigory",
+      "last": "Olkhovikov",
+      "name": "Grigory Olkhovikov"
+    },
+    "schedule": {
+      "order": 3,
+      "slot": 0,
+      "track": 0
+    },
+    "title": "Conditionals in constructive logics"
+  },
+  "72": {
+    "authors": "Ludovico Fusco and Francesco Paoli",
+    "id": "72",
+    "presenter": {
+      "affiliation": "University of Urbino",
+      "first": "Ludovico",
+      "last": "Fusco",
+      "name": "Ludovico Fusco"
+    },
+    "schedule": {
+      "order": 3,
+      "slot": 0,
+      "track": 1
+    },
+    "title": "Multi-relation Agassiz sums of algebras"
+  },
+  "76": {
+    "authors": "Vit Puncochar",
+    "id": "76",
+    "presenter": {
+      "affiliation": "Institute of Philosophy, Czech Academy of Sciences",
+      "first": "Vit",
+      "last": "Puncochar",
+      "name": "Vit Puncochar"
+    },
+    "schedule": {
+      "order": 3,
+      "slot": 4,
+      "track": 0
+    },
+    "title": "Informational presupposition in substructural inquisitive logics"
+  },
+  "77": {
+    "authors": "Jin Wei",
+    "id": "77",
+    "presenter": {
+      "affiliation": "University of Pennsylvania",
+      "first": "Jin",
+      "last": "Wei",
+      "name": "Jin Wei"
+    },
+    "schedule": {
+      "order": 3,
+      "slot": 0,
+      "track": 2
+    },
+    "title": "Constructive Version of Herbrand\u2019s Theorem for First-Order \u0141ukasiewicz Logic"
+  },
+  "78": {
+    "authors": "Mengzhou Sun, Tin Lok Wong and Yue Yang",
+    "id": "78",
+    "presenter": {
+      "affiliation": "National University of Singapore",
+      "first": "Mengzhou",
+      "last": "Sun",
+      "name": "Mengzhou Sun"
+    },
+    "schedule": {
+      "order": 2,
+      "slot": 2,
+      "track": 1
+    },
+    "title": "The Kaufmann--Clote question on end extensions of models of arithmetic"
+  },
+  "79": {
+    "authors": "Christian Wurm",
+    "id": "79",
+    "presenter": {
+      "affiliation": "Heinrich Heine Universit\u00e4t D\u00fcsseldirf",
+      "first": "Christian",
+      "last": "Wurm",
+      "name": "Christian Wurm"
+    },
+    "schedule": {
+      "order": 4,
+      "slot": 0,
+      "track": 1
+    },
+    "title": "Finite Models for Non-Commutative Ambiguity Logics"
+  },
+  "8": {
+    "authors": "Beibut Kulpeshov and Sergey Sudoplatov",
+    "id": "8",
+    "presenter": {
+      "affiliation": "Kazakh British Technical University",
+      "first": "Beibut",
+      "last": "Kulpeshov",
+      "name": "Beibut Kulpeshov"
+    },
+    "schedule": {
+      "order": 4,
+      "slot": 4,
+      "track": 0
+    },
+    "title": "On non-essential expansions of quite o-minimal theories"
+  },
+  "80": {
+    "authors": "Alessandro Aldini and Ludovico Fusco",
+    "id": "80",
+    "presenter": {
+      "affiliation": "University of Urbino",
+      "first": "Ludovico",
+      "last": "Fusco",
+      "name": "Ludovico Fusco"
+    },
+    "schedule": {
+      "order": 2,
+      "slot": 3,
+      "track": 0
+    },
+    "title": "Modeling hyperproperties for RFID systems"
+  },
+  "81": {
+    "authors": "Andreas Weiermann",
+    "id": "81",
+    "presenter": {
+      "affiliation": "Ghent University",
+      "first": "Andreas",
+      "last": "Weiermann",
+      "name": "Andreas Weiermann"
+    },
+    "schedule": {
+      "order": 4,
+      "slot": 1,
+      "track": 2
+    },
+    "title": "Monadic second order limit laws for natural well orderings"
+  },
+  "82": {
+    "authors": "Giovanni Solda and Fedor Pakhomov",
+    "id": "82",
+    "presenter": {
+      "affiliation": "Ghent University",
+      "first": "Giovanni",
+      "last": "Solda",
+      "name": "Giovanni Solda"
+    },
+    "schedule": {
+      "order": 4,
+      "slot": 1,
+      "track": 4
+    },
+    "title": "Better quasi-orders and iterated ideals"
+  },
+  "83": {
+    "authors": "Ivo Pezlar",
+    "id": "83",
+    "presenter": {
+      "affiliation": "Czech Academy of Sciences, Institute of Philosophy",
+      "first": "Ivo",
+      "last": "Pezlar",
+      "name": "Ivo Pezlar"
+    },
+    "schedule": {
+      "order": 3,
+      "slot": 3,
+      "track": 0
+    },
+    "title": "A logic of judgmental existence and its relation to truncation and proof irrelevance"
+  },
+  "84": {
+    "authors": "Sebastian G.W. Speitel",
+    "id": "84",
+    "presenter": {
+      "affiliation": "University of Bonn",
+      "first": "Sebastian G.W.",
+      "last": "Speitel",
+      "name": "Sebastian G.W. Speitel"
+    },
+    "schedule": {
+      "order": 4,
+      "slot": 0,
+      "track": 0
+    },
+    "title": "Carnap's categoricity problem"
+  },
+  "85": {
+    "authors": "Mojtaba Mojtahedi",
+    "id": "85",
+    "presenter": {
+      "affiliation": "Ghent University",
+      "first": "Mojtaba",
+      "last": "Mojtahedi",
+      "name": "Mojtaba Mojtahedi"
+    },
+    "schedule": {
+      "order": 4,
+      "slot": 0,
+      "track": 3
+    },
+    "title": "A translation from GLP into GL"
+  },
+  "86": {
+    "authors": "Vitor Greati",
+    "id": "86",
+    "presenter": {
+      "affiliation": "Bernoulli Institute, Nijenborgh 9, 9747 AG, University of Groningen, The Netherlands",
+      "first": "Vitor",
+      "last": "Greati",
+      "name": "Vitor Greati"
+    },
+    "schedule": {
+      "order": 1,
+      "slot": 2,
+      "track": 0
+    },
+    "title": "Knotted substructural logics have fast-growing complexity"
+  },
+  "87": {
+    "authors": "Valentina Trucco Dalmas",
+    "id": "87",
+    "presenter": {
+      "affiliation": "Bernoulliborg, Nijenborgh 9, 9747 AG Groningen, University of Groningen, The Netherlands",
+      "first": "Valentina",
+      "last": "Trucco Dalmas",
+      "name": "Valentina Trucco Dalmas"
+    },
+    "schedule": {
+      "order": 2,
+      "slot": 2,
+      "track": 0
+    },
+    "title": "Investigating uniform interpolation via global termination"
+  },
+  "88": {
+    "authors": "Robin Martinot",
+    "id": "88",
+    "presenter": {
+      "affiliation": "Utrecht University",
+      "first": "Robin",
+      "last": "Martinot",
+      "name": "Robin Martinot"
+    },
+    "schedule": {
+      "order": 4,
+      "slot": 3,
+      "track": 4
+    },
+    "title": "Philosophically motivated restrictions on formal proofs"
+  },
+  "89": {
+    "authors": "Giacomo Barlucchi, Bahareh Afshari and Graham Leigh",
+    "id": "89",
+    "presenter": {
+      "affiliation": "Gothenburg University",
+      "first": "Giacomo",
+      "last": "Barlucchi",
+      "name": "Giacomo Barlucchi"
+    },
+    "schedule": {
+      "order": 3,
+      "slot": 3,
+      "track": 3
+    },
+    "title": "The limit of recursion in state-based systems."
+  },
+  "90": {
+    "authors": "Martin Ritter",
+    "id": "90",
+    "presenter": {
+      "affiliation": "Institute of Discrete Mathematics and Geometry, TU Wien",
+      "first": "Martin",
+      "last": "Ritter",
+      "name": "Martin Ritter"
+    },
+    "schedule": {
+      "order": 3,
+      "slot": 4,
+      "track": 3
+    },
+    "title": "Isomorphism relations on classes of c.e. algebras"
+  },
+  "91": {
+    "authors": "Orvar Lorimer Olsson",
+    "id": "91",
+    "presenter": {
+      "affiliation": "University of Gothenburg",
+      "first": "Orvar",
+      "last": "Lorimer Olsson",
+      "name": "Orvar Lorimer Olsson"
+    },
+    "schedule": {
+      "order": 2,
+      "slot": 2,
+      "track": 2
+    },
+    "title": "General plurivalent Boolean logics"
+  },
+  "92": {
+    "authors": "Luca San Mauro",
+    "id": "92",
+    "presenter": {
+      "affiliation": "University of Bari",
+      "first": "Luca",
+      "last": "San Mauro",
+      "name": "Luca San Mauro"
+    },
+    "schedule": {
+      "order": 3,
+      "slot": 0,
+      "track": 4
+    },
+    "title": "A new way of classifying word problems"
+  },
+  "93": {
+    "authors": "Dariusz Kaloci\u0144ski",
+    "id": "93",
+    "presenter": {
+      "affiliation": "Institute of Computer Science, Polish Academy of Sciences",
+      "first": "Dariusz",
+      "last": "Kaloci\u0144ski",
+      "name": "Dariusz Kaloci\u0144ski"
+    },
+    "schedule": {
+      "order": 4,
+      "slot": 4,
+      "track": 3
+    },
+    "title": "Scott ranks and intended models"
+  },
+  "94": {
+    "authors": "Philipp Provenzano, Mojtaba Mojtahedi, Fedor Pakhomov and Albert Visser",
+    "id": "94",
+    "presenter": {
+      "affiliation": "Ghent University",
+      "first": "Philipp",
+      "last": "Provenzano",
+      "name": "Philipp Provenzano"
+    },
+    "schedule": {
+      "order": 4,
+      "slot": 1,
+      "track": 0
+    },
+    "title": "Reflection and induction for subsystems of HA"
+  },
+  "95": {
+    "authors": "Dominik Kirst and Haoyi Zeng",
+    "id": "95",
+    "presenter": {
+      "affiliation": "Ben-Gurion University",
+      "first": "Dominik",
+      "last": "Kirst",
+      "name": "Dominik Kirst"
+    },
+    "schedule": {
+      "order": 4,
+      "slot": 0,
+      "track": 4
+    },
+    "title": "Constructive Reverse Mathematics of the Downwards L\u00f6wenheim-Skolem Theorem"
+  },
+  "96": {
+    "authors": "Gabriele Buriola, Domenico Cantone, Gianluca Cincotti, Eugenio Omodeo and Gaetano Spart\u00e0",
+    "id": "96",
+    "presenter": {
+      "affiliation": "University of Verona",
+      "first": "Gabriele",
+      "last": "Buriola",
+      "name": "Gabriele Buriola"
+    },
+    "schedule": {
+      "order": 4,
+      "slot": 1,
+      "track": 1
+    },
+    "title": "A parameterized family of decidable theories involving differentiable functions"
+  },
+  "98": {
+    "authors": "Horatiu Cheval, David Nowak and Vlad Rusu",
+    "id": "98",
+    "presenter": {
+      "affiliation": "University of Bucharest",
+      "first": "Horatiu",
+      "last": "Cheval",
+      "name": "Horatiu Cheval"
+    },
+    "schedule": {
+      "order": 4,
+      "slot": 0,
+      "track": 2
+    },
+    "title": "Defining and reasoning about partial (co)recursive functions in Lean"
+  },
+  "99": {
+    "authors": "Matteo Acclavio and Davide Catta",
+    "id": "99",
+    "presenter": {
+      "affiliation": "University of Sussex",
+      "first": "Matteo",
+      "last": "Acclavio",
+      "name": "Matteo Acclavio"
+    },
+    "schedule": {
+      "order": 4,
+      "slot": 3,
+      "track": 0
+    },
+    "title": "Dialogical strategies as proof-search strategies"
+  }
+}

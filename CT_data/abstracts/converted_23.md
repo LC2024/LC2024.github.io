@@ -1,0 +1,25 @@
+
+
+The notion of Rosser theories is introduced in  [1]. Rosser theories play an important role in the study of the incompleteness phenomenon and mete-mathematics of arithmetic, and have important mete-mathematical properties. All definitions of Rosser theories in  the literature are restricted to arithmetic languages which admit numerals for natural numbers. Results about Rosser theories  in the literature are confined to 1-ary relations. A general theory of Rosser theories  for $$n$$-ary relations for any $$n\geq 1$$ and relationships among them is missing in the literature.
+
+We first introduce the notion of $$n$$-Rosser theories, which generalizes the notion of Rosser theories for RE sets to $$n$$-ary RE relations in a general setting via the notion of interpretation. Then, we introduce notions of exact $$n$$-Rosser theories, effectively $$n$$-Rosser theories and effectively exact $$n$$-Rosser theories. Our definitions of these notions are not restricted to arithmetic languages admitting numerals for natural numbers. Then we systematically examine properties of these notions, and study relationships among these notions. Especially, we generalize some important theorems about Rosser theories for RE sets in the literature to $$n$$-Rosser theories for any $$n\geq 1$$. One important tool we use is the fact that for a disjoint pair  of $$n$$-ary RE relations, semi-$$\sf DU$$ implies $$\sf DU$$. We give three different proofs of this fact.
+
+Let $$T$$ be a consistent RE theory. We prove the following main theorems for any $$n\geq 1$$:
+
+  -  If $$T$$ is $$(n+1)$$-Rosser (exact $$(n+1)$$-Rosser), then $$T$$ is effectively $$n$$-Rosser (effectively exact $$n$$-Rosser).
+  -  If $$T$$ is $$(n+1)$$-Rosser, then $$T$$ is exact $$n$$-Rosser.
+  -  $$T$$ is effectively $$n$$-Rosser if and only if $$T$$ is effectively exact $$n$$-Rosser.
+  -    Suppose $$T$$  is $$n$$-Rosser  and any $$n$$-ary recursive functional on $$\mathbb{N}^n$$ is admissible in $$T$$, then $$T$$ is exact $$n$$-Rosser.
+  -  If the pairing function $$J_2(x,y)$$ is strongly definable in $$T$$, then for any $$n\geq 1$$, the following are equivalent: $$n$$-Rosser, effectively $$n$$-Rosser, exact $$n$$-Rosser, effectively exact $$n$$-Rosser.
+
+
+
+
+## Bibliography
+
+
+
+
+
+1. Raymond M. Smullyan. **Recursion Theory for Meta-Mathematics** (Oxford Logic Guides, 22). Oxford University Press, New York, 1993.
+

@@ -1,0 +1,12 @@
+
+
+In this talk, we study the classification of isomorphism problems with countably many isomorphism types. Borel reducibility has proven to be a powerful tool for classifying classes of countable structures under isomorphism; however, such problems, when restricted to classes with only countably many isomorphism types, have the same Borel complexity.
+
+To nicely classify such problems, we present a framework defined in a series of papers by Bazhenov, Fokina, Kötzing, and San Mauro which combines ideas from computable structure theory and algorithmic learning theory.  Here, given a countable family of structures $$\mathfrak{K}$$ a **learner** receives larger and larger pieces of an isomorphic copy of a structure in $$\mathfrak{K}$$ and, at each stage, is required to output a conjecture about the isomorphism type of such a structure. The learning is **successful** if the conjectures eventually stabilize to a correct guess. 
+
+Together with Bazhenov and San Mauro, we showed that a countable family of countable structures is learnable if and only if the corresponding isomorphism problem reduces to $$E_0$$, the equivalence relation of eventual agreement on infinite binary sequences. Replacing $$E_0$$ with other Borel equivalence relations, one obtains a hierarchy to rank such isomorphism problems. This improves the aforementioned framework by providing a way of calibrating the complexity of non-learnable families.
+
+Starting from a result of Bazhenov, Fokina, and San Mauro we give a model-theoretic characterization of the learning power of several equivalence relations (with a focus on Friedman-Stanley jumps of the identity on $$2^\mathbb{N}$$ and $$\mathbb{N}$$) and also of other classical learning criteria.
+
+This talk collects joint works with Bazhenov, Jain, Marcone, San Mauro, and Stephan.
+

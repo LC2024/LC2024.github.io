@@ -1,0 +1,26 @@
+
+
+
+
+
+
+
+A standardised and widely used way to organise structured knowledge on the internet are knowledge graphs (KGs). Description logics (DLs), a family of modal logic like logics, can formally describe KGs and define reasoning rules like _each student has a student number_. However, DLs are not suitable for defining constraints on data: the goal is to find out which parts of the data are not satisfying the constraints, instead of adding the logical consequences, or conclude that the theory is unsatisfiable. For this purpose, the SHACL standard was created. SHACL is a constraint language that has a description logic flavour, and contains features like regular path expressions, negation and recursion.
+
+SHACL reasoners perform validation, while DL reasoners logical inference. Integrating these two tasks into one uniform approach is a relevant but challenging problem. We address this problem by  proposing an intuitive semantics for validating SHACL constraints combined with some lightweight DLs. Moreover, we propose an algorithm that rewrites a set of recursive SHACL constraints (with stratified negation, i.e., not allowing the full combination of negation and recursion) combined with DL inference rules, into a stand-alone set of SHACL constraints that preserves validation for every input graph. This is done by pre-computing the results of the inference rules and implementing this in the constraints. We show that validation in this setting is EXPTIME-complete in combined complexity, but only PTIME-complete in data complexity, i.e., if the constraints and the inference rules are fixed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

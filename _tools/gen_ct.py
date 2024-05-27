@@ -90,12 +90,15 @@ room: {}
 ---
 
 {}
+
+{}
 """.format(talk["title"].replace('\\', '\\\\'),
            talk["presenter"]["name"],
            start,
            end,
            date,
            room,
+           "**Authors:** {}".format(talk["authors"]) if talk["authors"] != talk["presenter"]["name"] else "",
            abstract
            )
 
@@ -107,7 +110,7 @@ if __name__ == "__main__":
         print("Error: Needs to be executed in project root!")
         sys.exit(1)
 
-    with open("CT_data/joined_new.json") as f:
+    with open("CT_data/joined_manual.json") as f:
         joined = json.load(f)
 
     # Extract schedule from joined
@@ -120,6 +123,7 @@ if __name__ == "__main__":
                     talk["id"] = ti
                     talks.append(talk)
 
+            talks.sort(key=lambda t: t["schedule"]["order"])
             schedule.append(talks)
 
     for i, talks in enumerate(schedule):

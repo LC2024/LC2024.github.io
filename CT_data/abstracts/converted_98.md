@@ -1,0 +1,42 @@
+
+
+
+
+
+
+
+
+
+While partial recursive functions are ubiquitous in programming,
+proving results about their behavior using dependently typed proof assistants 
+like Coq or Lean is not straightforward, as they typically require the totality of all functions.
+In this talk, we present a new approach for defining and reasoning about 
+potentially non-terminating functions in such systems, and a work-in-progress formalization 
+of these methods in the Lean theorem prover.
+Our framework, which is based on domain theory, 
+allows one to embed such partial functions and constructs like `while` loops into proof assistants, 
+maintaining one's ability to write proofs about them. 
+
+At the same time, we introduce a domain-theoretical representation of coinductive types
+and partial corecursive functions. 
+This, together with convenient automations, provides an extension to Lean, whose native theory does 
+not include such notions.
+Furthermore, our representation allows one to also write corecursive functions 
+that would normally not be accepted even in systems with built-in coinductives, like Coq, 
+as they would violate a required guardedness condition 
+(like the `mirror` function on infinitely deep trees), 
+or they would need to be partial (like the `filter` function on streams).
+
+
+
+
+ 
+
+## Bibliography
+
+  1.   Horac{t}iu Cheval,  David Nowak,  Vlad Rusu,  _Formal Definitions and Proofs for Partial (Co)Recursive Functions_,  **_https://inria.hal.science/hal-04360660_** (2023).
+
+
+
+
+

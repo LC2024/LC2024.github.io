@@ -1,0 +1,34 @@
+
+
+
+
+\quad  
+
+
+
+Our talk concerns an order-theoretical and algebraic investigation of some  partially ordered algebraic structures arising in the logico-algebraic approach to Quantum Mechanics (QM), namely **paraorthomodular lattices** (PLs). Such algebras find a prominent example in the boundedly complete pseudo-Kleene Olson-de Groote **spectral** lattice of effects over a separable Hilbert space $$\mathcal{H}$$.   
+
+It is well known that the set $$\mathbf{P}(\mathcal{H})$$ of projections over a separable Hilbert space (HS) $$\mathcal{H}$$ can be regarded as quantum experimental propositions concerning Lüders measurements which form a complete orthomodular lattice (OML). OMLs provide a logico-algebraic rendering of complementarity phenomena between observables, as they can be regarded as "pastings" of their maximal Boolean "contexts"/sub-algebras (**blocks**). This means that the order of an OML determines, and it is determined by, the order on its Boolean sub-algebras.  
+
+Over the past years, it has been argued that the **idealizing** and **simplifying assumption** of considering only **Lüders measurements** leads to conflict with **experimental possibilities** and to **theoretical inconsistencies**. As a consequence, generalized measurable "unsharp" properties, whose formal counterpart is given by effects, have been introduced. In order to provide them with a logical structure which is amenable of lattice-theoretical investigations, PLs, i.e. "unsharp" generalizations of OMLs, have been defined.  
+
+In the first part of our talk we characterize the class of paraorthomodular lattices which are "pastings" of their Kleene (i.e. distributive) blocks. To this aim we introduce the variety of **super-paraorthomodular lattices** (SPLs), i.e. pseudo-Kleene lattices satisfying a generalized version of the orthomodular law [1]. We will outline their salient order-theoretical and algebraic properties by providing several characterization results like e.g. a Dedekind-type (forbidden configuration) theorem, and a theory of commutativity (for modular SPLs). It will turn out that the spectral pseudo-Kleene lattice $$\mathbf{L}(\mathcal{H})$$ of effects over a separable HS $$\mathcal{H}$$ is indeed super-paraorthomodular. Moreover, SPLs' theory captures important features of spectral lattices as, for example, orthocomplemented elements of an SPL $$\mathbf{A}$$ always form an **orthomodular poset**.  
+
+In the second part of the talk, taking advantage of well known J. Czelakowski's results, we introduce **paraconsistent partial referential matrices** (PPRM) for the formal treatment of (partial) experimental quantum propositions taking truth values over the three element Kleene chain $$\mathbf{K}_{3}$$, which are **meaningful**/**defined** for certain states of a physical system, and undefined otherwise. We will show that any super-praorthomodular lattice is isomorphic to a pseudo-Kleene lattice of partial propositions in the algebraic reduct of a PPRM. 
+## Bibliography
+
+
+
+
+
+
+
+
+
+1. D. Fazio, and R. Mascella, _On Contextuality and Unsharp Quantum Logic_,**_submitted_**, arXiv:2311.06109.
+
+
+
+
+
+

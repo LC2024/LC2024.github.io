@@ -1,0 +1,18 @@
+
+
+
+
+In the context of reverse mathematics, Gordeev could prove in $$\textsf{RCA}_0$$ that the following statement is equivalent to arithmetical transfinite recursion: For each well order $$\alpha$$, the partial order of finite sequences with members in $$\alpha$$ ordered using a symmetric variant of Friedman's gap condition is a well partial order (cf. [1]).
+
+We present a new and simpler proof for this result using a connection to binary trees with ascending labels, i.e., with labels from a well order $$\alpha$$ that weakly ascend (from root to leaf).
+
+Moreover, we extend Gordeev's characterization of $$\textsf{ATR}_0$$ to both such trees and sequences ordered using stronger variants of the gap condition. Finally, we present the maximal order types of all discussed well partial orders for any given well order $$\alpha$$.
+
+## Bibliography
+	
+1. Lev Gordeev,_Generalizations of the one-dimensional version of the Kruskal-Friedman theorems_,**_The Journal of Symbolic Logic_**,vol. 54 (1989), no. 1, pp. 100--121.
+
+
+
+
+

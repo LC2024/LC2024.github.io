@@ -1,0 +1,25 @@
+
+
+
+
+
+One of the first recognised characteristics of classical logic is the existence of prenex forms for each formula. The quantifier-shifting rules are used non-uniquely to construct these prenex forms. The expressive power of prenex fragments is easy to see in classical logic because it coincides with the whole logic, and in Intuitionistic logic since the prenex formulas are very weak (the validity of the prenex formula is decidable). However, because Gödel logics are intermediary logics, the expressibility of its prenex is relatively important.
+It is clear that prenex normal forms cannot be constructed in the usual sense in Gödel logics because some of the quantifier-shift rules may fail, but this does not imply that no prenex normal form exists. However, demonstrating that such prenex forms do not exist is more difficult. Prenexation does not work for $$G_{[0,1]}$$ when $$0$$ is not isolated, since the formula $$(\neg \forall x A(x)\wedge \forall x \neg \neg A(x))$$ does not allow a prenex normal form. To prove this fact, we use the glueing argument, which is not easy to see. This result can be extended to all Gödel logics where there is one accumulation point from above, even if it is not $$0$$. 
+
+In this talk, we provide the complete classification for the first-order Gödel logics after the property that the formulas admit logically equivalent prenex normal forms. We show that the only first-order Gödel logics that admit such prenex forms are those with finite truth value sets since they allow all quantifier-shift rules and the logic $$G_\uparrow$$ with only one accumulation point at $$1$$. In all the other cases, when there is at least one accumulation point from above, all accumulation points are from above, and all accumulation points are from below; there are no logically equivalent prenex normal forms. We will also see that $$G_\uparrow$$ is the intersection of all finite first-order Gödel logics.
+The second stage of our research investigates the existence of the validity equivalent prenex normal form. Gödel logics with a finite truth value set admit such prenex forms. Gödel logics with an uncountable truth value set have the prenex normal form if and only if every surrounding of $$0$$ is uncountable or $$0$$ is an isolated point. Otherwise, uncountable Gödel logics are incomplete, and the prenex fragment is always complete with respect to the uncountable truth value set. Therefore, there is no effective translation to the valid formula and the valid prenex form. The countable case, however, is still up for debate.
+## Bibliography
+
+
+
+
+
+
+
+1. Matthias Baaz, Norbert Preining_Gödel-Dummett logics,_ in: Petr Cintula, Petr Hájek, Carles Noguera (Eds.), **_Handbook of Mathematical Fuzzy Logic_**  vol. 2, College Publications, (2011), pp. 585–626, chapter VII.
+2. Matthias Baaz, Norbert Preining, Richard Zach,_First-order Gödel logics,_  **_Annals of Pure and Applied Logic_** vol. 147. (2007) pp. 23–47.
+
+
+
+
+

@@ -1,0 +1,73 @@
+
+
+
+
+
+In 1964 Pierre Deligne proved a very celebrated theorem in topos theory.  
+**Theorem(Deligne)**
+    Every locally coherent topos has enough points.
+
+The theorem's original motivation came from algebraic geometry, but after Joyal and Reyes developed the theory of classifying topoi, it was observed by Lawvere that Deligne's theorem was essentially the statement of Gödel's completeness theorem for first order logic in disguise. This realisation crowned Deligne's theorem as a major result in categorical logic, and a source of inspiration for finding other completeness-like results using techniques from topos theory. 
+
+
+
+
+
+
+
+
+
+
+
+
+Following Deligne's theorem, it was some time before new results emerged showing that further classes of topoi have enough points. Makkai and Reyes proved that _separable_ topoi have enough points. 
+
+
+
+This result was inspired by the Fourman-Grayson completeness theorem for the logic $$L_{\omega_1,\omega_0}$$, and indeed it is almost the translation of it into topos-theoretic language through the bridge of classifying topoi. The proof by Makkai and Reyes is a bit sketchy, and of model theoretic inspiration, thus it is hard to compare this result to Deligne's. 
+
+
+
+Recently, the main advancements are due to Espíndola; most recently together with Kanalas they have provided a more categorical analysis which delivers a vast generalization of the original results that Espíndola achieved in his PhD thesis. Simultaneously to these developments, the community revolving around topos theory has been trying to understand the limits of Deligne's original argument and its possible generalization.
+
+
+
+
+
+
+**Our contribution**  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+We clarify and extend Deligne's original argument showing that locally coherent topoi have enough points. We show that our refinement of Deligne's technique can be adapted to recover every existing result of this kind, including the most recent results about $$\kappa$$-coherent $$\kappa$$-topoi. Our presentation allows us to relax the cardinality assumptions typically imposed on the sites involved. We show by abstracting further that a closed subtopos of a topos with enough points has enough points.
+
+
+
+
+**Theorem.**
+Let $$j: \mathcal{F} \rightarrowtail \mathcal{E}$$ be an inclusion of toposes. Suppose that for every point $$p$$ can be improved. If $$\mathcal{E}$$ has enough points, then $$\mathcal{F}$$ has enough points.
+
+
+
+
+**Theorem.**
+A closed subtopos of a topos with enough points has enough points.
+
+
+
+

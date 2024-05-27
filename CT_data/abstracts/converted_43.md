@@ -1,0 +1,33 @@
+
+
+
+
+
+
+Starting from the idea that some mathematical concepts are indefinitely extensible [1], we present a model of simple type theory that interprets its types in an indefinitely extensible way. Let indefinite extensibility be defined relative to a notion of definiteness, where a concept is (extensionally) definite if there exists a fixed set of objects falling under it. If a collection of objects is definite when it corresponds to a set in ZF set theory, then indefinite extensibility applies to ordinal numbers. But we can take the simplest notion of definiteness, which is being finite, in which case indefinite extensibility becomes the notion of the potential infinite. 
+
+In any case, indefinitely extensible totalities of objects are formalized as families of (definite) sets, indexed over a directed set of stages.  We use simple type theory as a framework in which there is a possibly open-ended set of base types $$\iota$$, as well as function types $$\rho \to \sigma$$. Each type $$\rho$$ has its own index set $$\mathcal{I}_\rho$$ which is typically indefinitely extensible. The interpretation of the type $$\rho$$ is a family $$([\rho]^i)_{i \in \mathcal{I}_\rho}$$, which is a factor system [2] having an internal limit construction in order to obtain indefinitely large stages.
+
+If we add a type $$prop$$ for propositions, interpreted as a finite set of truth values, e.g. $$\{true,false\}$$, and restrict simple type theory to a fragment without function variables (but with variables for relations), then we are able to interpret the universal quantifier. The main idea is to use the indefinitely large stages of the factor system and interpret the universal quantifier with a reflection principle. Thus, second-order quantification ranges over definite sets, also for properties. This idea extends the approach of [3], which has its origin in [4].
+
+
+
+## Bibliography
+
+
+
+
+
+
+
+
+
+1. Stewart Shapiro and Crispin Wright,_All things indefinitely extensible_,**_Absolute generality_**(Agustin Rayo and Gabriel Uzquiano),Clarendon Press, 2006, pp. 255--304.
+2. Matthias Eberl,_Higher-order concepts for the potential infinite_,**_Theoretical Computer Science_**,vol. 945 (2023), Article 113667.
+3. Matthias Eberl,_A Model Theory for the Potential Infinite_,**_Reports on Mathematical Logic_**,vol. 57 (2022), pp. 3--30.
+4. Jan Mycielski,_Locally Finite Theories_,**_Journal of Symbolic Logic_**,vol. 51 (1986), no. 1, pp. 59--62.
+
+
+
+
+

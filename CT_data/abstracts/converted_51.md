@@ -1,0 +1,101 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Linear temporal logic (LTL) is a modal logic with 
+the modalities 'Next Step', 'Until' and
+'Always Going to Be', 
+and with linear orders as models, 
+which are often called traces. 
+LTL has the expressive power to capture some properties of
+computation traces, but not all the properties of interest.
+One class of properties beyond the scope of the logic
+is characterised by the existence of dependencies 
+between traces.
+Properties of this kind are 
+referred to as hyperproperties [1].
+In this talk we compare the expressive power of
+two approaches to extending
+LTL in order to capture
+hyperproperties.
+We explore the relation between 
+LTL under team semantics (TeamLTL) and 
+LTL extended with trace quantifiers (HyperLTL),
+with a focus on the effects of 
+extending the logics with arbitrary disjunctions and 
+negations has on the relative expressivity.
+In the team semantics setting 
+synchronicity brings with it great expressive power,
+making the logic incomparable to HyperLTL,
+whereas without the requirement of synchronicity 
+the logic remains on the level of LTL [2].
+Extending the asynchronous logic with connectives familiar from 
+the team semantics literature, namely the Boolean disjunction
+and Boolean negation, 
+widens what can be characterised in the logic,
+but how does the relation to HyperLTL fare in 
+these extensions?
+
+We will provide an overview of the results for
+the synchronous semantics of TeamLTL, 
+while elaborating further on our recent work [3] with 
+the asynchronous semantics of TeamLTL.
+In that domain we particularly consider 
+the extensions of TeamLTL with
+the Boolean disjunction and a so-called left-downward closed 
+fragment of the extension of
+TeamLTL with the Boolean negation, where the negation
+cannot occur in the left-hand side of the 'Until'-operator or 
+within the scope of the 'Always Going to Be'-operator.
+We show that TeamLTL extended with 
+the Boolean disjunction is equi-expressive with
+the positive Boolean closure of HyperLTL restricted to 
+one universal quantifier,
+while the left-downward closed fragment of 
+TeamLTL extended with the Boolean negation
+is expressively equivalent with 
+the Boolean closure of HyperLTL restricted to 
+one universal quantifier.
+
+This talk is based on joint work with 
+Juha Kontinen and Jonni Virtema.
+
+## Bibliography
+
+
+
+
+
+
+
+
+
+1.     Michael R. Clarkson and               Fred B. Schneider,    _Hyperproperties_,    **_Journal of Computer Security_**,        vol. 18 (2010), no. 6, pp. 1157--1210.    
+2.         Andreas Krebs and                  Arne Meier and                  Jonni Virtema and                  Martin Zimmermann,        _Team Semantics for the Specification                   and Verification of Hyperproperties_,        **_43rd International Symposium on                  Mathematical Foundations of Computer                  Science, MFCS 2018_**        (Liverpool, UK),        (Igor Potapov and                  Paul G. Spirakis and                  James Worrell, editors),        vol. 117,        Schloss Dagstuhl - Leibniz-Zentrum für Informatik,        2018,        pp. 10:1--10:16.    
+3.         Juha Kontinen and                  Max Sandström and                  Jonni Virtema,        _Set Semantics for Asynchronous TeamLTL:                   Expressivity and Complexity_,        **_48th International Symposium on                   Mathematical Foundations of Computer                  Science, MFCS 2023_**        (Bordeaux, France),        (Jérôme Leroux and                  Sylvain Lombardy and                  David Peleg, editors),        vol. 272,        Schloss Dagstuhl - Leibniz-Zentrum für Informatik,        2023,        pp. 60:1--60:14.
+
+
+
+

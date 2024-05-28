@@ -1,8 +1,10 @@
 import itertools
+import subprocess
 import json
 import os
 import sys
 import math
+import create_person
 
 slots = [('2024-06-25', '16:30', '18:30'),
          ('2024-06-26', '14:00', '16:00'),
@@ -72,6 +74,9 @@ def build_talk(i, j):
     start = add_mins(start_time, shift * j)
     end = add_mins(start_time, shift * (j + 1))
 
+    presenter = talk["presenter"]
+    create_person.create(presenter["first"], presenter["last"], presenter["affiliation"])
+
     abstract = ""
     with open("CT_data/abstracts/converted_{}.md".format(talk["id"])) as f:
         abstract = f.read()
@@ -109,6 +114,10 @@ if __name__ == "__main__":
     if "_talks" not in os.listdir("."):
         print("Error: Needs to be executed in project root!")
         sys.exit(1)
+
+    for f in os.listdir("_talks"):
+        if f.startswith("ct"):
+            os.remove("_talks/" + f)
 
     with open("CT_data/joined_manual.json") as f:
         joined = json.load(f)

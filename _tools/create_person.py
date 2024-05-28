@@ -23,7 +23,7 @@ def create(first, last, affil):
 
     file_name = first.lower() + "-" + last.lower() + ".md"
     if file_name in os.listdir("_speakers"):
-        print("Note: Speaker file already exists: " + first + " " + last)
+        # print("Note: Speaker file already exists: " + first + " " + last)
         return
 
     f = open("_speakers/" + file_name, "w")

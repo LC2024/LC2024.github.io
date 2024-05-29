@@ -4,7 +4,8 @@ title: Registration
 permalink: /registration/
 ---
 
-The deadline for registration has now passed (17 May). Registration will remain open but banquet and T-shirt options are no longer available.
+The deadline for registration has now passed (17 May). 
+Registration will remain open while there are spaces available, but banquet and T-shirt options are no longer available.
 
 The conference offers two registration categories:
 

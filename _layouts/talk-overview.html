@@ -11,6 +11,7 @@
   {{ content }}
 
   {% for main_category in site.conference.talks.main_categories %}
+  {%- unless main_category.drop -%}
     <h3 class="mt-4 mb-3">
       <span class="badge border-soft-{{ main_category.color }} bg-soft-{{ main_category.color }} d-block d-sm-inline text-wrap">
         {{ main_category.name }}
@@ -18,6 +19,7 @@
     </h3>
     <ul class="list-unstyled">
       {% for talk in site.talks -%}
+        {%- unless talk.talks -%}
         {%- for cat in talk.categories -%}
           {%- if cat == main_category.name -%}
             {%- assign main_cat = main_category.name -%}
@@ -105,8 +107,10 @@
             {%- break -%}
           {%- endif -%}
         {%- endfor -%}
+        {%- endunless -%}
       {%- endfor %}
     </ul>
+  {%- endunless -%}
   {%- endfor -%}
 
 {% include partials/footer.html %}

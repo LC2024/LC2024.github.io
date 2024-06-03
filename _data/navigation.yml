@@ -6,10 +6,10 @@
   links:
     - name: Program
       menu:
-        - name: Overview
+        - name: Program Overview
           relative_url: /program/
-          # - name: Invited Talks
-          #   relative_url: /talks/
+        - name: Talk Overview
+          relative_url: /talks/
           # - name: Social Events
           # - name: Schedule
           #   relative_url: /schedule/

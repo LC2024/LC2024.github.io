@@ -124,19 +124,21 @@ conference:
   talks:
     # Talk categories
     main_categories:
-      - name: Contributed Talk
-        color: talk
-      - name: Tutorial
-        color: tutorial
       - name: Plenary Talk
         color: plenary
+      - name: Tutorial
+        color: tutorial
       - name: Special Session
         color: special
+      - name: Contributed Talk
+        color: talk
       - name: Opening
         color: plenary
         hide: true
+        drop: true
       - name: Social
         color: social
+        drop: true
 
     # Hide icons on talk overview page
     hide_icons: false

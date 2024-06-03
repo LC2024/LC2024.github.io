@@ -206,7 +206,7 @@ The colloquium will run for five days and comprise 3 tutorials, 7 plenary lectur
 
 The 2024 Gödel lecture will be delivered by
 
-- [Thomas Scanlon](https://math.berkeley.edu/~scanlon/), University of California at Berkeley
+- [Thomas Scanlon](https://math.berkeley.edu/~scanlon/), University of California at Berkeley: _(Un)decidability in fields_
 
 ### Special Sessions
 
@@ -220,7 +220,7 @@ The 2024 Gödel lecture will be delivered by
 **Computable Structures**, chairs: [Uri Andrews](https://uriandrews.netlify.app/) and [Julia Knight](https://math.nd.edu/people/faculty/julia-knight/)
 
 - [Meng-Che (Turbo) Ho](https://sites.google.com/view/turboho/homepage), California State University: _Decision problems for groups as equivalence relations_
-- [Matthew Harrison-Trainor](http://homepages.math.uic.edu/~mht/), University of Illinois
+- [Matthew Harrison-Trainor](http://homepages.math.uic.edu/~mht/), University of Illinois: _Interpretations, back-and-forth games, and group von Neumann algebras_
 - [David Gonzalez](https://www.davidgonzalezlogic.com), University of California, Berkeley: _Generically computable linear orderings_
 
 
@@ -228,12 +228,12 @@ The 2024 Gödel lecture will be delivered by
 
 - [Kristina Liefke](https://www.ruhr-uni-bochum.de/phil-inf/), Ruhr-University, Bochum: _Reduction and unification in (typed) natural language ontology_
 - [Zhaohui Luo](https://www.cs.rhul.ac.uk/home/zhaohui/), Royal Holloway, University of London: _Common nouns as types: Higher inductive types in type-theoretical semantics_
-- [Peter Sutton](https://peter-sutton.github.io/), Universitat Pompeu Fabra, Barcelona
+- [Peter Sutton](https://peter-sutton.github.io/), Universitat Pompeu Fabra, Barcelona: _The challenge of polysemy for natural language semantics_
 
 
 **Logic in Philosophy**, chairs: [Volker Halbach](https://users.ox.ac.uk/~sfop0114/) and [Heinrich Wansing](https://www.pe.ruhr-uni-bochum.de/philosophie/i/logic/index.html.en)
 
-- [Agata Ciabattoni](https://www.logic.at/staff/agata/), Technische Universität Wien
+- [Agata Ciabattoni](https://www.logic.at/staff/agata/), Technische Universität Wien: _Normative Reasoning: from Sanskrit philosophy to AI_
 - [Andrzej Indrzejczak](https://www.filozofia.uni.lodz.pl/en/translate-to-english-andrzej-indrzejczak), University of Łódź: _Do theories of definite descriptions support Anselm’s God?_
 - [Johannes Stern](https://johannesstern.github.io), University of Bristol: _Truth, Conditionals, and Hyperintensionality_
 
@@ -249,4 +249,8 @@ The 2024 Gödel lecture will be delivered by
 
 - Tamás Kátay, Eötvös Loránd University, Budapest: _Generic properties of groups_
 - [Claudio Agostini](https://sites.google.com/view/claudioagostiniswebsite), Technische Universität Wien: _The key properties of metrizability for (generalized) descriptive set theory_
-- [Chris Lambie-Hanson](https://users.math.cas.cz/~lambiehanson/), Czech Academy of Sciences
+- [Chris Lambie-Hanson](https://users.math.cas.cz/~lambiehanson/), Czech Academy of Sciences: _Guessing Models, Cardinal Arithmetic, and Ultrafilters_
+
+### Talk Overview
+
+An overview of all talks to be delivered at the Logic Colloquium, including contributed talks, can be found [here](/talks).

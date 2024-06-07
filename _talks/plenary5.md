@@ -1,5 +1,5 @@
 ---
-name: A decision algorithm for intuitionistic S4
+name: Proof systems and decision algorithms for intuitionistic K
 speakers:
   - Marianna Girlando
 categories:

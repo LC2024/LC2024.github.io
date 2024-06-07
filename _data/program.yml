@@ -151,7 +151,7 @@ days:
   rooms:
   - name: J222
     talks:
-    - name: A decision algorithm for intuitionistic S4
+    - name: Proof systems and decision algorithms for intuitionistic K
       time_end: '10:00'
       time_start: '09:00'
     - name: WQOs and BQOs in logic III

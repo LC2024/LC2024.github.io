@@ -4,3 +4,6 @@ _site
 .jekyll-metadata
 .DS_Store
 .vscode
+CT_data/abstracts
+CT_data/*.xlsx
+CT_data/*.csv

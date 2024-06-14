@@ -1,17 +1,17 @@
 ---
 name: Contributed Talks 4
 speakers: 
-  - "Fedor Pakhomov"
+  - "Assylbek Issakhov"
   - "Konstantinos Papafilippou"
   - "Pablo Dopico"
-  - "Borja Sierra Miranda"
+  - "Fedor Pakhomov"
   - "Mojtaba Mojtahedi"
 
 talks: 
-  - "The Logic of Correct Models"
+  - "Types of minimal numberings with hyperimmune oracles"
   - "Succinctness of the fixed point theorem for provability logic"
   - "Axiomatic theories of supervaluationist truth: completing the picture"
-  - "Coalgebra for non-wellfounded proof theory"
+  - "The Logic of Correct Models"
   - "A translation from GLP into GL"
 
 categories:

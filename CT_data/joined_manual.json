@@ -25,7 +25,7 @@
       "name": "Fedor Pakhomov"
     },
     "schedule": {
-      "order": 0,
+      "order": 3,
       "slot": 0,
       "track": 3
     },
@@ -473,8 +473,8 @@
       "name": "Assylbek Issakhov"
     },
     "schedule": {
-      "order": 2,
-      "slot": 4,
+      "order": 0,
+      "slot": 0,
       "track": 3
     },
     "title": "Types of minimal numberings with hyperimmune oracles"
@@ -1209,8 +1209,8 @@
       "name": "Borja Sierra Miranda"
     },
     "schedule": {
-      "order": 3,
-      "slot": 0,
+      "order": 4,
+      "slot": 3,
       "track": 3
     },
     "title": "Coalgebra for non-wellfounded proof theory"

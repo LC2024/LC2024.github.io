@@ -47,7 +47,7 @@ days:
   rooms:
   - name: J222
     talks:
-    - name: Structural highness notions
+    - name: When any three solutions are independent
       time_end: '10:00'
       time_start: '09:00'
     - name: Model theory of tame classes of finite structures III
@@ -201,7 +201,7 @@ days:
   rooms:
   - name: J222
     talks:
-    - name: When any three solutions are independent
+    - name: Structural highness notions
       time_end: '10:00'
       time_start: '09:00'
     - name: An exploration of proof mining II

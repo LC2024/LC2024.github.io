@@ -213,7 +213,7 @@ The 2024 Gödel lecture will be delivered by
 **Applied Model Theory**, chairs: [Gareth Jones](https://personalpages.manchester.ac.uk/staff/Gareth.Jones-3/index.php) and [Tamara Servi](https://tamaraservi.github.io/)
 
 - [Vincent Bagayoko](https://vincentbagayoko.neocities.org), Université Paris Cité: _Ordered groups of regular growth rates_
-- [Anna Dmitrieva](https://research-portal.uea.ac.uk/en/persons/anna-dmitrieva), University of East Anglia: _Quasiminimality of complex functions_
+- [Anna Dmitrieva](https://research-portal.uea.ac.uk/en/persons/anna-dmitrieva), University of East Anglia: _Generic functions and quasiminimality_
 - [Adele Padgett](https://sites.google.com/view/adele-padgett/home), McMaster University: _O-minimal definitions of the complex Γ and Riemann ζ functions_
     
 

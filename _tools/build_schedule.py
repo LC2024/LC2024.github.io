@@ -58,5 +58,6 @@ if __name__ == "__main__":
     text = text.replace("09:00", "\'09:00\'")
     text = text.replace("08:30", "\'08:30\'")
     text = text.replace("08:50", "\'08:50\'")
+    text = text.replace("08:15", "\'08:15\'")
 
     print(text)

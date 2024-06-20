@@ -2,7 +2,7 @@
 name: Contributed Talks 3
 speakers: 
   - "Laurentiu Leustean"
-  - "Anna Petiurenko"
+  - "Piotr Błaszczyk"
   - "Jin Wei"
   - "Horatiu Cheval"
   - "Andrew Brooke-Taylor"

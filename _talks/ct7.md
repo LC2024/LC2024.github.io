@@ -4,7 +4,7 @@ speakers:
   - "Giulia Manara"
   - "Sebastijan Horvat"
   - "Matthias Eberl"
-  - "Anna Petiurenko"
+  - "Piotr Błaszczyk"
   - "Gabriele Buriola"
 
 talks: 

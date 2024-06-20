@@ -43,7 +43,7 @@ The colloquium will run for five days and comprise 3 tutorials, 7 plenary lectur
         text-align: center;
         height: 30px;
         width: 100px;
-        /* border: thin solid; */
+        border: thin solid;
     }
 
     .break, .empty {
@@ -60,30 +60,29 @@ The colloquium will run for five days and comprise 3 tutorials, 7 plenary lectur
 
     .social {
         font-style: italic;
-        border: thin solid;
+        /* border: thin solid; */
     }
 
     .pl, .gl {
         background-color: teal;
-        border: thin solid;
+        /* border: thin solid; */
         height: 60px;
     }
 
     .tu {
         background-color: pink;
         height: 60px;
-        border: thin solid;
+        /* border: thin solid; */
     }
 
     .ss {
         background-color: beige;
         height: 120px;
-        border: thin solid;
+        /* border: thin solid; */
     }
 
     .ct {
         background-color: gray;
-        border: thin solid;
     }
 </style>
 
@@ -154,13 +153,14 @@ The colloquium will run for five days and comprise 3 tutorials, 7 plenary lectur
     </tr>
     <tr>
         <th>1600 &ndash; 1630</th>
-        <td colspan="5" class="break">Coffee</td>
+        <td colspan="2" class="break">Coffee</td>
+        <td rowspan="5" class="social"></td>
+        <td colspan="2" class="break">Coffee</td>
     </tr>
     <tr>
         <th>1630 &ndash; 1700</th>
         <td class="empty"></td>
         <td rowspan="4" class="ct">Contributed Talks</td>
-        <td rowspan="4" class="empty"></td>
         <td rowspan="2" class="pl">Plenary</td>
         <td rowspan="4" class="ct">Contributed Talks</td>
     </tr>

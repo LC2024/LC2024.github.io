@@ -232,9 +232,29 @@
                             {%- include partials/show_talk.html %}
                         <!-- </p> -->
                         </h5>
+                        {% unless talk.talks %}
                         <p class="font-weight-light my-2">
                             {%- include partials/list_speakers.html %}
                         </p>
+                        {% else %}
+                          {% assign session = talk %}
+                            {%- for talk_name in session.talks -%}
+                            {%- assign talk = site.talks | where: 'name', talk_name | first %}
+                            {%- assign speaker_name = talk.speakers | first %}
+                            {%- assign speaker = site.speakers | where: 'name', speaker_name | first -%}
+                            <p class="mx-0 my-1"><span class="badge badge-light font-weight-normal text-left">
+                              <i class="far fa-clock"></i>&nbsp;
+                              {{ talk.time_start }}
+                            </span>
+                            <span>
+                              <a class="text-reset" href="{{ speaker.url | prepend: site.baseurl }}">
+                                  {{- speaker_name -}}
+                              </a>
+                          </span>
+                          </p>
+                            {%- endfor -%}
+                          {% assign talk = session %}
+                        {% endunless %}
                         {% if talk.chairs %}
                         <p class="font-weight-light my-2">
                             {%- include partials/list_chairs.html %}

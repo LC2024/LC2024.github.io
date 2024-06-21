@@ -180,8 +180,8 @@ The colloquium will run for five days and comprise 3 tutorials, 7 plenary lectur
         <th></th>
         <td class="empty"></td>
         <td class="social">Banquet</td>
-        <td></td>
-        <td></td>
+        <td class="empty"></td>
+        <td class="empty"></td>
     </tr>
     </tbody>
 </table>

@@ -2,6 +2,8 @@
 name: 'Gödel Lecture: (Un)decidability in fields'
 speakers:
   - Thomas Scanlon
+chairs:
+  - Russell Miller
 categories:
   - Plenary Talk
 time_start: '17:00'

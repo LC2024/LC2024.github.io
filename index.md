@@ -7,7 +7,7 @@ The colloquium will run for five days and comprise 3 tutorials, 7 plenary lectur
 
 ## Announcements
 
-- **The schedule is now available**. See the [schedule page]({% link schedule/schedule.md %}) for details.
+- **The schedule is available**. See the [schedule page]({% link schedule/schedule.md %}) for details.
 - **Limited places remain**. Registration will remain open for late registrants but remaining places are limited.
 - **Early registration has closed**. Standard registration is available until 17 May.
 - **Registration open**. Proceed to the [registration page]({% link registration/registration.md %}) for information. Early registration is open until 17 April.

@@ -242,7 +242,7 @@
                             {%- assign talk = site.talks | where: 'name', talk_name | first %}
                             {%- assign speaker_name = talk.speakers | first %}
                             {%- assign speaker = site.speakers | where: 'name', speaker_name | first -%}
-                            <p class="mx-0 my-1"><span class="badge badge-light font-weight-normal text-left">
+                            <p class="mx-0 my-0"><span class="badge badge-light font-weight-normal text-left">
                               <i class="far fa-clock"></i>&nbsp;
                               {{ talk.time_start }}
                             </span>

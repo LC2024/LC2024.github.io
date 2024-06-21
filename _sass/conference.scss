@@ -192,13 +192,13 @@ main.container img {
 
     // Spacing between columns
     &.col-space {
-      width: 15px;
-      min-width: 15px;
+      width: 5px;
+      min-width: 5px;
     }
     // Width of first column containing timestamps
     &.col-title {
-      width: 70px;
-      min-width: 70px;
+      width: 40px;
+      min-width: 40px;
     }
   }
 }

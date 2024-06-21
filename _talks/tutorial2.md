@@ -2,6 +2,8 @@
 name: Model theory of tame classes of finite structures II
 speakers:
   - Anuj Dawar
+chairs:
+  - Johanna Franklin
 categories:
   - Tutorial
 time_start: '11:30'

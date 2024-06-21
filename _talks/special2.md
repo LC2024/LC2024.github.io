@@ -1,7 +1,7 @@
 ---
 name: Logic in Philosophy
 chairs:
-  - Volker Halbach
+  # - Volker Halbach
   - Heinrich Wansing
 speakers:
   - Agata Ciabattoni

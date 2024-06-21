@@ -2,6 +2,8 @@
 name: Models of arithmetic that satisfy more collection than induction
 speakers:
   - Leszek Kołodziejczyk
+chairs:
+  - Johanna Franklin
 categories:
   - Plenary Talk
 time_start: '09:00'

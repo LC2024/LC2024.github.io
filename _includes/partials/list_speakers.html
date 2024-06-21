@@ -1,9 +1,3 @@
-{% if talk.chairs %}
-<span class="font-weight-normal">
-    Speakers:
-</span>
-{% endif %}
-
 {% if talk.speakers.size < 2 %}
   {% assign speaker_name = talk.speakers | first -%}
   {%- assign speaker = site.speakers | where: 'name', speaker_name | first -%}
@@ -22,6 +16,9 @@
     </a>
   {%- endif -%}
 {% else %}
+  <!-- <span class="font-weight-normal">
+    Speakers:
+  </span> -->
   <ul class="speakers-of-talk">
   {%- if talk.talks -%}
     {% for speaker_name in talk.speakers -%}

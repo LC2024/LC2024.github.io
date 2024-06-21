@@ -1,6 +1,10 @@
 {% if talk.chairs %}
 <span class="font-weight-normal">
-Chairs:
+  {% if talk.chairs.size > 1 %}
+  Chairs:
+  {% else %}
+  Chair:
+  {% endif %}
 </span>
 {% endif %}
 {% for speaker_name in talk.chairs -%}

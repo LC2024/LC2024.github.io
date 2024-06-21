@@ -25,9 +25,9 @@
   <h1 class="font-weight-light">{{ talk.name }}</h1>
 
   {%- unless talk.talks -%}
-  <p class="mb-3 font-weight-light">
+  <h2 class="mb-3 font-weight-normal">
     {% include partials/list_speakers.html %}
-  </p>
+  </h2>
   {%- endunless -%}
   {% if talk.chairs %}
   <p class="font-weight-light mb-3">
@@ -37,7 +37,7 @@
 
   <div class="mb-3 p-0">
 
-    <span class="badge badge-light font-weight-normal text-left">
+    <span class="badge badge-light badge-full-size font-weight-normal text-left">
         <i class="far fa-clock"></i>&nbsp;
         {{ talk.talk_date | date: "%A" }}, {{ talk.time_start }}, {{ talk.room }}
     </span>

@@ -42,7 +42,7 @@
   {% endif %}
 
   {% if has_regular_links %}
-    <h5 class="mt-4 mb-1">{{ site.data.lang[site.conference.lang].more_information | default: "More Information" }}:</h5>
+    <h3 class="mt-4 mb-1">{{ site.data.lang[site.conference.lang].more_information | default: "More Information" }}:</h3>
 
     <ul class="list-unstyled">
       {% for link in speaker.links %}
@@ -71,7 +71,7 @@
   {% endfor %}
 
   {% if active_speaker %}
-    <h5 class="mt-4 mb-0">{{ site.data.lang[site.conference.lang].speaker.talks | default: "Talks at this conference" }}:</h5>
+    <h3 class="mt-4 mb-0">{{ site.data.lang[site.conference.lang].speaker.talks | default: "Talks at this conference" }}:</h3>
 
     <table class="list-program">
       {%- for talk in site.talks -%}
@@ -86,16 +86,25 @@
 
         <tr>
             <td class="pr-2 py-0">
-                <span class="badge badge-light font-weight-normal text-left w-100">
+                <span class="badge badge-light badge-full-size font-weight-normal text-left w-100">
                     <i class="far fa-clock"></i>&nbsp;
                     {{ talk.talk_date | date: "%A" }}, {{ talk.time_start }}, {{ talk.room }}
                 </span>
             </td>
             <td class="pl-2 py-0 align-baseline border-soft-{{ main_cat_color }}">
-                <span class="mr-2">
+                <h3><span class="mr-2">
                     {%- include partials/show_talk.html -%}
-                </span>
+                </span></h3>
             </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="pl-3 py-0 border-soft-{{ main_cat_color }}">
+            <span class="mr-2">
+              <!-- show abstract, offest heading levels ... -->
+              {{ talk.content | replace: 'h2', 'h4' | replace: 'h3', 'h5' }} 
+            </span>
+          </td>
         </tr>
 
         {%- endif -%}

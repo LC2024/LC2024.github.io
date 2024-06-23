@@ -19,7 +19,7 @@ types in a single higher-rank type, whose objects code the lower-type objects (s
 
 ## Bibliography
 
-1. Emmon Bach,_Natural language metaphysics_,{\bfseries\itshape Logic, Methodology and Philosophy of Science VII}(Ruth Barcan Marcus, editor),Elsevier,1986,pp. 573--593.
-2. Kristina Liefke,_Modelling selectional super-flexibility_,{\bfseries\itshape Semantics and Linguistic Theory},vol. 31 (2021), pp. 324--344.
-3. Kristina Liefke and Markus Werning,_Evidence for single-type semantics_, {\bfseries\itshape Journal of Semantics},vol. 35 (2018), no. 4, pp. 639--685.
-4. Nadine Theiler, Floris Roelofsen, and Maria Aloni,_A uniform semantics for declarative and interrogative complements_,{\bfseries\itshape Journal of Semantics},vol. 35 (2018), no. 3, pp. 409--466.
+1. Emmon Bach, _Natural language metaphysics_, Logic, Methodology and Philosophy of Science VII (Ruth Barcan Marcus, editor), Elsevier, 1986, pp. 573--593.
+2. Kristina Liefke, _Modelling selectional super-flexibility_, Semantics and Linguistic Theory, vol. 31 (2021), pp. 324--344.
+3. Kristina Liefke and Markus Werning, _Evidence for single-type semantics_,  Journal of Semantics, vol. 35 (2018), no. 4, pp. 639--685.
+4. Nadine Theiler, Floris Roelofsen, and Maria Aloni, _A uniform semantics for declarative and interrogative complements_, Journal of Semantics, vol. 35 (2018), no. 3, pp. 409--466.

@@ -1,7 +1,7 @@
 ---
 name: Contributed Talks 3
 speakers: 
-  - "Laurentiu Leustean"
+  - "Laurentiu Leuştean"
   - "Piotr Błaszczyk"
   - "Jin Wei"
   - "Horatiu Cheval"

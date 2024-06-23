@@ -2,7 +2,7 @@
 name: Contributed Talks 2
 speakers: 
   - "Nurlan Markhabatov"
-  - "Katalin Bimbo"
+  - "Katalin Bimbó"
   - "Michał Wrocławski"
   - "Ludovico Fusco"
   - "Christian Wurm"

@@ -6,8 +6,6 @@ speakers:
   - "Jin Wei"
   - "Horatiu Cheval"
   - "Andrew Brooke-Taylor"
-chairs:
-  - "Andrei Sipoș"
 
 talks: 
   - "Proof mining and the viscosity approximation method"
@@ -15,6 +13,9 @@ talks:
   - "Constructive Version of Herbrand’s Theorem for First-Order Łukasiewicz Logic"
   - "Defining and reasoning about partial (co)recursive functions in Lean"
   - "Disentangling Sigma_2 variants of supercompactness"
+
+chairs:
+  - "Andrei Sipoș"
 
 categories:
   - Contributed Talk

@@ -14,6 +14,8 @@ talks:
   - "A new way of classifying word problems"
   - "Constructive Reverse Mathematics of the Downwards Löwenheim-Skolem Theorem"
 
+chairs:
+  - "Paul-André Melliès"
 
 categories:
   - Contributed Talk

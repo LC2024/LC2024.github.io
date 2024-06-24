@@ -17,6 +17,7 @@ prod = list(itertools.product(slots, rooms))
 
 joined = {}
 schedule = []
+chairs = {}
 
 def add_mins(t, m):
     hrs, mins = list(map(lambda i: int(i), t.split(":")))
@@ -35,6 +36,11 @@ def build_session(i):
         speakers += "  - \"" + talk["presenter"]["name"] + "\"\n"
         talks += "  - \"" + talk["title"].replace('\\', '\\\\') + "\"\n"
 
+    key = "{}".format(i + 1)
+    chair = ""
+    if key in chairs:
+        chair = "chairs:\n  - \"" + chairs[key] + "\"\n"
+
     timing_notice = ""
     if i < 11 or 15 < i:
         timing_notice = "**Time allocation:** 20 minutes per speaker; 5 minutes for each changeover"
@@ -43,6 +49,7 @@ def build_session(i):
 name: {}
 speakers: {}
 talks: {}
+{}
 categories:
   - Contributed Talk
 time_start: '{}'
@@ -54,6 +61,7 @@ room: {}
 """.format("Contributed Talks " + str(j),
            speakers,
            talks,
+           chair,
            start,
            end,
            date,
@@ -121,6 +129,9 @@ if __name__ == "__main__":
 
     with open("CT_data/joined_manual.json") as f:
         joined = json.load(f)
+
+    with open("CT_data/chairs.json") as f:
+        chairs = json.load(f)
 
     # Extract schedule from joined
     for slot in range(0, len(slots)):

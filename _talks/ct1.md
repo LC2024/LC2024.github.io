@@ -6,8 +6,6 @@ speakers:
   - "Ahmet Çevik"
   - "Grigory Olkhovikov"
   - "Sebastian G.W. Speitel"
-chairs:
-  - Will Stafford
 
 talks: 
   - "Galileo's Paradox and Purely Euclidean Numerosities"
@@ -15,6 +13,9 @@ talks:
   - "Hierarchy of set theoretical multiverse"
   - "Conditionals in constructive logics"
   - "Carnap's categoricity problem"
+
+chairs:
+  - "Will Stafford"
 
 categories:
   - Contributed Talk

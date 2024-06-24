@@ -14,6 +14,7 @@ talks:
   - "Self-referential Gödel numberings and uniformity"
   - "Reflection and induction for subsystems of HA"
 
+
 categories:
   - Contributed Talk
 time_start: '14:00'

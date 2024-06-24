@@ -6,8 +6,6 @@ speakers:
   - "Pablo Dopico"
   - "Fedor Pakhomov"
   - "Mojtaba Mojtahedi"
-chairs:
-  - "Mateusz Łełyk"
 
 talks: 
   - "Types of minimal numberings with hyperimmune oracles"
@@ -15,6 +13,9 @@ talks:
   - "Axiomatic theories of supervaluationist truth: completing the picture"
   - "The Logic of Correct Models"
   - "A translation from GLP into GL"
+
+chairs:
+  - "Mateusz Łełyk"
 
 categories:
   - Contributed Talk

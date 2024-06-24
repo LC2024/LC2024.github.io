@@ -14,6 +14,7 @@ talks:
   - "Finite, infinite, hyperfinite. A new interpretation of Newton’s De Analysi."
   - "A parameterized family of decidable theories involving differentiable functions"
 
+
 categories:
   - Contributed Talk
 time_start: '14:00'

@@ -6,8 +6,6 @@ speakers:
   - "Michał Wrocławski"
   - "Ludovico Fusco"
   - "Christian Wurm"
-chairs:
-  - Ivan Di Liberti
 
 talks: 
   - "On Disintegrated Models"
@@ -15,6 +13,9 @@ talks:
   - "Punctually presentable injective structures"
   - "Multi-relation Agassiz sums of algebras"
   - "Finite Models for Non-Commutative Ambiguity Logics"
+
+chairs:
+  - "Ivan Di Liberti"
 
 categories:
   - Contributed Talk

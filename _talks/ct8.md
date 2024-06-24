@@ -14,6 +14,7 @@ talks:
   - "Algebra-valued models and Logical Pluralism"
   - "Monadic second order limit laws for natural well orderings"
 
+
 categories:
   - Contributed Talk
 time_start: '14:00'

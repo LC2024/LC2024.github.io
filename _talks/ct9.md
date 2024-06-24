@@ -14,6 +14,7 @@ talks:
   - "Comparison of hyperextensions of linear temporal logic"
   - "Expressiveness issues in interval temporal logics"
 
+
 categories:
   - Contributed Talk
 time_start: '14:00'

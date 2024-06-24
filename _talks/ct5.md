@@ -14,6 +14,7 @@ talks:
   - "A new way of classifying word problems"
   - "Constructive Reverse Mathematics of the Downwards Löwenheim-Skolem Theorem"
 
+
 categories:
   - Contributed Talk
 time_start: '16:30'

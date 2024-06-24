@@ -101,7 +101,7 @@ conference:
     timezone: GMT+1
     stop:       240  # in minutes
     streaming:
-      enable: true
+      enable: false
       pause:     60  # in minutes
       prepend:    5  # in minutes
       extend:     5  # in minutes

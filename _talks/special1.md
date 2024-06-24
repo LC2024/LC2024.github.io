@@ -1,8 +1,9 @@
 ---
 name: Applied Model Theory
 chairs:
-  - Gareth Jones
+  # - Gareth Jones
   # - Tamara Servi
+  - James Freitag
 speakers:
   - Vincent Bagayoko
   - Anna Dmitrieva

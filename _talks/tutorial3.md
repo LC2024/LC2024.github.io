@@ -2,6 +2,8 @@
 name: Model theory of tame classes of finite structures III
 speakers:
   - Anuj Dawar
+chairs:
+  - Leszek Kołodziejczyk
 categories:
   - Tutorial
 time_start: '10:00'

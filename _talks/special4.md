@@ -1,7 +1,8 @@
 ---
 name: Logic, Language and Computation
 chairs:
-  - Robin Cooper
+  # - Robin Cooper
+  # - Stergios Chatzikyriakidis
   - Stergios Chatzikyriakidis
 speakers:
   - Kristina Liefke

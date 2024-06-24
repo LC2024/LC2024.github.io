@@ -6,6 +6,8 @@ speakers:
   - "Michał Wrocławski"
   - "Ludovico Fusco"
   - "Christian Wurm"
+chairs:
+  - Ivan Di Liberti
 
 talks: 
   - "On Disintegrated Models"

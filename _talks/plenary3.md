@@ -2,6 +2,8 @@
 name: From Dependent Types to Natural Language Semantics
 speakers:
   - Daisuke Bekki
+chairs:
+  - Leszek Kołodziejczyk
 categories:
   - Plenary Talk
 time_start: '11:30'

@@ -6,6 +6,8 @@ speakers:
   - "Ahmet Çevik"
   - "Grigory Olkhovikov"
   - "Sebastian G.W. Speitel"
+chairs:
+  - Will Stafford
 
 talks: 
   - "Galileo's Paradox and Purely Euclidean Numerosities"

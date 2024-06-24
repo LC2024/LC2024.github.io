@@ -2,6 +2,8 @@
 name: When any three solutions are independent
 speakers:
   - James Freitag
+chairs:
+  - Leszek Kołodziejczyk
 categories:
   - Plenary Talk
 time_start: '09:00'

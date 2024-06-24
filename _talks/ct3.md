@@ -6,6 +6,8 @@ speakers:
   - "Jin Wei"
   - "Horatiu Cheval"
   - "Andrew Brooke-Taylor"
+chairs:
+  - "Andrei Sipoș"
 
 talks: 
   - "Proof mining and the viscosity approximation method"

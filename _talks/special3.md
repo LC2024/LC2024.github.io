@@ -1,8 +1,9 @@
 ---
 name: Computable Structures
 chairs:
-  - Uri Andrews
-  - Julia Knight
+  # - Uri Andrews
+  # - Julia Knight
+  - Alberto Marcone
 speakers:
   - Meng-Che (Turbo) Ho
   - Matthew Harrison-Trainor

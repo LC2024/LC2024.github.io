@@ -6,6 +6,8 @@ speakers:
   - "Pablo Dopico"
   - "Fedor Pakhomov"
   - "Mojtaba Mojtahedi"
+chairs:
+  - "Mateusz Łełyk"
 
 talks: 
   - "Types of minimal numberings with hyperimmune oracles"

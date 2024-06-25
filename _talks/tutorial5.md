@@ -2,6 +2,8 @@
 name: WQOs and BQOs in logic II
 speakers:
   - Alberto Marcone
+chairs:
+  - Andreas Weiermann
 categories:
   - Tutorial
 time_start: '11:30'

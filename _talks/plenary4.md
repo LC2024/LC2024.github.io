@@ -2,6 +2,8 @@
 name: Recent advances in higher-order automata and profinite lambda-calculus
 speakers:
   - Paul-André Melliès
+chairs:
+  - Andreas Weiermann
 categories:
   - Plenary Talk
 time_start: '09:00'

@@ -7,6 +7,9 @@ speakers:
   - "Léon Probst"
   - "Philipp Provenzano"
 
+chairs:
+ - "Joost Joosten"
+ 
 talks: 
   - "Tightness and solidity in fragments of Peano Arithmetic"
   - "Internal categoricity for schemes"

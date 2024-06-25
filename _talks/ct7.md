@@ -7,6 +7,9 @@ speakers:
   - "Piotr Błaszczyk"
   - "Gabriele Buriola"
 
+chairs:
+  - "Gianluca Curzi"
+
 talks: 
   - "On non-commutative logic and process calculi"
   - "Advantages of using weak bisimulation for the logic IL with respect to Verbrugge semantics"

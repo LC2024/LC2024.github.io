@@ -7,6 +7,9 @@ speakers:
   - "Santiago Jockwich Martinez"
   - "Andreas Weiermann"
 
+chairs:
+  - "Andrew Brooke-Taylor"
+
 talks: 
   - "Largeness notions"
   - "Namba forcing and the weak approximation property"

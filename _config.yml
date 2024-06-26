@@ -121,6 +121,17 @@ conference:
     map_provider: "OpenStreetMap.Mapnik"
     default_zoom: 19
 
+  map-banquet:
+    # Initial map center point
+    home_coord: "57.69509, 11.99604"
+    # Alternative map providers can be found on https://leaflet-extras.github.io/leaflet-providers/preview/
+    # The following do match the Bootstrap design not too badly:
+    #   - Hydda.Full
+    #   - Thunderforest.Neighbourhood
+    #   - Esri.WorldTopoMap
+    map_provider: "OpenStreetMap.Mapnik"
+    default_zoom: 19
+
   talks:
     # Talk categories
     main_categories:

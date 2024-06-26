@@ -14,12 +14,13 @@ permalink: /banquet
 ---
 
 The conference banquet will be held on Wednesday, 26 June at 19:30 in the _Hamnkrogen resturant_ in _Liseberg_. 
-The conference banquet is open to particpants who have **registered for dinner**.
+The conference banquet is open to particpants who have **registered for dinner**. 
 
-Locations:
+**Important:** Bring your nametag to gain entrance to the Park.
+
+**Locations:**
 
 - [Liseberg Park](https://www.openstreetmap.org/relation/5179991). Main entrance from Örgrytevägen.
 <!-- <iframe src="https://www.openstreetmap.org/relation/5179991" title="temp"></iframe> -->
 - [Hamnkrogen in Liseberg](https://www.liseberg.se/parken/mat-dryck/hamnkrogen/) is a restaurant in Liseberg located on the east side of the park. Follow directions within the park.
-
 

@@ -1,8 +1,8 @@
 ---
 name: Proof theory
 chairs:
-  - Anton Freund
-  - Sonia Marin
+  - Abhishek De
+  - Katarzyna Kowalik
 speakers:
   - Valentin Blot
   - Lukas Melgaard

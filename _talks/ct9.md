@@ -7,9 +7,6 @@ speakers:
   - "Max Sandström"
   - "Mattia Guiotto"
 
-chairs:
-  - "Valentin Goranko"
-
 talks: 
   - "Bi-intuitionistic linear temporal logic"
   - "Pure-Past Action Masking: constraining Reinforcement Learning via pure-past LTL"
@@ -17,6 +14,8 @@ talks:
   - "Comparison of hyperextensions of linear temporal logic"
   - "Expressiveness issues in interval temporal logics"
 
+chairs:
+  - "Valentin Goranko"
 
 categories:
   - Contributed Talk

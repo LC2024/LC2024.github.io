@@ -41,13 +41,11 @@
               {%- assign room = site.rooms | where: 'name', r.name | first %}
               {%- assign col_span_nr = col_span_nr | plus: 2 -%}
               <th scope="col" class="text-center">
-                {%- if room.hide or site.conference.location.hide -%}
-                  {{- room.name -}}
-                {%- else -%}
+                {%- unless room.hide -%}
                   <a class="text-reset" href="{{ room.url | prepend: site.baseurl }}">
                     {{- room.name -}}
                   </a>
-                {%- endif -%}
+                {%- endunless -%}
               </th>
               {%- unless forloop.last %}
                 <th class="col-space p-0" scope="col"></th>
@@ -156,12 +154,12 @@
                   
                   {%- if has_started == true and has_ended == false -%}
                     {%- assign active_talk = true -%}
-                    {%- assign the_talk = t -%}
+                    {%- assign the_talk = t -%}{%- break -%}
                   {%- endif -%}
   
                   {%- if d_start_hour == 0 and d_start_min == 0 -%}
                   {%- assign found_talk = true -%}
-                  {%- assign the_talk = t -%}
+                  {%- assign the_talk = t -%}{%- break -%}
                   {%- endif -%}
               {%- endfor %}
 
@@ -173,7 +171,8 @@
               {%- if found_talk and main_cat == "Social" -%}
                 {%- assign talk_nbr_steps = talk_duration_min | divided_by: site.conference.program.time_steps | at_least: 1 -%}
                 <td rowspan="{{ talk_nbr_steps }}" colspan="{{ col_span_nr }}" class="alert alert-{{ main_cat_color }} shadow-sm overflow-hidden" style="z-index: {{ z-index-max | minus: i }}; text-align: center; vertical-align: middle">
-                    {{ talk.type }}
+                    <a href="{{ talk.url }}">{{ talk.type }}</a>
+                    {% if talk.location %}<br/><em>({{ talk.location }})</em>{% endif %}
                 </td>
 
               {%- elsif active_talk and main_cat == "Social" %}

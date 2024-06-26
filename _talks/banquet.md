@@ -25,5 +25,5 @@ The conference banquet is open to particpants who have **registered for dinner**
 - [Hamnkrogen in Liseberg](https://www.openstreetmap.org/way/772905067#map=16/57.6950/11.9970) is a restaurant in Liseberg located on the east side of the park. Follow directions within the park.
 
 <div class="mx-2">
-<iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=11.987843513488771%2C57.690891679922935%2C12.006061077117922%2C57.69911390560463&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=16/57.6950/11.9970">View Larger Map</a></small>
+<iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=11.987843513488771%2C57.690891679922935%2C12.006061077117922%2C57.69911390560463&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/way/772905067#map=16/57.6950/11.9970">View Larger Map</a></small>
 </div>

@@ -7,9 +7,6 @@ speakers:
   - "Santiago Jockwich Martinez"
   - "Andreas Weiermann"
 
-chairs:
-  - "Andrew Brooke-Taylor"
-
 talks: 
   - "Largeness notions"
   - "Namba forcing and the weak approximation property"
@@ -17,6 +14,8 @@ talks:
   - "Algebra-valued models and Logical Pluralism"
   - "Monadic second order limit laws for natural well orderings"
 
+chairs:
+  - "Andrew Brooke-Taylor"
 
 categories:
   - Contributed Talk

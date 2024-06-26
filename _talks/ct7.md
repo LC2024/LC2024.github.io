@@ -7,9 +7,6 @@ speakers:
   - "Piotr Błaszczyk"
   - "Gabriele Buriola"
 
-chairs:
-  - "Gianluca Curzi"
-
 talks: 
   - "On non-commutative logic and process calculi"
   - "Advantages of using weak bisimulation for the logic IL with respect to Verbrugge semantics"
@@ -17,6 +14,8 @@ talks:
   - "Finite, infinite, hyperfinite. A new interpretation of Newton’s De Analysi."
   - "A parameterized family of decidable theories involving differentiable functions"
 
+chairs:
+  - "Gianluca Curzi"
 
 categories:
   - Contributed Talk

@@ -13,7 +13,8 @@ address: Hamnkrogen, Liseberg
 permalink: /banquet
 ---
 
-The conference banquet will be held on Wednesday, 26 June at 19:30 in the _Hamnkrogen resturant_ in _Liseberg_.
+The conference banquet will be held on Wednesday, 26 June at 19:30 in the _Hamnkrogen resturant_ in _Liseberg_. 
+The conference banquet is open to particpants who have **registered for dinner**.
 
 Locations:
 

@@ -2,6 +2,8 @@
 name: Recent advances in the combinatorics of determinacy models
 speakers:
   - Stephen Jackson
+chairs:
+  - Alexis Saurin
 categories:
   - Plenary Talk
 time_start: '16:30'

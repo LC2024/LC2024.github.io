@@ -1,8 +1,7 @@
 ---
 name: Set theory
 chairs:
-  - Dana Bartošová
-  - Slawomir Solecki
+  - Ivan Di Liberti
 speakers:
   - Tamás Kátay
   - Claudio Agostini

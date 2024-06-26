@@ -172,7 +172,7 @@
                 {%- assign talk_nbr_steps = talk_duration_min | divided_by: site.conference.program.time_steps | at_least: 1 -%}
                 <td rowspan="{{ talk_nbr_steps }}" colspan="{{ col_span_nr }}" class="alert alert-{{ main_cat_color }} shadow-sm overflow-hidden" style="z-index: {{ z-index-max | minus: i }}; text-align: center; vertical-align: middle">
                     <a href="{{ talk.url }}">{{ talk.type }}</a>
-                    {% if talk.location %}<br/><em>({{ talk.location }})</em>{% endif %}
+                    {% if talk.address %}<br/><em>({{ talk.address }})</em>{% endif %}
                 </td>
 
               {%- elsif active_talk and main_cat == "Social" %}

@@ -8,8 +8,8 @@ categories:
 time_start: '19:30'
 time_end: '22:00'
 talk_date: 2024-06-26
-room: social
-location: Hamnkrogen, Liseberg
+room: Social
+address: Hamnkrogen, Liseberg
 ---
 
 The conference banquet will be held on Wednesday, 26 June at 19:30 in the _Hamnkrogen resturant_ in _Liseberg_.

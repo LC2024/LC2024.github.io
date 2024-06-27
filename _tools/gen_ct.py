@@ -39,7 +39,14 @@ def build_session(i):
     key = "{}".format(i + 1)
     chair = ""
     if key in chairs:
-        chair = "chairs:\n  - \"" + chairs[key] + "\"\n"
+        c = chairs[key]
+
+        if isinstance(c, str):
+            chair = "chairs:\n  - \"" + chairs[key] + "\"\n"
+        if isinstance(c, list):
+            chair = "chairs:\n"
+            for x in c:
+                chair += "  - \"" + x + "\"\n"
 
     timing_notice = ""
     if i < 11 or 15 < i:

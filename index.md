@@ -1,6 +1,9 @@
 ---
 layout: home
 ---
+
+![Photo of the participants of the 2024 Logic Colloquium]({{ site.baseurl }}/assets/images/photo.jpg)
+
 The Logic Colloquium is the European Summer Meeting of the Association for Symbolic Logic, an annual gathering to present current research in all aspects of logic. In 2024, the meeting will be held 24–28 June at the University of Gothenburg in Sweden.
 
 The colloquium will run for five days and comprise 3 tutorials, 7 plenary lectures and 6 special sessions as well as contributed talks. In addition, the 2024 Gödel Lecture will be delivered at the meeting.
